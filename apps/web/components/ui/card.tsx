@@ -1,31 +1,27 @@
-import * as React from "react";
+import React from "react";
 
 export interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
-  variant?: "default" | "elevated" | "bordered" | "gradient";
+  variant?: "default" | "bordered" | "glass" | "gradient" | "interactive";
 }
 
 export function Card({
   className = "",
-  variant = "default",
+  variant = "bordered",
   children,
   ...props
 }: CardProps) {
+  const baseStyles = "rounded-2xl transition-all duration-200 text-slate-100";
+
   const variants = {
-    default:
-      "bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm",
-    elevated:
-      "bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 shadow-lg hover:shadow-xl transition-shadow",
-    bordered:
-      "bg-white dark:bg-slate-900 border-2 border-indigo-100 dark:border-indigo-950",
-    gradient:
-      "bg-gradient-to-br from-white via-slate-50 to-indigo-50/20 dark:from-slate-900 dark:to-slate-800 border border-slate-200 dark:border-slate-800 shadow-sm",
+    default: "bg-[#111827] border border-slate-800 shadow-xl",
+    bordered: "bg-[#0f172a]/90 backdrop-blur-xl border border-slate-800/90 shadow-2xl hover:border-slate-700/80",
+    glass: "glass-panel shadow-2xl hover:border-indigo-500/30",
+    gradient: "bg-gradient-to-br from-[#131b2e] via-[#0f172a] to-[#0c111d] border border-indigo-500/20 shadow-2xl",
+    interactive: "bg-[#111827]/80 backdrop-blur-xl border border-slate-800/80 hover:border-indigo-500/50 hover:shadow-card-dark-hover hover:-translate-y-0.5 cursor-pointer",
   };
 
   return (
-    <div
-      className={`rounded-xl text-slate-900 dark:text-slate-100 overflow-hidden ${variants[variant]} ${className}`}
-      {...props}
-    >
+    <div className={`${baseStyles} ${variants[variant]} ${className}`} {...props}>
       {children}
     </div>
   );
@@ -37,10 +33,7 @@ export function CardHeader({
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) {
   return (
-    <div
-      className={`flex flex-col space-y-1.5 p-6 border-b border-slate-100 dark:border-slate-800/60 ${className}`}
-      {...props}
-    >
+    <div className={`p-5 pb-3 flex flex-col space-y-1.5 ${className}`} {...props}>
       {children}
     </div>
   );
@@ -53,7 +46,7 @@ export function CardTitle({
 }: React.HTMLAttributes<HTMLHeadingElement>) {
   return (
     <h3
-      className={`text-lg font-semibold leading-none tracking-tight text-slate-900 dark:text-slate-100 ${className}`}
+      className={`text-base font-bold tracking-tight text-white flex items-center justify-between ${className}`}
       {...props}
     >
       {children}
@@ -67,10 +60,7 @@ export function CardDescription({
   ...props
 }: React.HTMLAttributes<HTMLParagraphElement>) {
   return (
-    <p
-      className={`text-sm text-slate-500 dark:text-slate-400 leading-relaxed ${className}`}
-      {...props}
-    >
+    <p className={`text-xs text-slate-400 leading-relaxed ${className}`} {...props}>
       {children}
     </p>
   );
@@ -82,7 +72,7 @@ export function CardContent({
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) {
   return (
-    <div className={`p-6 ${className}`} {...props}>
+    <div className={`p-5 pt-2 ${className}`} {...props}>
       {children}
     </div>
   );
@@ -95,7 +85,7 @@ export function CardFooter({
 }: React.HTMLAttributes<HTMLDivElement>) {
   return (
     <div
-      className={`flex items-center p-6 pt-0 border-t border-slate-100 dark:border-slate-800/60 mt-4 ${className}`}
+      className={`p-5 pt-0 border-t border-slate-800/60 mt-4 flex items-center justify-between text-xs text-slate-400 ${className}`}
       {...props}
     >
       {children}

@@ -1,6 +1,7 @@
 import * as React from "react";
 
-export interface AlertProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface AlertProps
+  extends Omit<React.HTMLAttributes<HTMLDivElement>, "title"> {
   variant?: "info" | "success" | "warning" | "destructive";
   title?: React.ReactNode;
   icon?: React.ReactNode;
@@ -8,9 +9,12 @@ export interface AlertProps extends React.HTMLAttributes<HTMLDivElement> {
 
 const alertVariants = {
   info: "bg-sky-50 dark:bg-sky-950/40 text-sky-900 dark:text-sky-200 border-sky-200 dark:border-sky-800",
-  success: "bg-emerald-50 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-200 border-emerald-200 dark:border-emerald-800",
-  warning: "bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-200 border-amber-200 dark:border-amber-800",
-  destructive: "bg-rose-50 dark:bg-rose-950/40 text-rose-900 dark:text-rose-200 border-rose-200 dark:border-rose-800",
+  success:
+    "bg-emerald-50 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-200 border-emerald-200 dark:border-emerald-800",
+  warning:
+    "bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-200 border-amber-200 dark:border-amber-800",
+  destructive:
+    "bg-rose-50 dark:bg-rose-950/40 text-rose-900 dark:text-rose-200 border-rose-200 dark:border-rose-800",
 };
 
 export function Alert({

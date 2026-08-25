@@ -68,7 +68,7 @@ export function FinanceView() {
                   ${(inv.amount + inv.taxAmount).toLocaleString(undefined, { minimumFractionDigits: 2 })}
                 </TableCell>
                 <TableCell>
-                  <Badge variant={inv.status === "paid" ? "success" : inv.status === "issued" ? "info" : "destructive"} size="sm">
+                  <Badge variant={inv.status === "paid" ? "success" : inv.status === "issued" ? "cyan" : "destructive"} size="sm">
                     {inv.status.toUpperCase()}
                   </Badge>
                 </TableCell>

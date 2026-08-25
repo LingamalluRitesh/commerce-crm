@@ -4,105 +4,172 @@ import React, { useState } from "react";
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
-import { Input } from "../ui/input";
 
 export function AIView() {
-  const [searchQuery, setSearchQuery] = useState("Enterprise cloud security SLA");
-  const [sentimentText, setSentimentText] = useState("The onboarding was exceptionally smooth, but we need faster response on API support tickets.");
-  const [sentimentResult, setSentimentResult] = useState<{ polarity: string; score: number; actions: string[] }>({
-    polarity: "positive",
-    score: 0.72,
-    actions: ["Follow up on API ticket support turnaround time", "Schedule customer success check-in"],
+  const [query, setQuery] = useState("Direct connect bandwidth and fiber cable requirements");
+  const [similarityThreshold, setSimilarityThreshold] = useState(0.70);
+  const [sentimentText, setSentimentText] = useState(
+    "The deployment team delivered the server nodes 3 days ahead of schedule! Extremely impressed with the high throughput."
+  );
+  const [sentimentResult, setSentimentResult] = useState<{ score: number; sentiment: string; entities: string[] } | null>({
+    score: 0.94,
+    sentiment: "POSITIVE",
+    entities: ["deployment team", "server nodes", "throughput"],
   });
+
+  const searchResults = [
+    { id: 1, title: "KB-0104: Enterprise Direct Connect Architecture", type: "Knowledge Article", similarity: 0.96, excerpt: "Guide for configuring 10Gbps dedicated interconnect to Dallas Mega-Hub facility." },
+    { id: 2, title: "Ticket #TK-2026-0042: Bandwidth Expansion", type: "Support Thread", similarity: 0.88, excerpt: "Customer requested port allocation #42 on Dallas Switch SW-CORE-48X." },
+    { id: 3, title: "Product SKU: CAB-FIBER-10M", type: "Catalog Spec", similarity: 0.74, excerpt: "Armored multi-mode fiber optic cable 10m with LC-LC duplex connectors." },
+  ].filter((r) => r.similarity >= similarityThreshold);
+
+  const analyzeSentiment = () => {
+    const isNegative = sentimentText.toLowerCase().includes("delay") || sentimentText.toLowerCase().includes("issue") || sentimentText.toLowerCase().includes("bad");
+    setSentimentResult({
+      score: isNegative ? 0.22 : 0.94,
+      sentiment: isNegative ? "NEGATIVE" : "POSITIVE",
+      entities: ["enterprise cluster", "deployment timeline", "SLA guarantee"],
+    });
+  };
 
   return (
     <div className="space-y-6">
-      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 p-6 rounded-2xl bg-gradient-to-r from-purple-950/40 via-indigo-950/40 to-slate-900 border border-purple-500/30 shadow-2xl">
         <div>
-          <div className="flex items-center space-x-2">
-            <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100">AI Intelligence & Vector Suite</h2>
-            <Badge variant="purple">L2 Dense Embeddings</Badge>
+          <div className="flex items-center space-x-2.5">
+            <h2 className="text-2xl font-black tracking-tight text-white">
+              AI Intelligence & Dense Vector Lab
+            </h2>
+            <Badge variant="purple" size="sm">128-Dim Embeddings</Badge>
           </div>
-          <p className="text-xs text-slate-500 dark:text-slate-400">
-            Semantic cosine similarity search, predictive lead conversion propensity, and NLP sentiment distillation.
+          <p className="text-xs text-slate-300 mt-1">
+            In-process semantic vector similarity search, NLP sentiment extraction, and deal propensity scoring.
           </p>
+        </div>
+
+        <div className="flex items-center space-x-2">
+          <Badge variant="success" dot size="md">Model v2.4 Active</Badge>
         </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Vector Semantic Search */}
-        <Card variant="bordered">
-          <CardHeader>
-            <CardTitle>Dense Vector Cosine Similarity Search</CardTitle>
-            <CardDescription>Instant semantic retrieval across unstructured customer knowledge & tickets</CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <div className="flex space-x-2">
-              <Input
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Query dense embeddings..."
+        {/* Vector Semantic Search Laboratory */}
+        <Card variant="bordered" className="p-6 space-y-4">
+          <div>
+            <CardTitle>Dense Vector Semantic Search</CardTitle>
+            <CardDescription>
+              Query unstructured articles and tickets using cosine similarity matching
+            </CardDescription>
+          </div>
+
+          <div className="space-y-3">
+            <div>
+              <label className="text-[11px] font-bold text-slate-400 uppercase">Search Vector Query</label>
+              <div className="flex space-x-2 mt-1">
+                <input
+                  type="text"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  className="flex-1 px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-700 text-xs text-white focus:ring-2 focus:ring-purple-500 focus:outline-none"
+                />
+                <Button variant="glow" size="sm">Search</Button>
+              </div>
+            </div>
+
+            {/* Threshold Slider */}
+            <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 space-y-1 text-xs">
+              <div className="flex justify-between text-[11px]">
+                <span className="text-slate-400">Cosine Similarity Threshold:</span>
+                <span className="font-mono font-bold text-purple-400">≥ {similarityThreshold.toFixed(2)}</span>
+              </div>
+              <input
+                type="range"
+                min="0.5"
+                max="0.95"
+                step="0.05"
+                value={similarityThreshold}
+                aria-label="Cosine Similarity Threshold"
+                onChange={(e) => setSimilarityThreshold(parseFloat(e.target.value))}
+                className="w-full cursor-pointer accent-purple-500"
               />
-              <Button variant="default" size="sm">Search</Button>
             </div>
 
-            <div className="space-y-2.5">
-              <div className="p-3 bg-purple-50/60 dark:bg-purple-950/20 border border-purple-100 dark:border-purple-900/50 rounded-xl space-y-1">
-                <div className="flex justify-between items-center">
-                  <span className="font-bold text-xs text-purple-900 dark:text-purple-300">Enterprise SLA & High Availability Policy</span>
-                  <Badge variant="purple" size="sm">94.8% Match</Badge>
+            {/* Result Cards */}
+            <div className="space-y-2.5 pt-2">
+              <span className="text-[10px] font-bold uppercase text-slate-400 block">
+                Top Matches ({searchResults.length})
+              </span>
+              {searchResults.map((res) => (
+                <div
+                  key={res.id}
+                  className="p-3.5 rounded-xl bg-slate-900/80 border border-slate-800/80 space-y-1 text-xs"
+                >
+                  <div className="flex justify-between items-center">
+                    <span className="font-bold text-white">{res.title}</span>
+                    <span className="font-mono font-bold text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded border border-purple-500/30">
+                      {(res.similarity * 100).toFixed(0)}% match
+                    </span>
+                  </div>
+                  <p className="text-[11px] text-slate-400 leading-snug">{res.excerpt}</p>
                 </div>
-                <p className="text-xs text-purple-800 dark:text-purple-400">
-                  Defines multi-region uptime guarantees (99.99%), support triage SLA (urgent=4h), and credit compensation matrices.
-                </p>
-              </div>
-
-              <div className="p-3 bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 rounded-xl space-y-1">
-                <div className="flex justify-between items-center">
-                  <span className="font-bold text-xs text-slate-800 dark:text-slate-200">Zero-Trust Network Architecture Guidelines</span>
-                  <Badge variant="secondary" size="sm">82.1% Match</Badge>
-                </div>
-                <p className="text-xs text-slate-600 dark:text-slate-400">
-                  Explains end-to-end mTLS authentication, token bucket rate limiting, and cryptographic audit hash vaults.
-                </p>
-              </div>
+              ))}
             </div>
-          </CardContent>
+          </div>
         </Card>
 
-        {/* NLP Sentiment & Action Item Extraction */}
-        <Card variant="bordered">
-          <CardHeader>
-            <CardTitle>NLP Sentiment & Action Item Parser</CardTitle>
-            <CardDescription>Automated customer sentiment scoring and action item extraction</CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4">
+        {/* NLP Sentiment & Entity Extractor */}
+        <Card variant="bordered" className="p-6 space-y-4">
+          <div>
+            <CardTitle>NLP Sentiment & Action Item Extractor</CardTitle>
+            <CardDescription>
+              Heuristic sentiment scoring and entity recognition on customer feedback
+            </CardDescription>
+          </div>
+
+          <div className="space-y-3">
             <textarea
-              className="w-full h-24 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-3 text-xs text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-600/20"
+              rows={4}
               value={sentimentText}
               onChange={(e) => setSentimentText(e.target.value)}
+              className="w-full p-3 rounded-xl bg-slate-900 border border-slate-700 text-xs text-white focus:ring-2 focus:ring-purple-500 focus:outline-none"
             />
-            <Button variant="default" size="sm" className="w-full">
-              Analyze Sentiment & Distill Action Items
+
+            <Button variant="default" size="sm" onClick={analyzeSentiment} className="w-full">
+              Analyze Sentiment & Extract Entities ➔
             </Button>
 
             {sentimentResult && (
-              <div className="p-4 bg-slate-50 dark:bg-slate-800/40 rounded-xl border border-slate-200 dark:border-slate-800 space-y-3 text-xs">
-                <div className="flex justify-between items-center">
-                  <span className="font-bold text-slate-700 dark:text-slate-300">Sentiment Polarity:</span>
-                  <Badge variant="success" size="sm">POSITIVE (+0.72)</Badge>
+              <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-800 space-y-3 text-xs">
+                <div className="flex justify-between items-center pb-2 border-b border-slate-800">
+                  <span className="text-slate-400">Polarity Classification:</span>
+                  <Badge
+                    variant={sentimentResult.sentiment === "POSITIVE" ? "success" : "destructive"}
+                    size="sm"
+                    dot
+                  >
+                    {sentimentResult.sentiment} ({(sentimentResult.score * 100).toFixed(0)}%)
+                  </Badge>
                 </div>
+
                 <div>
-                  <span className="font-bold text-slate-700 dark:text-slate-300 block mb-1.5">Extracted Action Items:</span>
-                  <ul className="space-y-1 list-disc pl-4 text-slate-600 dark:text-slate-400">
-                    {sentimentResult.actions.map((act, idx) => (
-                      <li key={idx}>{act}</li>
+                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1.5">
+                    Extracted Semantic Entities
+                  </span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {sentimentResult.entities.map((ent, i) => (
+                      <span
+                        key={i}
+                        className="px-2.5 py-1 rounded-lg bg-purple-500/10 border border-purple-500/30 text-purple-300 font-mono text-[11px]"
+                      >
+                        {ent}
+                      </span>
                     ))}
-                  </ul>
+                  </div>
                 </div>
               </div>
             )}
-          </CardContent>
+          </div>
         </Card>
       </div>
     </div>
