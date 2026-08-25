@@ -17,6 +17,15 @@ from app.infrastructure.models.identity import (
     Workspace,
     role_permissions,
 )
+from app.infrastructure.models.sales import (
+    Deal,
+    Lead,
+    Pipeline,
+    PipelineStage,
+    Quote,
+    QuoteItem,
+    SalesActivity,
+)
 
 __all__ = [
     "Address",
@@ -25,11 +34,18 @@ __all__ = [
     "Contact",
     "Customer",
     "CustomerPreference",
+    "Deal",
     "Interaction",
+    "Lead",
     "Membership",
     "Organization",
     "Permission",
+    "Pipeline",
+    "PipelineStage",
+    "Quote",
+    "QuoteItem",
     "Role",
+    "SalesActivity",
     "Team",
     "User",
     "Workspace",

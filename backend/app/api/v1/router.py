@@ -7,6 +7,7 @@ from app.api.v1.endpoints import (
     health,
     organizations,
     roles,
+    sales,
 )
 
 api_router = APIRouter()
@@ -24,3 +25,6 @@ api_router.include_router(roles.router, prefix="/roles", tags=["RBAC & Permissio
 # Customer 360 & Accounts
 api_router.include_router(customers.router, prefix="/customers", tags=["Customer 360"])
 api_router.include_router(companies.router, prefix="/companies", tags=["Companies & Accounts"])
+
+# Sales Pipelines & CRM
+api_router.include_router(sales.router, prefix="/sales", tags=["Sales Pipeline & CRM"])
