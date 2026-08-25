@@ -30,9 +30,9 @@ class AnalyticsService:
                 func.count(Deal.id).filter(Deal.status == "won").label("won"),
                 func.count(Deal.id).filter(Deal.status == "lost").label("lost"),
                 func.coalesce(func.sum(Deal.value), 0).label("total_val"),
-                func.coalesce(
-                    func.sum(Deal.value).filter(Deal.status == "won"), 0
-                ).label("won_val"),
+                func.coalesce(func.sum(Deal.value).filter(Deal.status == "won"), 0).label(
+                    "won_val"
+                ),
             ).where(Deal.tenant_id == tenant_id)
         )
         s_row = deals_res.one()

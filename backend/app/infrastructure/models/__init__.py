@@ -1,3 +1,8 @@
+from app.infrastructure.models.ai import (
+    AIInteractionSummary,
+    DocumentEmbedding,
+    LeadScoringModel,
+)
 from app.infrastructure.models.commerce import (
     Cart,
     CartItem,
@@ -84,6 +89,7 @@ from app.infrastructure.models.workflow import (
 )
 
 __all__ = [
+    "AIInteractionSummary",
     "Address",
     "AuditLog",
     "Campaign",
@@ -102,12 +108,14 @@ __all__ = [
     "CustomerSuccessPlan",
     "Deal",
     "DiscountCode",
+    "DocumentEmbedding",
     "Fulfillment",
     "Interaction",
     "Invoice",
     "InvoiceItem",
     "KnowledgeArticle",
     "Lead",
+    "LeadScoringModel",
     "Membership",
     "MessageTemplate",
     "Notification",

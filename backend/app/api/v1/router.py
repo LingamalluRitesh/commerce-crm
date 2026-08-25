@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 
 from app.api.v1.endpoints import (
+    ai,
     analytics,
     auth,
     commerce,
@@ -64,3 +65,6 @@ api_router.include_router(
 
 # Analytics & Business Intelligence
 api_router.include_router(analytics.router, prefix="/analytics", tags=["Analytics & BI Engine"])
+
+# AI & Machine Learning Platform
+api_router.include_router(ai.router, prefix="/ai", tags=["AI & Machine Learning Platform"])

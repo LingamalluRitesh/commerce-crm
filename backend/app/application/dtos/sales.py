@@ -15,7 +15,9 @@ class LeadCreateRequest(BaseModel):
     last_name: str = Field(..., min_length=1, max_length=100)
     email: EmailStr
     phone: str | None = None
+    title: str | None = None
     company_name: str | None = None
+    estimated_budget: Decimal | None = None
     source: str = Field(default="web", description="web, referral, outbound, ads")
     score: int | None = Field(default=None, ge=0, le=100)
     assigned_to_user_id: uuid.UUID | None = None
@@ -30,7 +32,9 @@ class LeadResponse(BaseModel):
     last_name: str
     email: EmailStr
     phone: str | None
+    title: str | None = None
     company_name: str | None
+    estimated_budget: Decimal | None = None
     source: str
     status: str
     score: int
