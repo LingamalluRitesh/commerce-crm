@@ -8,6 +8,7 @@ from app.api.v1.endpoints import (
     communication,
     companies,
     customers,
+    developer,
     events,
     finance,
     health,
@@ -73,4 +74,9 @@ api_router.include_router(ai.router, prefix="/ai", tags=["AI & Machine Learning 
 # Event-Driven Architecture & Transactional Outbox
 api_router.include_router(
     events.router, prefix="/events", tags=["Event-Driven Architecture & Outbox"]
+)
+
+# Developer Platform, API Keys & HMAC Webhooks
+api_router.include_router(
+    developer.router, prefix="/developer", tags=["Developer Platform & Webhooks"]
 )

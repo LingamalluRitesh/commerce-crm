@@ -28,6 +28,11 @@ from app.infrastructure.models.customer import (
     CustomerPreference,
     Interaction,
 )
+from app.infrastructure.models.developer import (
+    ApiKey,
+    WebhookDelivery,
+    WebhookSubscription,
+)
 from app.infrastructure.models.finance import (
     CreditNote,
     Invoice,
@@ -92,6 +97,7 @@ from app.infrastructure.models.workflow import (
 __all__ = [
     "AIInteractionSummary",
     "Address",
+    "ApiKey",
     "AuditLog",
     "Campaign",
     "CampaignRecipient",
@@ -153,6 +159,8 @@ __all__ = [
     "TimeEntry",
     "User",
     "Warehouse",
+    "WebhookDelivery",
+    "WebhookSubscription",
     "Workflow",
     "WorkflowExecution",
     "WorkflowNode",
