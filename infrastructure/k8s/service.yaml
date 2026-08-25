@@ -1,0 +1,127 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: commercecrm-backend-svc
+  namespace: commercecrm-production
+  labels:
+    app.kubernetes.io/name: commercecrm-backend
+spec:
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 8000
+      targetPort: http
+      protocol: TCP
+  selector:
+    app.kubernetes.io/name: commercecrm-backend
+    app.kubernetes.io/component: api
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: commercecrm-frontend-svc
+  namespace: commercecrm-production
+spec:
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 3000
+      targetPort: 3000
+  selector:
+    app.kubernetes.io/name: commercecrm-frontend
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: commercecrm-ingress
+  namespace: commercecrm-production
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    nginx.ingress.kubernetes.io/proxy-body-size: "50m"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "3600"
+    nginx.ingress.kubernetes.io/websocket-services: "commercecrm-backend-svc"
+spec:
+  tls:
+    - hosts:
+        - app.commercecrm.io
+        - api.commercecrm.io
+      secretName: commercecrm-tls-cert
+  rules:
+    - host: api.commercecrm.io
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: commercecrm-backend-svc
+                port:
+                  number: 8000
+    - host: app.commercecrm.io
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: commercecrm-frontend-svc
+                port:
+                  number: 3000
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: commercecrm-backend-hpa
+  namespace: commercecrm-production
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: commercecrm-backend-api
+  minReplicas: 3
+  maxReplicas: 20
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 70
+    - type: Resource
+      resource:
+        name: memory
+        target:
+          type: Utilization
+          averageUtilization: 80
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: commercecrm-network-isolation
+  namespace: commercecrm-production
+spec:
+  podSelector:
+    matchLabels:
+      app.kubernetes.io/name: commercecrm-backend
+  policyTypes:
+    - Ingress
+    - Egress
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: ingress-nginx
+        - podSelector:
+            matchLabels:
+              app.kubernetes.io/name: commercecrm-frontend
+      ports:
+        - protocol: TCP
+          port: 8000
+  egress:
+    - to:
+        - ipBlock:
+            cidr: 0.0.0.0/0
+            except:
+              - 169.254.169.254/32

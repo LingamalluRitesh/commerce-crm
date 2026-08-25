@@ -72,6 +72,10 @@ from app.infrastructure.models.marketing import (
     Segment,
 )
 from app.infrastructure.models.outbox import OutboxMessage
+from app.infrastructure.models.pricing import (
+    PriceList,
+    PriceTier,
+)
 from app.infrastructure.models.sales import (
     Deal,
     Lead,
@@ -134,6 +138,8 @@ __all__ = [
     "Permission",
     "Pipeline",
     "PipelineStage",
+    "PriceList",
+    "PriceTier",
     "Product",
     "ProductVariant",
     "Project",

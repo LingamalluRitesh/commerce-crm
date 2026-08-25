@@ -1,0 +1,5002 @@
+[
+  {
+    "id": "d752bf9f-eeb3-4232-b0b4-a3a28d9dfe2a",
+    "ticket_number": "TK-2026-00001",
+    "customer_ref": "CUST-0236",
+    "subject": "Enterprise System Ingestion Inquiry #1",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "3b78fe2e-1925-4a37-85dc-769a45359350",
+    "ticket_number": "TK-2026-00002",
+    "customer_ref": "CUST-0066",
+    "subject": "Enterprise System Ingestion Inquiry #2",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "e5a4cf1c-e296-47fd-bea4-2bd87a7e78ce",
+    "ticket_number": "TK-2026-00003",
+    "customer_ref": "CUST-0218",
+    "subject": "Enterprise System Ingestion Inquiry #3",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "8d7382b7-0536-4a1b-8dc3-d40e1ec9f28e",
+    "ticket_number": "TK-2026-00004",
+    "customer_ref": "CUST-0109",
+    "subject": "Enterprise System Ingestion Inquiry #4",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "0c92fbc0-3ecf-4eac-95fc-62fb480b55b0",
+    "ticket_number": "TK-2026-00005",
+    "customer_ref": "CUST-0054",
+    "subject": "Enterprise System Ingestion Inquiry #5",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "c992f2fa-4e8c-4d51-9bdb-6e4b36a16710",
+    "ticket_number": "TK-2026-00006",
+    "customer_ref": "CUST-0021",
+    "subject": "Enterprise System Ingestion Inquiry #6",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "24173323-8798-450f-a3d7-640b47d6e294",
+    "ticket_number": "TK-2026-00007",
+    "customer_ref": "CUST-0233",
+    "subject": "Enterprise System Ingestion Inquiry #7",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "4e3138d7-3c6c-4181-9452-7fac847fb65b",
+    "ticket_number": "TK-2026-00008",
+    "customer_ref": "CUST-0380",
+    "subject": "Enterprise System Ingestion Inquiry #8",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "db953d1c-649e-4723-b347-fa0fbef1dcc8",
+    "ticket_number": "TK-2026-00009",
+    "customer_ref": "CUST-0277",
+    "subject": "Enterprise System Ingestion Inquiry #9",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "a1f37cca-113b-4d66-bf96-a972ea9fa442",
+    "ticket_number": "TK-2026-00010",
+    "customer_ref": "CUST-0333",
+    "subject": "Enterprise System Ingestion Inquiry #10",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "0e4100a0-bf7c-44fa-828c-b3254ec74100",
+    "ticket_number": "TK-2026-00011",
+    "customer_ref": "CUST-0052",
+    "subject": "Enterprise System Ingestion Inquiry #11",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "00e294eb-eba3-4ba3-9f88-cbe020f8a922",
+    "ticket_number": "TK-2026-00012",
+    "customer_ref": "CUST-0112",
+    "subject": "Enterprise System Ingestion Inquiry #12",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "eecc5015-7cb9-482c-87aa-a50ff2af718c",
+    "ticket_number": "TK-2026-00013",
+    "customer_ref": "CUST-0268",
+    "subject": "Enterprise System Ingestion Inquiry #13",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "21465f4b-7334-44bb-8b88-e13f302b66c7",
+    "ticket_number": "TK-2026-00014",
+    "customer_ref": "CUST-0445",
+    "subject": "Enterprise System Ingestion Inquiry #14",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "e51dffb7-c007-4148-9988-34f148a255d2",
+    "ticket_number": "TK-2026-00015",
+    "customer_ref": "CUST-0427",
+    "subject": "Enterprise System Ingestion Inquiry #15",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "846229d1-c4e6-4815-8603-c771e375988f",
+    "ticket_number": "TK-2026-00016",
+    "customer_ref": "CUST-0102",
+    "subject": "Enterprise System Ingestion Inquiry #16",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "89c17b0f-ffbf-46ce-9e2e-7898be443bbf",
+    "ticket_number": "TK-2026-00017",
+    "customer_ref": "CUST-0026",
+    "subject": "Enterprise System Ingestion Inquiry #17",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "57316937-d6f1-4dce-9d97-389849853d76",
+    "ticket_number": "TK-2026-00018",
+    "customer_ref": "CUST-0004",
+    "subject": "Enterprise System Ingestion Inquiry #18",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "e9569dd8-b810-49c6-a8c9-33b4a28908a1",
+    "ticket_number": "TK-2026-00019",
+    "customer_ref": "CUST-0210",
+    "subject": "Enterprise System Ingestion Inquiry #19",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "2c767c2d-659f-49f7-8830-fc3a24906425",
+    "ticket_number": "TK-2026-00020",
+    "customer_ref": "CUST-0043",
+    "subject": "Enterprise System Ingestion Inquiry #20",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "260d91bf-b111-45cc-8161-26be906a657e",
+    "ticket_number": "TK-2026-00021",
+    "customer_ref": "CUST-0275",
+    "subject": "Enterprise System Ingestion Inquiry #21",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "19d40f3b-91ba-49d3-90a9-fcf22fc58cb6",
+    "ticket_number": "TK-2026-00022",
+    "customer_ref": "CUST-0009",
+    "subject": "Enterprise System Ingestion Inquiry #22",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "79e18262-77d7-49b1-8eef-a38cd540c7bc",
+    "ticket_number": "TK-2026-00023",
+    "customer_ref": "CUST-0158",
+    "subject": "Enterprise System Ingestion Inquiry #23",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "6d049e57-4fb3-44ca-8b1e-1b9e60dcf34c",
+    "ticket_number": "TK-2026-00024",
+    "customer_ref": "CUST-0305",
+    "subject": "Enterprise System Ingestion Inquiry #24",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "acdbb734-3c50-4a39-ab1b-04b02f06930e",
+    "ticket_number": "TK-2026-00025",
+    "customer_ref": "CUST-0262",
+    "subject": "Enterprise System Ingestion Inquiry #25",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "c858ecbf-a26d-48dc-a136-310d3cb6ae86",
+    "ticket_number": "TK-2026-00026",
+    "customer_ref": "CUST-0177",
+    "subject": "Enterprise System Ingestion Inquiry #26",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "de471962-d3f9-44f4-9bf1-24f84f2ee230",
+    "ticket_number": "TK-2026-00027",
+    "customer_ref": "CUST-0004",
+    "subject": "Enterprise System Ingestion Inquiry #27",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "66d27a4c-82f4-4ddb-87e7-5ec61bec5a0a",
+    "ticket_number": "TK-2026-00028",
+    "customer_ref": "CUST-0276",
+    "subject": "Enterprise System Ingestion Inquiry #28",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "a93b2988-d63f-4b66-84e2-765e46c64a54",
+    "ticket_number": "TK-2026-00029",
+    "customer_ref": "CUST-0235",
+    "subject": "Enterprise System Ingestion Inquiry #29",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "104afad9-33bb-4688-9bca-a5ce98e5521f",
+    "ticket_number": "TK-2026-00030",
+    "customer_ref": "CUST-0072",
+    "subject": "Enterprise System Ingestion Inquiry #30",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "2bc16573-aa17-4b6f-a6fd-61ede5c067a8",
+    "ticket_number": "TK-2026-00031",
+    "customer_ref": "CUST-0345",
+    "subject": "Enterprise System Ingestion Inquiry #31",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "41e430c7-7965-4a46-b14d-15dc6ab5a0ad",
+    "ticket_number": "TK-2026-00032",
+    "customer_ref": "CUST-0066",
+    "subject": "Enterprise System Ingestion Inquiry #32",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "d8048e16-78bc-47d8-90c7-e6fddd272b9d",
+    "ticket_number": "TK-2026-00033",
+    "customer_ref": "CUST-0374",
+    "subject": "Enterprise System Ingestion Inquiry #33",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "0741a78f-06fa-4613-83f7-1fdd2583be6b",
+    "ticket_number": "TK-2026-00034",
+    "customer_ref": "CUST-0195",
+    "subject": "Enterprise System Ingestion Inquiry #34",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "716b1c34-f782-4437-8e87-6cc1cc67c32a",
+    "ticket_number": "TK-2026-00035",
+    "customer_ref": "CUST-0462",
+    "subject": "Enterprise System Ingestion Inquiry #35",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "c6313bd6-b3ef-47aa-aa75-d2eaa06906b4",
+    "ticket_number": "TK-2026-00036",
+    "customer_ref": "CUST-0015",
+    "subject": "Enterprise System Ingestion Inquiry #36",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "e88d1b21-adf0-4701-8935-67a0932f19d0",
+    "ticket_number": "TK-2026-00037",
+    "customer_ref": "CUST-0274",
+    "subject": "Enterprise System Ingestion Inquiry #37",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "c956e760-0f61-4b87-9821-d2b205b63ed4",
+    "ticket_number": "TK-2026-00038",
+    "customer_ref": "CUST-0078",
+    "subject": "Enterprise System Ingestion Inquiry #38",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "f99381e6-05f5-489c-9bf4-a591b4f5e34a",
+    "ticket_number": "TK-2026-00039",
+    "customer_ref": "CUST-0363",
+    "subject": "Enterprise System Ingestion Inquiry #39",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "819f3a7f-5f63-42d5-b804-d340d1d64ff1",
+    "ticket_number": "TK-2026-00040",
+    "customer_ref": "CUST-0423",
+    "subject": "Enterprise System Ingestion Inquiry #40",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "0996d957-d4ec-444f-8ea2-f6d762a09f36",
+    "ticket_number": "TK-2026-00041",
+    "customer_ref": "CUST-0404",
+    "subject": "Enterprise System Ingestion Inquiry #41",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "a06743f1-f5b3-483b-9e97-8d6c666cf461",
+    "ticket_number": "TK-2026-00042",
+    "customer_ref": "CUST-0171",
+    "subject": "Enterprise System Ingestion Inquiry #42",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "64b37d6d-e9bf-4853-8b14-d744197c30c2",
+    "ticket_number": "TK-2026-00043",
+    "customer_ref": "CUST-0234",
+    "subject": "Enterprise System Ingestion Inquiry #43",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "e5441807-e637-479c-992f-04b4643c8591",
+    "ticket_number": "TK-2026-00044",
+    "customer_ref": "CUST-0364",
+    "subject": "Enterprise System Ingestion Inquiry #44",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "a6b57e2b-5909-4d4e-addb-ffbbca82fca3",
+    "ticket_number": "TK-2026-00045",
+    "customer_ref": "CUST-0040",
+    "subject": "Enterprise System Ingestion Inquiry #45",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "8bf19cc6-2e7f-49b5-b95f-2911ae740e16",
+    "ticket_number": "TK-2026-00046",
+    "customer_ref": "CUST-0096",
+    "subject": "Enterprise System Ingestion Inquiry #46",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "9b5f89ef-164d-4379-82ba-bcceb1ceda04",
+    "ticket_number": "TK-2026-00047",
+    "customer_ref": "CUST-0076",
+    "subject": "Enterprise System Ingestion Inquiry #47",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "160b0946-24b1-4a7d-b3b7-16cfa6204b0d",
+    "ticket_number": "TK-2026-00048",
+    "customer_ref": "CUST-0398",
+    "subject": "Enterprise System Ingestion Inquiry #48",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "69fff5a5-22b5-4bf1-84ed-41d4cfb1859b",
+    "ticket_number": "TK-2026-00049",
+    "customer_ref": "CUST-0208",
+    "subject": "Enterprise System Ingestion Inquiry #49",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "42f8b508-dc86-4696-9d94-6e153e1dde98",
+    "ticket_number": "TK-2026-00050",
+    "customer_ref": "CUST-0329",
+    "subject": "Enterprise System Ingestion Inquiry #50",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "6300651a-d3d4-4b6e-8a8b-0631c11db39e",
+    "ticket_number": "TK-2026-00051",
+    "customer_ref": "CUST-0091",
+    "subject": "Enterprise System Ingestion Inquiry #51",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "47ca0823-de15-4980-ba2d-24ae09196fb5",
+    "ticket_number": "TK-2026-00052",
+    "customer_ref": "CUST-0010",
+    "subject": "Enterprise System Ingestion Inquiry #52",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "95ad2e53-cea0-4aff-8e97-d25fea1d15f2",
+    "ticket_number": "TK-2026-00053",
+    "customer_ref": "CUST-0325",
+    "subject": "Enterprise System Ingestion Inquiry #53",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "a7d19ff7-9e78-4d9c-9bcb-d6282a361d4c",
+    "ticket_number": "TK-2026-00054",
+    "customer_ref": "CUST-0120",
+    "subject": "Enterprise System Ingestion Inquiry #54",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "59d03a3a-baaa-437c-b8d4-1e2e1c6a50f8",
+    "ticket_number": "TK-2026-00055",
+    "customer_ref": "CUST-0330",
+    "subject": "Enterprise System Ingestion Inquiry #55",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "89f6a610-9035-4d4d-bb7e-3e214433e4dd",
+    "ticket_number": "TK-2026-00056",
+    "customer_ref": "CUST-0431",
+    "subject": "Enterprise System Ingestion Inquiry #56",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "d2019bf9-9979-4068-91f2-2edce8d27c92",
+    "ticket_number": "TK-2026-00057",
+    "customer_ref": "CUST-0004",
+    "subject": "Enterprise System Ingestion Inquiry #57",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "ad760e47-be62-4302-8179-b1f84bbc36d7",
+    "ticket_number": "TK-2026-00058",
+    "customer_ref": "CUST-0330",
+    "subject": "Enterprise System Ingestion Inquiry #58",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "02ed1d56-d4a3-46c8-97ac-0e710533de06",
+    "ticket_number": "TK-2026-00059",
+    "customer_ref": "CUST-0250",
+    "subject": "Enterprise System Ingestion Inquiry #59",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "d6bc885f-ca55-4e7b-896a-74d8b6dd8ff0",
+    "ticket_number": "TK-2026-00060",
+    "customer_ref": "CUST-0473",
+    "subject": "Enterprise System Ingestion Inquiry #60",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "a3a9aa0b-31c3-48a4-b34f-ac4ad6ed6ccf",
+    "ticket_number": "TK-2026-00061",
+    "customer_ref": "CUST-0492",
+    "subject": "Enterprise System Ingestion Inquiry #61",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "7b56f53a-28dc-4b51-b015-a34fd8d25d46",
+    "ticket_number": "TK-2026-00062",
+    "customer_ref": "CUST-0064",
+    "subject": "Enterprise System Ingestion Inquiry #62",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "aafdeb62-b063-4df3-83d3-073b3cec2ddd",
+    "ticket_number": "TK-2026-00063",
+    "customer_ref": "CUST-0018",
+    "subject": "Enterprise System Ingestion Inquiry #63",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "14f9e6c4-9513-4ae9-a04c-139fcc3ce72b",
+    "ticket_number": "TK-2026-00064",
+    "customer_ref": "CUST-0326",
+    "subject": "Enterprise System Ingestion Inquiry #64",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "3dc95237-c8f0-4f75-ac24-a0fbdda926da",
+    "ticket_number": "TK-2026-00065",
+    "customer_ref": "CUST-0075",
+    "subject": "Enterprise System Ingestion Inquiry #65",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "b84f46d3-a5c3-47f8-8ecc-c46c59644785",
+    "ticket_number": "TK-2026-00066",
+    "customer_ref": "CUST-0190",
+    "subject": "Enterprise System Ingestion Inquiry #66",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "71078637-cd2d-4960-b12d-b7ec8c5f48f9",
+    "ticket_number": "TK-2026-00067",
+    "customer_ref": "CUST-0403",
+    "subject": "Enterprise System Ingestion Inquiry #67",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "a302df12-b773-45cd-933b-49abdace3821",
+    "ticket_number": "TK-2026-00068",
+    "customer_ref": "CUST-0290",
+    "subject": "Enterprise System Ingestion Inquiry #68",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "e8de53d0-9eda-4ddd-b25d-928cc2fabfdf",
+    "ticket_number": "TK-2026-00069",
+    "customer_ref": "CUST-0150",
+    "subject": "Enterprise System Ingestion Inquiry #69",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "e11d0ac4-0a0f-46c2-aecf-ec75e6fd4b0d",
+    "ticket_number": "TK-2026-00070",
+    "customer_ref": "CUST-0387",
+    "subject": "Enterprise System Ingestion Inquiry #70",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "d5897857-9c13-46fe-8e10-dbb531ca3670",
+    "ticket_number": "TK-2026-00071",
+    "customer_ref": "CUST-0366",
+    "subject": "Enterprise System Ingestion Inquiry #71",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "3827d3ae-2931-4c2d-bcf9-7877655eaf31",
+    "ticket_number": "TK-2026-00072",
+    "customer_ref": "CUST-0418",
+    "subject": "Enterprise System Ingestion Inquiry #72",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "2144fa33-3076-4e73-a5c2-c2ed59fd510f",
+    "ticket_number": "TK-2026-00073",
+    "customer_ref": "CUST-0270",
+    "subject": "Enterprise System Ingestion Inquiry #73",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "e4128fbd-305e-4bb8-8a40-600ee17012eb",
+    "ticket_number": "TK-2026-00074",
+    "customer_ref": "CUST-0132",
+    "subject": "Enterprise System Ingestion Inquiry #74",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "7bea2719-e8cd-4a0d-b96e-2ed337b61966",
+    "ticket_number": "TK-2026-00075",
+    "customer_ref": "CUST-0222",
+    "subject": "Enterprise System Ingestion Inquiry #75",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "3566135b-7058-4297-99b5-1d8f39af6ebe",
+    "ticket_number": "TK-2026-00076",
+    "customer_ref": "CUST-0472",
+    "subject": "Enterprise System Ingestion Inquiry #76",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "9c3290ce-74a8-4908-9a9f-0f056e32e749",
+    "ticket_number": "TK-2026-00077",
+    "customer_ref": "CUST-0210",
+    "subject": "Enterprise System Ingestion Inquiry #77",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "63984762-64a9-4df4-ad8d-f5b726d68764",
+    "ticket_number": "TK-2026-00078",
+    "customer_ref": "CUST-0251",
+    "subject": "Enterprise System Ingestion Inquiry #78",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "b56badaf-9e26-4e93-969e-1d7d0a5dbee9",
+    "ticket_number": "TK-2026-00079",
+    "customer_ref": "CUST-0410",
+    "subject": "Enterprise System Ingestion Inquiry #79",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "4c9db463-fae1-4c10-9cb1-0c952b8e2273",
+    "ticket_number": "TK-2026-00080",
+    "customer_ref": "CUST-0345",
+    "subject": "Enterprise System Ingestion Inquiry #80",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "a632b96a-82cf-4497-b8a3-727decd96389",
+    "ticket_number": "TK-2026-00081",
+    "customer_ref": "CUST-0004",
+    "subject": "Enterprise System Ingestion Inquiry #81",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "ee47ee92-af90-4f24-a944-98e283260f51",
+    "ticket_number": "TK-2026-00082",
+    "customer_ref": "CUST-0082",
+    "subject": "Enterprise System Ingestion Inquiry #82",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "3a27d8c6-c44e-4acc-94d3-dcfb4515591b",
+    "ticket_number": "TK-2026-00083",
+    "customer_ref": "CUST-0093",
+    "subject": "Enterprise System Ingestion Inquiry #83",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "8fa929d5-97df-4a36-ba65-9b1361373528",
+    "ticket_number": "TK-2026-00084",
+    "customer_ref": "CUST-0070",
+    "subject": "Enterprise System Ingestion Inquiry #84",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "19069dd0-c3eb-4f1e-957b-7c22c16bbd4c",
+    "ticket_number": "TK-2026-00085",
+    "customer_ref": "CUST-0427",
+    "subject": "Enterprise System Ingestion Inquiry #85",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "d0609549-03a1-4497-b588-0101a44286fd",
+    "ticket_number": "TK-2026-00086",
+    "customer_ref": "CUST-0189",
+    "subject": "Enterprise System Ingestion Inquiry #86",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "4f9e9b11-3e35-401c-8715-19feb32558bd",
+    "ticket_number": "TK-2026-00087",
+    "customer_ref": "CUST-0133",
+    "subject": "Enterprise System Ingestion Inquiry #87",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "430b4ed5-4daa-4b3a-af38-ceffaab05666",
+    "ticket_number": "TK-2026-00088",
+    "customer_ref": "CUST-0416",
+    "subject": "Enterprise System Ingestion Inquiry #88",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "4bb702d2-45e1-4342-9976-0154bc2938f1",
+    "ticket_number": "TK-2026-00089",
+    "customer_ref": "CUST-0139",
+    "subject": "Enterprise System Ingestion Inquiry #89",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "b4732b28-0e14-4915-9fa9-bfba0d1f7d67",
+    "ticket_number": "TK-2026-00090",
+    "customer_ref": "CUST-0353",
+    "subject": "Enterprise System Ingestion Inquiry #90",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "6810abea-b320-4418-bcc9-1b9b9efdb854",
+    "ticket_number": "TK-2026-00091",
+    "customer_ref": "CUST-0150",
+    "subject": "Enterprise System Ingestion Inquiry #91",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "687eba01-b748-4349-aacc-5fc9d43635a0",
+    "ticket_number": "TK-2026-00092",
+    "customer_ref": "CUST-0095",
+    "subject": "Enterprise System Ingestion Inquiry #92",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "bd82842d-d3f3-444b-8380-67fc10b23984",
+    "ticket_number": "TK-2026-00093",
+    "customer_ref": "CUST-0229",
+    "subject": "Enterprise System Ingestion Inquiry #93",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "5a0c4870-7a53-469e-948e-9c6abd66ae72",
+    "ticket_number": "TK-2026-00094",
+    "customer_ref": "CUST-0114",
+    "subject": "Enterprise System Ingestion Inquiry #94",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "b84696df-e575-4566-b5b2-563675115624",
+    "ticket_number": "TK-2026-00095",
+    "customer_ref": "CUST-0133",
+    "subject": "Enterprise System Ingestion Inquiry #95",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "b801078f-87c3-4362-a589-3d8cd38a5f18",
+    "ticket_number": "TK-2026-00096",
+    "customer_ref": "CUST-0166",
+    "subject": "Enterprise System Ingestion Inquiry #96",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "2d58f08b-e5c7-4221-ab36-05434e006025",
+    "ticket_number": "TK-2026-00097",
+    "customer_ref": "CUST-0277",
+    "subject": "Enterprise System Ingestion Inquiry #97",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "6e2fa15e-d5e7-43e8-ba51-276827762198",
+    "ticket_number": "TK-2026-00098",
+    "customer_ref": "CUST-0488",
+    "subject": "Enterprise System Ingestion Inquiry #98",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "5b01db07-2474-416f-9ec0-2b86d73be9a1",
+    "ticket_number": "TK-2026-00099",
+    "customer_ref": "CUST-0346",
+    "subject": "Enterprise System Ingestion Inquiry #99",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "115882f9-d5b3-4594-a0d1-31be4bf46059",
+    "ticket_number": "TK-2026-00100",
+    "customer_ref": "CUST-0365",
+    "subject": "Enterprise System Ingestion Inquiry #100",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "9bc2e2e3-5bba-44b3-a87c-c8c05b71e2e7",
+    "ticket_number": "TK-2026-00101",
+    "customer_ref": "CUST-0318",
+    "subject": "Enterprise System Ingestion Inquiry #101",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "5db40af0-3f63-4198-9da2-59af957834ab",
+    "ticket_number": "TK-2026-00102",
+    "customer_ref": "CUST-0474",
+    "subject": "Enterprise System Ingestion Inquiry #102",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "f2920e66-c4cb-4f69-8297-7c85f7d85e64",
+    "ticket_number": "TK-2026-00103",
+    "customer_ref": "CUST-0405",
+    "subject": "Enterprise System Ingestion Inquiry #103",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "771fba7d-2dfa-4c5e-9432-058bc4749a9a",
+    "ticket_number": "TK-2026-00104",
+    "customer_ref": "CUST-0263",
+    "subject": "Enterprise System Ingestion Inquiry #104",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "9e07ecb7-24b6-4011-8e22-95d5d1600224",
+    "ticket_number": "TK-2026-00105",
+    "customer_ref": "CUST-0465",
+    "subject": "Enterprise System Ingestion Inquiry #105",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "68f5c14f-b469-4a15-9ad8-4e5eb4a9dd1f",
+    "ticket_number": "TK-2026-00106",
+    "customer_ref": "CUST-0372",
+    "subject": "Enterprise System Ingestion Inquiry #106",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "c2c458ae-9d7c-44bb-a477-4b351c50239d",
+    "ticket_number": "TK-2026-00107",
+    "customer_ref": "CUST-0420",
+    "subject": "Enterprise System Ingestion Inquiry #107",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "cf900ab8-c496-4b87-8e7a-7af7281e28e2",
+    "ticket_number": "TK-2026-00108",
+    "customer_ref": "CUST-0446",
+    "subject": "Enterprise System Ingestion Inquiry #108",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "a4fb0ae6-0876-41ff-ad49-937d0b2c5c10",
+    "ticket_number": "TK-2026-00109",
+    "customer_ref": "CUST-0162",
+    "subject": "Enterprise System Ingestion Inquiry #109",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "7ad30509-f707-4246-8ecf-87aac436f075",
+    "ticket_number": "TK-2026-00110",
+    "customer_ref": "CUST-0378",
+    "subject": "Enterprise System Ingestion Inquiry #110",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "90c62b40-bf03-4aa5-b9e9-9819af2ed64b",
+    "ticket_number": "TK-2026-00111",
+    "customer_ref": "CUST-0484",
+    "subject": "Enterprise System Ingestion Inquiry #111",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "cff75b6f-fdc7-4fb3-a75d-5283c85add54",
+    "ticket_number": "TK-2026-00112",
+    "customer_ref": "CUST-0187",
+    "subject": "Enterprise System Ingestion Inquiry #112",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "46aaf295-45d0-4e34-9962-9faea65b6601",
+    "ticket_number": "TK-2026-00113",
+    "customer_ref": "CUST-0147",
+    "subject": "Enterprise System Ingestion Inquiry #113",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "5bfcc504-f2a5-4dc6-ada9-6c1caadf07dd",
+    "ticket_number": "TK-2026-00114",
+    "customer_ref": "CUST-0310",
+    "subject": "Enterprise System Ingestion Inquiry #114",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "c998ec9a-f39f-4146-a9c4-c803f6f79f81",
+    "ticket_number": "TK-2026-00115",
+    "customer_ref": "CUST-0298",
+    "subject": "Enterprise System Ingestion Inquiry #115",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "626fdc42-3d1b-4112-af86-5128740a5603",
+    "ticket_number": "TK-2026-00116",
+    "customer_ref": "CUST-0465",
+    "subject": "Enterprise System Ingestion Inquiry #116",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "afeecca2-8356-48ed-acf4-71bad3a26d94",
+    "ticket_number": "TK-2026-00117",
+    "customer_ref": "CUST-0475",
+    "subject": "Enterprise System Ingestion Inquiry #117",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "e90e3c94-ba64-408d-9689-d00b271e97af",
+    "ticket_number": "TK-2026-00118",
+    "customer_ref": "CUST-0161",
+    "subject": "Enterprise System Ingestion Inquiry #118",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "ab761737-cd5e-48b6-9e3a-a69098e843a1",
+    "ticket_number": "TK-2026-00119",
+    "customer_ref": "CUST-0363",
+    "subject": "Enterprise System Ingestion Inquiry #119",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "d50f8a31-523f-41ec-ad53-9fcb2a219678",
+    "ticket_number": "TK-2026-00120",
+    "customer_ref": "CUST-0118",
+    "subject": "Enterprise System Ingestion Inquiry #120",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "5e344cfb-47b3-4505-baf3-8ddd8532a4e5",
+    "ticket_number": "TK-2026-00121",
+    "customer_ref": "CUST-0366",
+    "subject": "Enterprise System Ingestion Inquiry #121",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "08f76a60-6024-42cf-8e44-b816d1095555",
+    "ticket_number": "TK-2026-00122",
+    "customer_ref": "CUST-0448",
+    "subject": "Enterprise System Ingestion Inquiry #122",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "bcc0736c-567a-4c10-a2b7-5d8dc65583bc",
+    "ticket_number": "TK-2026-00123",
+    "customer_ref": "CUST-0031",
+    "subject": "Enterprise System Ingestion Inquiry #123",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "13c61c0a-b490-41be-a801-08774332beb9",
+    "ticket_number": "TK-2026-00124",
+    "customer_ref": "CUST-0072",
+    "subject": "Enterprise System Ingestion Inquiry #124",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "68221bcb-b916-43bf-88ad-6b79c86251d2",
+    "ticket_number": "TK-2026-00125",
+    "customer_ref": "CUST-0379",
+    "subject": "Enterprise System Ingestion Inquiry #125",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "f3471684-65ca-415f-bb92-972973353876",
+    "ticket_number": "TK-2026-00126",
+    "customer_ref": "CUST-0075",
+    "subject": "Enterprise System Ingestion Inquiry #126",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "7f3d9e6a-fc90-485c-95a1-c636be96e305",
+    "ticket_number": "TK-2026-00127",
+    "customer_ref": "CUST-0125",
+    "subject": "Enterprise System Ingestion Inquiry #127",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "978256a3-84e6-4f1a-9d79-2da7f2b9eebd",
+    "ticket_number": "TK-2026-00128",
+    "customer_ref": "CUST-0136",
+    "subject": "Enterprise System Ingestion Inquiry #128",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "3e2c4080-a3ac-4b1f-8b40-4c53b6ee1900",
+    "ticket_number": "TK-2026-00129",
+    "customer_ref": "CUST-0083",
+    "subject": "Enterprise System Ingestion Inquiry #129",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "1ddc0294-1f47-49d6-91f6-72f05261bbe8",
+    "ticket_number": "TK-2026-00130",
+    "customer_ref": "CUST-0458",
+    "subject": "Enterprise System Ingestion Inquiry #130",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "9883eaa8-5ddb-4cdc-8006-0c161f41d239",
+    "ticket_number": "TK-2026-00131",
+    "customer_ref": "CUST-0182",
+    "subject": "Enterprise System Ingestion Inquiry #131",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "1b6babc2-607d-4c51-bedb-3d5ef6d0bd5d",
+    "ticket_number": "TK-2026-00132",
+    "customer_ref": "CUST-0249",
+    "subject": "Enterprise System Ingestion Inquiry #132",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "42960421-5c41-43e5-a7f3-62dda22d9e8b",
+    "ticket_number": "TK-2026-00133",
+    "customer_ref": "CUST-0024",
+    "subject": "Enterprise System Ingestion Inquiry #133",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "79148fbd-d6ac-4619-bc3d-3e3350a394ef",
+    "ticket_number": "TK-2026-00134",
+    "customer_ref": "CUST-0138",
+    "subject": "Enterprise System Ingestion Inquiry #134",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "deb8b163-fc7c-42c5-bc47-5eb529f13e39",
+    "ticket_number": "TK-2026-00135",
+    "customer_ref": "CUST-0330",
+    "subject": "Enterprise System Ingestion Inquiry #135",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "3e72dca6-c3d7-451b-abb2-d2cb563c57a7",
+    "ticket_number": "TK-2026-00136",
+    "customer_ref": "CUST-0341",
+    "subject": "Enterprise System Ingestion Inquiry #136",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "4b6408a1-9839-404b-a0a6-5d259e531bdd",
+    "ticket_number": "TK-2026-00137",
+    "customer_ref": "CUST-0209",
+    "subject": "Enterprise System Ingestion Inquiry #137",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "c5ee1ef8-6e48-4514-94d9-d9f27c6a9b1c",
+    "ticket_number": "TK-2026-00138",
+    "customer_ref": "CUST-0027",
+    "subject": "Enterprise System Ingestion Inquiry #138",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "b0794a4e-9663-49b5-bca6-6074ff804255",
+    "ticket_number": "TK-2026-00139",
+    "customer_ref": "CUST-0086",
+    "subject": "Enterprise System Ingestion Inquiry #139",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "768c92ba-bfdc-4861-b7f1-af2b87e3dc6f",
+    "ticket_number": "TK-2026-00140",
+    "customer_ref": "CUST-0134",
+    "subject": "Enterprise System Ingestion Inquiry #140",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "d5a19a60-8b37-446f-8767-e87ac5a9993c",
+    "ticket_number": "TK-2026-00141",
+    "customer_ref": "CUST-0377",
+    "subject": "Enterprise System Ingestion Inquiry #141",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "b84c58c9-9d0c-49c6-8c50-528f963c34c4",
+    "ticket_number": "TK-2026-00142",
+    "customer_ref": "CUST-0463",
+    "subject": "Enterprise System Ingestion Inquiry #142",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "dcd9923a-7015-4292-8dd1-48ce55f751a6",
+    "ticket_number": "TK-2026-00143",
+    "customer_ref": "CUST-0049",
+    "subject": "Enterprise System Ingestion Inquiry #143",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "fa71b3e8-0025-4d17-90ba-929024b97fb8",
+    "ticket_number": "TK-2026-00144",
+    "customer_ref": "CUST-0026",
+    "subject": "Enterprise System Ingestion Inquiry #144",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "09e867db-3951-46b4-b28b-f49e78fa0304",
+    "ticket_number": "TK-2026-00145",
+    "customer_ref": "CUST-0222",
+    "subject": "Enterprise System Ingestion Inquiry #145",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "57fbfd10-5333-4d1e-8f05-505909f99533",
+    "ticket_number": "TK-2026-00146",
+    "customer_ref": "CUST-0022",
+    "subject": "Enterprise System Ingestion Inquiry #146",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "ce68400e-93df-4ef9-a92f-29e6d12bd851",
+    "ticket_number": "TK-2026-00147",
+    "customer_ref": "CUST-0336",
+    "subject": "Enterprise System Ingestion Inquiry #147",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "5ced8a35-8fd7-4525-8fc5-df4d812e6995",
+    "ticket_number": "TK-2026-00148",
+    "customer_ref": "CUST-0123",
+    "subject": "Enterprise System Ingestion Inquiry #148",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "8543c0b2-d7d3-44ea-ada8-d78ab17009c2",
+    "ticket_number": "TK-2026-00149",
+    "customer_ref": "CUST-0486",
+    "subject": "Enterprise System Ingestion Inquiry #149",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "28237723-270e-4111-b1fa-8d851ea24d5f",
+    "ticket_number": "TK-2026-00150",
+    "customer_ref": "CUST-0416",
+    "subject": "Enterprise System Ingestion Inquiry #150",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "8ecbe11b-d8c8-4b64-a6f0-2899b1247b07",
+    "ticket_number": "TK-2026-00151",
+    "customer_ref": "CUST-0304",
+    "subject": "Enterprise System Ingestion Inquiry #151",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "234813ed-f83a-4fa7-bf24-e7274e43478d",
+    "ticket_number": "TK-2026-00152",
+    "customer_ref": "CUST-0188",
+    "subject": "Enterprise System Ingestion Inquiry #152",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "1337d1e9-bbc4-4a51-907d-45786fa08f84",
+    "ticket_number": "TK-2026-00153",
+    "customer_ref": "CUST-0495",
+    "subject": "Enterprise System Ingestion Inquiry #153",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "cc91803b-6fa8-4abf-b059-78c0061b2ed3",
+    "ticket_number": "TK-2026-00154",
+    "customer_ref": "CUST-0141",
+    "subject": "Enterprise System Ingestion Inquiry #154",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "0510fa0a-5bc6-4063-a87e-5d77f226a68d",
+    "ticket_number": "TK-2026-00155",
+    "customer_ref": "CUST-0116",
+    "subject": "Enterprise System Ingestion Inquiry #155",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "06b1e907-8502-4aa3-a2f8-451d1dafc1b9",
+    "ticket_number": "TK-2026-00156",
+    "customer_ref": "CUST-0305",
+    "subject": "Enterprise System Ingestion Inquiry #156",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "a2a1520c-6b20-46a6-a799-161d89024c0b",
+    "ticket_number": "TK-2026-00157",
+    "customer_ref": "CUST-0475",
+    "subject": "Enterprise System Ingestion Inquiry #157",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "76fb00c8-9a02-49db-b4ce-6ec2b640aa83",
+    "ticket_number": "TK-2026-00158",
+    "customer_ref": "CUST-0336",
+    "subject": "Enterprise System Ingestion Inquiry #158",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "9b4a4e16-8afc-428d-a300-cc9bcf96dee3",
+    "ticket_number": "TK-2026-00159",
+    "customer_ref": "CUST-0458",
+    "subject": "Enterprise System Ingestion Inquiry #159",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "fe5949bf-0ed8-4cb7-b940-827a493fffac",
+    "ticket_number": "TK-2026-00160",
+    "customer_ref": "CUST-0138",
+    "subject": "Enterprise System Ingestion Inquiry #160",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "97230450-bbeb-4777-addc-663e3b5f5156",
+    "ticket_number": "TK-2026-00161",
+    "customer_ref": "CUST-0392",
+    "subject": "Enterprise System Ingestion Inquiry #161",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "fd249e28-9d25-4cc8-bc4c-b56b63ccdbd9",
+    "ticket_number": "TK-2026-00162",
+    "customer_ref": "CUST-0415",
+    "subject": "Enterprise System Ingestion Inquiry #162",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "f4903dae-9f1b-4e74-9fc4-fa69cf69ef1d",
+    "ticket_number": "TK-2026-00163",
+    "customer_ref": "CUST-0407",
+    "subject": "Enterprise System Ingestion Inquiry #163",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "d9016f53-8756-4614-a41e-9931ea8310c9",
+    "ticket_number": "TK-2026-00164",
+    "customer_ref": "CUST-0159",
+    "subject": "Enterprise System Ingestion Inquiry #164",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "3f2ebc2f-4323-40cd-a543-08c724d2e34f",
+    "ticket_number": "TK-2026-00165",
+    "customer_ref": "CUST-0167",
+    "subject": "Enterprise System Ingestion Inquiry #165",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "e13ee4d5-1d6b-49da-b43e-6a82a30dc6e5",
+    "ticket_number": "TK-2026-00166",
+    "customer_ref": "CUST-0347",
+    "subject": "Enterprise System Ingestion Inquiry #166",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "09878866-492f-4926-a41a-9775dd027030",
+    "ticket_number": "TK-2026-00167",
+    "customer_ref": "CUST-0073",
+    "subject": "Enterprise System Ingestion Inquiry #167",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "01d2ac8a-d604-4483-bf22-402503cf1448",
+    "ticket_number": "TK-2026-00168",
+    "customer_ref": "CUST-0124",
+    "subject": "Enterprise System Ingestion Inquiry #168",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "b711483c-ece5-49b2-994a-ce18eb630693",
+    "ticket_number": "TK-2026-00169",
+    "customer_ref": "CUST-0126",
+    "subject": "Enterprise System Ingestion Inquiry #169",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "d7af6a72-591c-46e4-a10a-df300569c49e",
+    "ticket_number": "TK-2026-00170",
+    "customer_ref": "CUST-0050",
+    "subject": "Enterprise System Ingestion Inquiry #170",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "91093e59-51e3-46ce-ada1-c2017d764a78",
+    "ticket_number": "TK-2026-00171",
+    "customer_ref": "CUST-0112",
+    "subject": "Enterprise System Ingestion Inquiry #171",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "f2a29820-5fe1-4afa-9c82-17af36d6d321",
+    "ticket_number": "TK-2026-00172",
+    "customer_ref": "CUST-0392",
+    "subject": "Enterprise System Ingestion Inquiry #172",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "ff9ad7f3-7bb3-4434-a5ea-5ef335927191",
+    "ticket_number": "TK-2026-00173",
+    "customer_ref": "CUST-0422",
+    "subject": "Enterprise System Ingestion Inquiry #173",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "dd1ff5b4-e9b1-49fb-a0dd-fc3ad66afb1a",
+    "ticket_number": "TK-2026-00174",
+    "customer_ref": "CUST-0396",
+    "subject": "Enterprise System Ingestion Inquiry #174",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "a16d38ee-4ac0-49c6-94b2-107cd0761df4",
+    "ticket_number": "TK-2026-00175",
+    "customer_ref": "CUST-0066",
+    "subject": "Enterprise System Ingestion Inquiry #175",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "8b309356-1bca-4304-8f18-39c1f2964830",
+    "ticket_number": "TK-2026-00176",
+    "customer_ref": "CUST-0067",
+    "subject": "Enterprise System Ingestion Inquiry #176",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "9f58d3ac-4748-4343-990e-ff96ff5ce52e",
+    "ticket_number": "TK-2026-00177",
+    "customer_ref": "CUST-0101",
+    "subject": "Enterprise System Ingestion Inquiry #177",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "1152c1d1-34d2-495d-8f48-abbbecd7503f",
+    "ticket_number": "TK-2026-00178",
+    "customer_ref": "CUST-0129",
+    "subject": "Enterprise System Ingestion Inquiry #178",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "ef9c978d-b4ce-42ad-ab89-2b71da146883",
+    "ticket_number": "TK-2026-00179",
+    "customer_ref": "CUST-0180",
+    "subject": "Enterprise System Ingestion Inquiry #179",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "8c2b1c0b-f0e5-4674-875b-99ba54bbbdea",
+    "ticket_number": "TK-2026-00180",
+    "customer_ref": "CUST-0054",
+    "subject": "Enterprise System Ingestion Inquiry #180",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "c716f6ff-8091-4768-9304-e91d2f7ce40e",
+    "ticket_number": "TK-2026-00181",
+    "customer_ref": "CUST-0054",
+    "subject": "Enterprise System Ingestion Inquiry #181",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "d7b0f9be-fe62-4532-b32b-a66e66fd0495",
+    "ticket_number": "TK-2026-00182",
+    "customer_ref": "CUST-0372",
+    "subject": "Enterprise System Ingestion Inquiry #182",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "b7ff5585-6592-4b4f-b654-fbb7504a8658",
+    "ticket_number": "TK-2026-00183",
+    "customer_ref": "CUST-0147",
+    "subject": "Enterprise System Ingestion Inquiry #183",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "77892c28-7830-4bbd-b50c-1073eb50b1f7",
+    "ticket_number": "TK-2026-00184",
+    "customer_ref": "CUST-0099",
+    "subject": "Enterprise System Ingestion Inquiry #184",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "f0919f2f-4912-4c55-82a0-e63a502c4922",
+    "ticket_number": "TK-2026-00185",
+    "customer_ref": "CUST-0069",
+    "subject": "Enterprise System Ingestion Inquiry #185",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "cced8349-1b77-425b-a14c-f6515589060e",
+    "ticket_number": "TK-2026-00186",
+    "customer_ref": "CUST-0033",
+    "subject": "Enterprise System Ingestion Inquiry #186",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "0d2b7672-6e17-45ce-ba2e-0347acf0e628",
+    "ticket_number": "TK-2026-00187",
+    "customer_ref": "CUST-0001",
+    "subject": "Enterprise System Ingestion Inquiry #187",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "19119ed5-ae8f-435b-b3f7-a0ba691f6ccd",
+    "ticket_number": "TK-2026-00188",
+    "customer_ref": "CUST-0429",
+    "subject": "Enterprise System Ingestion Inquiry #188",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "83e59712-aaa8-4a40-b921-a01ac0283fde",
+    "ticket_number": "TK-2026-00189",
+    "customer_ref": "CUST-0260",
+    "subject": "Enterprise System Ingestion Inquiry #189",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "f07b6c80-4dab-435d-b613-2d62d6683efe",
+    "ticket_number": "TK-2026-00190",
+    "customer_ref": "CUST-0149",
+    "subject": "Enterprise System Ingestion Inquiry #190",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "f50e2992-9800-4ed6-8580-f0faa2301dd9",
+    "ticket_number": "TK-2026-00191",
+    "customer_ref": "CUST-0072",
+    "subject": "Enterprise System Ingestion Inquiry #191",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "1bfc6e6c-ba1f-46e7-87f1-2c36d45f580a",
+    "ticket_number": "TK-2026-00192",
+    "customer_ref": "CUST-0104",
+    "subject": "Enterprise System Ingestion Inquiry #192",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "6cced55a-b960-47aa-b94a-48dd5f9d2b9b",
+    "ticket_number": "TK-2026-00193",
+    "customer_ref": "CUST-0022",
+    "subject": "Enterprise System Ingestion Inquiry #193",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "6dee3560-a12b-4ea0-b240-7b11623f794a",
+    "ticket_number": "TK-2026-00194",
+    "customer_ref": "CUST-0224",
+    "subject": "Enterprise System Ingestion Inquiry #194",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "5d7d1ab7-df22-442b-9802-8d1f5a80028a",
+    "ticket_number": "TK-2026-00195",
+    "customer_ref": "CUST-0404",
+    "subject": "Enterprise System Ingestion Inquiry #195",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "690bc1a9-803e-43b6-b9b9-e2217f3e035f",
+    "ticket_number": "TK-2026-00196",
+    "customer_ref": "CUST-0247",
+    "subject": "Enterprise System Ingestion Inquiry #196",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "da759b2e-f627-4967-9d49-fb505ff7725a",
+    "ticket_number": "TK-2026-00197",
+    "customer_ref": "CUST-0295",
+    "subject": "Enterprise System Ingestion Inquiry #197",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "5baa4477-317d-451b-967e-44a09e64c738",
+    "ticket_number": "TK-2026-00198",
+    "customer_ref": "CUST-0060",
+    "subject": "Enterprise System Ingestion Inquiry #198",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "0dde0702-b10b-4a16-bb31-9099d6a64bb1",
+    "ticket_number": "TK-2026-00199",
+    "customer_ref": "CUST-0144",
+    "subject": "Enterprise System Ingestion Inquiry #199",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "8f3d42ad-c751-4fe5-a328-d68f228998a3",
+    "ticket_number": "TK-2026-00200",
+    "customer_ref": "CUST-0066",
+    "subject": "Enterprise System Ingestion Inquiry #200",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "463d705a-66a3-44c5-8da1-40fa0296db1b",
+    "ticket_number": "TK-2026-00201",
+    "customer_ref": "CUST-0260",
+    "subject": "Enterprise System Ingestion Inquiry #201",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "01498a4c-6ee7-429b-9376-3f04b14ab88f",
+    "ticket_number": "TK-2026-00202",
+    "customer_ref": "CUST-0073",
+    "subject": "Enterprise System Ingestion Inquiry #202",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "1ac19ca8-f66b-46e8-bd2a-820cdcf8d324",
+    "ticket_number": "TK-2026-00203",
+    "customer_ref": "CUST-0170",
+    "subject": "Enterprise System Ingestion Inquiry #203",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "e55f9fa0-29a5-403f-8bdc-1c5a7d02a923",
+    "ticket_number": "TK-2026-00204",
+    "customer_ref": "CUST-0450",
+    "subject": "Enterprise System Ingestion Inquiry #204",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "e26a3e85-2895-44fa-9a91-6871a67827f1",
+    "ticket_number": "TK-2026-00205",
+    "customer_ref": "CUST-0436",
+    "subject": "Enterprise System Ingestion Inquiry #205",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "ec68ea03-9049-460d-97e5-ed8c14e40434",
+    "ticket_number": "TK-2026-00206",
+    "customer_ref": "CUST-0482",
+    "subject": "Enterprise System Ingestion Inquiry #206",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "bc3adafa-e606-4c6b-a362-b6b29e3599c8",
+    "ticket_number": "TK-2026-00207",
+    "customer_ref": "CUST-0463",
+    "subject": "Enterprise System Ingestion Inquiry #207",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "5401d2a5-4896-48ba-9a65-59dc9c249568",
+    "ticket_number": "TK-2026-00208",
+    "customer_ref": "CUST-0185",
+    "subject": "Enterprise System Ingestion Inquiry #208",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "6f7301a2-fab7-4707-bdee-9a9557b700b5",
+    "ticket_number": "TK-2026-00209",
+    "customer_ref": "CUST-0184",
+    "subject": "Enterprise System Ingestion Inquiry #209",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "27b53ad1-23e0-4dc6-84a9-81a20adc7e6c",
+    "ticket_number": "TK-2026-00210",
+    "customer_ref": "CUST-0092",
+    "subject": "Enterprise System Ingestion Inquiry #210",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "201e0cb6-e570-4f39-952e-7ba5524d29b4",
+    "ticket_number": "TK-2026-00211",
+    "customer_ref": "CUST-0020",
+    "subject": "Enterprise System Ingestion Inquiry #211",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "9b982e51-3c65-4d43-a1be-fb5a3dfcd6d4",
+    "ticket_number": "TK-2026-00212",
+    "customer_ref": "CUST-0244",
+    "subject": "Enterprise System Ingestion Inquiry #212",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "938f665f-af36-4d6f-9c79-6bdb5f464a4f",
+    "ticket_number": "TK-2026-00213",
+    "customer_ref": "CUST-0480",
+    "subject": "Enterprise System Ingestion Inquiry #213",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "f515213c-2c69-4742-99c8-8f73763de3c5",
+    "ticket_number": "TK-2026-00214",
+    "customer_ref": "CUST-0100",
+    "subject": "Enterprise System Ingestion Inquiry #214",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "5f2b7169-969f-4236-9148-0b2798f76df4",
+    "ticket_number": "TK-2026-00215",
+    "customer_ref": "CUST-0083",
+    "subject": "Enterprise System Ingestion Inquiry #215",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "2e003017-2aa8-4ae9-86d7-2d0a412e670e",
+    "ticket_number": "TK-2026-00216",
+    "customer_ref": "CUST-0436",
+    "subject": "Enterprise System Ingestion Inquiry #216",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "fddf4560-b385-408d-82a6-3c6953ae5748",
+    "ticket_number": "TK-2026-00217",
+    "customer_ref": "CUST-0027",
+    "subject": "Enterprise System Ingestion Inquiry #217",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "6d7dc5c7-c165-466b-be00-96cc9bcbb217",
+    "ticket_number": "TK-2026-00218",
+    "customer_ref": "CUST-0049",
+    "subject": "Enterprise System Ingestion Inquiry #218",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "12ac8f46-224d-48eb-bca6-4bf12c427d6a",
+    "ticket_number": "TK-2026-00219",
+    "customer_ref": "CUST-0062",
+    "subject": "Enterprise System Ingestion Inquiry #219",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "25e67662-0dde-4422-b7fa-35700e26f899",
+    "ticket_number": "TK-2026-00220",
+    "customer_ref": "CUST-0147",
+    "subject": "Enterprise System Ingestion Inquiry #220",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "7ede60f8-9e1d-4437-87b6-74b4c59c76c8",
+    "ticket_number": "TK-2026-00221",
+    "customer_ref": "CUST-0363",
+    "subject": "Enterprise System Ingestion Inquiry #221",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "1fffab28-090b-4c98-b9b7-aab5b5346a9e",
+    "ticket_number": "TK-2026-00222",
+    "customer_ref": "CUST-0397",
+    "subject": "Enterprise System Ingestion Inquiry #222",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "70a633d1-a74d-45f3-83e1-42d689564505",
+    "ticket_number": "TK-2026-00223",
+    "customer_ref": "CUST-0369",
+    "subject": "Enterprise System Ingestion Inquiry #223",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "986b4c95-6c9c-405c-9550-4b53b099cca8",
+    "ticket_number": "TK-2026-00224",
+    "customer_ref": "CUST-0375",
+    "subject": "Enterprise System Ingestion Inquiry #224",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "d0456364-f7f2-4575-b056-04c593b8ff3d",
+    "ticket_number": "TK-2026-00225",
+    "customer_ref": "CUST-0195",
+    "subject": "Enterprise System Ingestion Inquiry #225",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "0c9f7a9c-413b-47a3-a06e-9a8fa27c08fd",
+    "ticket_number": "TK-2026-00226",
+    "customer_ref": "CUST-0209",
+    "subject": "Enterprise System Ingestion Inquiry #226",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "1ab26dbd-aab1-4d94-811d-9148d78f03d7",
+    "ticket_number": "TK-2026-00227",
+    "customer_ref": "CUST-0496",
+    "subject": "Enterprise System Ingestion Inquiry #227",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "ed5f5b06-3b4a-4a64-abdc-1480f955a8ce",
+    "ticket_number": "TK-2026-00228",
+    "customer_ref": "CUST-0103",
+    "subject": "Enterprise System Ingestion Inquiry #228",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "2bc8355e-aa68-4136-b9eb-77e86168ea03",
+    "ticket_number": "TK-2026-00229",
+    "customer_ref": "CUST-0307",
+    "subject": "Enterprise System Ingestion Inquiry #229",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "3bb3424a-e033-4ed8-b769-212a9c29fc53",
+    "ticket_number": "TK-2026-00230",
+    "customer_ref": "CUST-0376",
+    "subject": "Enterprise System Ingestion Inquiry #230",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "dbd799f5-f631-4908-9ce5-54a6cf6afa26",
+    "ticket_number": "TK-2026-00231",
+    "customer_ref": "CUST-0267",
+    "subject": "Enterprise System Ingestion Inquiry #231",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "568b2cc6-9dc8-4554-a20c-4fc3c5500809",
+    "ticket_number": "TK-2026-00232",
+    "customer_ref": "CUST-0138",
+    "subject": "Enterprise System Ingestion Inquiry #232",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "4097f1eb-d113-434f-a7c2-a1ef6d99a1e4",
+    "ticket_number": "TK-2026-00233",
+    "customer_ref": "CUST-0446",
+    "subject": "Enterprise System Ingestion Inquiry #233",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "721eeaab-86b5-42a6-b90a-932169cfa3bc",
+    "ticket_number": "TK-2026-00234",
+    "customer_ref": "CUST-0444",
+    "subject": "Enterprise System Ingestion Inquiry #234",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "855b5810-8cbd-476a-a3cc-0bc4be7c1503",
+    "ticket_number": "TK-2026-00235",
+    "customer_ref": "CUST-0023",
+    "subject": "Enterprise System Ingestion Inquiry #235",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "51fbffd7-ef72-416d-8590-ffe5a8a3bfc1",
+    "ticket_number": "TK-2026-00236",
+    "customer_ref": "CUST-0137",
+    "subject": "Enterprise System Ingestion Inquiry #236",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "b8810f0d-796c-4ea4-86ba-834275644960",
+    "ticket_number": "TK-2026-00237",
+    "customer_ref": "CUST-0316",
+    "subject": "Enterprise System Ingestion Inquiry #237",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "9fe488fb-4f60-4a99-87de-2e3e5e16f0db",
+    "ticket_number": "TK-2026-00238",
+    "customer_ref": "CUST-0182",
+    "subject": "Enterprise System Ingestion Inquiry #238",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "f0e1e357-086d-445a-9b2c-7ee3b9d4d4d1",
+    "ticket_number": "TK-2026-00239",
+    "customer_ref": "CUST-0170",
+    "subject": "Enterprise System Ingestion Inquiry #239",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "da34300e-8097-4de0-8ded-c8e2afadac86",
+    "ticket_number": "TK-2026-00240",
+    "customer_ref": "CUST-0353",
+    "subject": "Enterprise System Ingestion Inquiry #240",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "7d42a54e-8a50-42cf-ad3d-68bf2ec59d9e",
+    "ticket_number": "TK-2026-00241",
+    "customer_ref": "CUST-0443",
+    "subject": "Enterprise System Ingestion Inquiry #241",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "c3c1ec21-80b4-471d-9b7a-aad487d8d79b",
+    "ticket_number": "TK-2026-00242",
+    "customer_ref": "CUST-0295",
+    "subject": "Enterprise System Ingestion Inquiry #242",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "a048700e-8a77-423d-8d2a-f7827bee7a4c",
+    "ticket_number": "TK-2026-00243",
+    "customer_ref": "CUST-0161",
+    "subject": "Enterprise System Ingestion Inquiry #243",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "dfc1d0b2-d2b6-4a4f-8cbb-15dfe6056ac1",
+    "ticket_number": "TK-2026-00244",
+    "customer_ref": "CUST-0179",
+    "subject": "Enterprise System Ingestion Inquiry #244",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "ba07f87d-534e-4c68-9e17-f07b2a66bc6a",
+    "ticket_number": "TK-2026-00245",
+    "customer_ref": "CUST-0347",
+    "subject": "Enterprise System Ingestion Inquiry #245",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "d326b7bb-d9b9-40b8-b23e-5cb7bac25914",
+    "ticket_number": "TK-2026-00246",
+    "customer_ref": "CUST-0079",
+    "subject": "Enterprise System Ingestion Inquiry #246",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "ef9bae3c-820c-4759-b7ae-4ef4a7af495c",
+    "ticket_number": "TK-2026-00247",
+    "customer_ref": "CUST-0176",
+    "subject": "Enterprise System Ingestion Inquiry #247",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "def51fa5-c78d-41db-88a5-0522d6e2052c",
+    "ticket_number": "TK-2026-00248",
+    "customer_ref": "CUST-0320",
+    "subject": "Enterprise System Ingestion Inquiry #248",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "07b92d12-f364-4c51-8ee0-e63cc5cf7d9f",
+    "ticket_number": "TK-2026-00249",
+    "customer_ref": "CUST-0461",
+    "subject": "Enterprise System Ingestion Inquiry #249",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "9330907e-8745-40bf-8054-070d1fd9765d",
+    "ticket_number": "TK-2026-00250",
+    "customer_ref": "CUST-0269",
+    "subject": "Enterprise System Ingestion Inquiry #250",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "cc321e70-160a-4b7a-a560-e409c1089f0f",
+    "ticket_number": "TK-2026-00251",
+    "customer_ref": "CUST-0131",
+    "subject": "Enterprise System Ingestion Inquiry #251",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "902ec388-bd23-494d-95c8-53b4563e2bb9",
+    "ticket_number": "TK-2026-00252",
+    "customer_ref": "CUST-0003",
+    "subject": "Enterprise System Ingestion Inquiry #252",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "3e9eb753-6ce3-4522-9a43-8cdcf5b42ec6",
+    "ticket_number": "TK-2026-00253",
+    "customer_ref": "CUST-0219",
+    "subject": "Enterprise System Ingestion Inquiry #253",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "fbd7d7d7-fe9c-463a-a561-8526fb15d4d3",
+    "ticket_number": "TK-2026-00254",
+    "customer_ref": "CUST-0322",
+    "subject": "Enterprise System Ingestion Inquiry #254",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "f4608a52-4c8a-4e00-a33f-83db0abc7db9",
+    "ticket_number": "TK-2026-00255",
+    "customer_ref": "CUST-0279",
+    "subject": "Enterprise System Ingestion Inquiry #255",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "b7b2bb74-d384-4c02-b988-57fb052b8ec2",
+    "ticket_number": "TK-2026-00256",
+    "customer_ref": "CUST-0199",
+    "subject": "Enterprise System Ingestion Inquiry #256",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "2260fa18-046a-4d65-8878-b6dc34cf5d62",
+    "ticket_number": "TK-2026-00257",
+    "customer_ref": "CUST-0303",
+    "subject": "Enterprise System Ingestion Inquiry #257",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "b532392a-b70e-4774-9bf3-0c731c23906b",
+    "ticket_number": "TK-2026-00258",
+    "customer_ref": "CUST-0432",
+    "subject": "Enterprise System Ingestion Inquiry #258",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "89f686a6-3f85-4392-94ca-eade621053ba",
+    "ticket_number": "TK-2026-00259",
+    "customer_ref": "CUST-0246",
+    "subject": "Enterprise System Ingestion Inquiry #259",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "a9198469-2cd7-4dab-80c9-26cad5db3fe8",
+    "ticket_number": "TK-2026-00260",
+    "customer_ref": "CUST-0010",
+    "subject": "Enterprise System Ingestion Inquiry #260",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "8756f838-a809-4ecc-acd5-71de31f6cbe5",
+    "ticket_number": "TK-2026-00261",
+    "customer_ref": "CUST-0460",
+    "subject": "Enterprise System Ingestion Inquiry #261",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "ec46fb5a-b10a-4f7a-9711-2736b033404f",
+    "ticket_number": "TK-2026-00262",
+    "customer_ref": "CUST-0011",
+    "subject": "Enterprise System Ingestion Inquiry #262",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "13f715c5-e89e-4245-9191-45811256b63f",
+    "ticket_number": "TK-2026-00263",
+    "customer_ref": "CUST-0479",
+    "subject": "Enterprise System Ingestion Inquiry #263",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "9446a15c-f81c-4a87-bb41-d3562c197662",
+    "ticket_number": "TK-2026-00264",
+    "customer_ref": "CUST-0214",
+    "subject": "Enterprise System Ingestion Inquiry #264",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "3bfcbc05-8af7-479b-bdd1-86a8048d6f3e",
+    "ticket_number": "TK-2026-00265",
+    "customer_ref": "CUST-0420",
+    "subject": "Enterprise System Ingestion Inquiry #265",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "fa8bc5f3-f4f0-4614-93bd-5eac9dc0a0af",
+    "ticket_number": "TK-2026-00266",
+    "customer_ref": "CUST-0100",
+    "subject": "Enterprise System Ingestion Inquiry #266",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "f1c3e799-d774-4747-968d-8dc061f3f7d6",
+    "ticket_number": "TK-2026-00267",
+    "customer_ref": "CUST-0254",
+    "subject": "Enterprise System Ingestion Inquiry #267",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "f6204117-2b77-48aa-a6cd-c877b12059b6",
+    "ticket_number": "TK-2026-00268",
+    "customer_ref": "CUST-0309",
+    "subject": "Enterprise System Ingestion Inquiry #268",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "5e27e4ca-d5cd-4bfc-9ef3-069a6c2a4173",
+    "ticket_number": "TK-2026-00269",
+    "customer_ref": "CUST-0251",
+    "subject": "Enterprise System Ingestion Inquiry #269",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "29e82158-5a74-4c10-a647-4218786b746e",
+    "ticket_number": "TK-2026-00270",
+    "customer_ref": "CUST-0213",
+    "subject": "Enterprise System Ingestion Inquiry #270",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "6553f47d-4071-4a93-92c5-708f5219db51",
+    "ticket_number": "TK-2026-00271",
+    "customer_ref": "CUST-0402",
+    "subject": "Enterprise System Ingestion Inquiry #271",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "76fd8227-9729-400e-af82-b13adb0d3e05",
+    "ticket_number": "TK-2026-00272",
+    "customer_ref": "CUST-0060",
+    "subject": "Enterprise System Ingestion Inquiry #272",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "2fbd9b1d-9ef1-47da-9e2f-7c1215e47700",
+    "ticket_number": "TK-2026-00273",
+    "customer_ref": "CUST-0095",
+    "subject": "Enterprise System Ingestion Inquiry #273",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "55edd3d9-9d57-4507-88bc-2c6d899c8500",
+    "ticket_number": "TK-2026-00274",
+    "customer_ref": "CUST-0371",
+    "subject": "Enterprise System Ingestion Inquiry #274",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "3196797e-312a-4537-879f-aa64285e6629",
+    "ticket_number": "TK-2026-00275",
+    "customer_ref": "CUST-0357",
+    "subject": "Enterprise System Ingestion Inquiry #275",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "395b31e9-5fe1-4742-a97a-7fc5bc47a77b",
+    "ticket_number": "TK-2026-00276",
+    "customer_ref": "CUST-0402",
+    "subject": "Enterprise System Ingestion Inquiry #276",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "214c5788-9d3d-429b-8ccb-cd58f5063b85",
+    "ticket_number": "TK-2026-00277",
+    "customer_ref": "CUST-0012",
+    "subject": "Enterprise System Ingestion Inquiry #277",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "25c599df-b294-47b8-9165-1526cb1a171a",
+    "ticket_number": "TK-2026-00278",
+    "customer_ref": "CUST-0489",
+    "subject": "Enterprise System Ingestion Inquiry #278",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "6dbb7350-5f9e-483b-ab57-2270eef8c2e1",
+    "ticket_number": "TK-2026-00279",
+    "customer_ref": "CUST-0242",
+    "subject": "Enterprise System Ingestion Inquiry #279",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "99fead33-f1c5-4a97-89f8-bf90293b74b7",
+    "ticket_number": "TK-2026-00280",
+    "customer_ref": "CUST-0375",
+    "subject": "Enterprise System Ingestion Inquiry #280",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "b5ef8823-1ea3-4b01-b397-fde0726736cb",
+    "ticket_number": "TK-2026-00281",
+    "customer_ref": "CUST-0402",
+    "subject": "Enterprise System Ingestion Inquiry #281",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "3ce93154-5195-44ec-9986-5ba384f3d972",
+    "ticket_number": "TK-2026-00282",
+    "customer_ref": "CUST-0290",
+    "subject": "Enterprise System Ingestion Inquiry #282",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "a0d66bbd-7127-4083-9a20-93a024406fb2",
+    "ticket_number": "TK-2026-00283",
+    "customer_ref": "CUST-0225",
+    "subject": "Enterprise System Ingestion Inquiry #283",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "59c756ed-e2ff-4692-a1c6-f77e66ea171b",
+    "ticket_number": "TK-2026-00284",
+    "customer_ref": "CUST-0045",
+    "subject": "Enterprise System Ingestion Inquiry #284",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "c988c856-d3e3-4ba4-946e-edfa05946239",
+    "ticket_number": "TK-2026-00285",
+    "customer_ref": "CUST-0500",
+    "subject": "Enterprise System Ingestion Inquiry #285",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "9bd75d93-4acd-4d43-be3d-067341dc8154",
+    "ticket_number": "TK-2026-00286",
+    "customer_ref": "CUST-0363",
+    "subject": "Enterprise System Ingestion Inquiry #286",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "a7675ddf-248b-4b3b-af26-547527b7c76b",
+    "ticket_number": "TK-2026-00287",
+    "customer_ref": "CUST-0110",
+    "subject": "Enterprise System Ingestion Inquiry #287",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "e222f429-ba20-4d59-8c8f-388dc9657640",
+    "ticket_number": "TK-2026-00288",
+    "customer_ref": "CUST-0291",
+    "subject": "Enterprise System Ingestion Inquiry #288",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "c6d6e445-0712-43c9-b1df-ebc764999a64",
+    "ticket_number": "TK-2026-00289",
+    "customer_ref": "CUST-0154",
+    "subject": "Enterprise System Ingestion Inquiry #289",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "d1a3217f-fb81-4ca1-846b-a038d94d2800",
+    "ticket_number": "TK-2026-00290",
+    "customer_ref": "CUST-0388",
+    "subject": "Enterprise System Ingestion Inquiry #290",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "04a9ffce-9d1a-4d1e-8762-c04b570c2815",
+    "ticket_number": "TK-2026-00291",
+    "customer_ref": "CUST-0392",
+    "subject": "Enterprise System Ingestion Inquiry #291",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "eff49811-4eb0-4855-bcf8-0a96bbc83e41",
+    "ticket_number": "TK-2026-00292",
+    "customer_ref": "CUST-0090",
+    "subject": "Enterprise System Ingestion Inquiry #292",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "624a3b4f-9aee-4ee6-9704-76752813042e",
+    "ticket_number": "TK-2026-00293",
+    "customer_ref": "CUST-0342",
+    "subject": "Enterprise System Ingestion Inquiry #293",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "91157ebc-40a4-4506-bd12-df458b71d374",
+    "ticket_number": "TK-2026-00294",
+    "customer_ref": "CUST-0096",
+    "subject": "Enterprise System Ingestion Inquiry #294",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "1f176761-4a46-4ee1-98e3-05dddfc6819b",
+    "ticket_number": "TK-2026-00295",
+    "customer_ref": "CUST-0236",
+    "subject": "Enterprise System Ingestion Inquiry #295",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "2bdb5d90-d453-40c6-a98a-097a701a7d1f",
+    "ticket_number": "TK-2026-00296",
+    "customer_ref": "CUST-0393",
+    "subject": "Enterprise System Ingestion Inquiry #296",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "b2a66de5-bb1b-4a75-975c-896e9a9c8fe0",
+    "ticket_number": "TK-2026-00297",
+    "customer_ref": "CUST-0116",
+    "subject": "Enterprise System Ingestion Inquiry #297",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "cf1b8792-01e0-4146-adf6-3cdc02992421",
+    "ticket_number": "TK-2026-00298",
+    "customer_ref": "CUST-0418",
+    "subject": "Enterprise System Ingestion Inquiry #298",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "17e2ffc6-ecf6-437b-892d-73442f98513a",
+    "ticket_number": "TK-2026-00299",
+    "customer_ref": "CUST-0091",
+    "subject": "Enterprise System Ingestion Inquiry #299",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "23487b14-315b-41dc-82c9-102ec6c1c4b7",
+    "ticket_number": "TK-2026-00300",
+    "customer_ref": "CUST-0346",
+    "subject": "Enterprise System Ingestion Inquiry #300",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "2639e16a-b6ef-4cd1-a779-736173783dd4",
+    "ticket_number": "TK-2026-00301",
+    "customer_ref": "CUST-0340",
+    "subject": "Enterprise System Ingestion Inquiry #301",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "a2023f98-f593-4505-8173-055af184877b",
+    "ticket_number": "TK-2026-00302",
+    "customer_ref": "CUST-0134",
+    "subject": "Enterprise System Ingestion Inquiry #302",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "3396f6e2-0bcb-4831-ba0b-4103c512dd7d",
+    "ticket_number": "TK-2026-00303",
+    "customer_ref": "CUST-0382",
+    "subject": "Enterprise System Ingestion Inquiry #303",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "412074bc-80fc-4c50-a02c-80f4fd8bf886",
+    "ticket_number": "TK-2026-00304",
+    "customer_ref": "CUST-0032",
+    "subject": "Enterprise System Ingestion Inquiry #304",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "b7d8181c-a562-4a8d-88a8-743799465cf0",
+    "ticket_number": "TK-2026-00305",
+    "customer_ref": "CUST-0430",
+    "subject": "Enterprise System Ingestion Inquiry #305",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "759e98d3-74fe-4b38-bfa9-c0ace29182ee",
+    "ticket_number": "TK-2026-00306",
+    "customer_ref": "CUST-0121",
+    "subject": "Enterprise System Ingestion Inquiry #306",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "43ae68b3-96d2-4297-b445-ae09333f2dc9",
+    "ticket_number": "TK-2026-00307",
+    "customer_ref": "CUST-0022",
+    "subject": "Enterprise System Ingestion Inquiry #307",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "85731620-accf-4ced-968e-0f52c06edf42",
+    "ticket_number": "TK-2026-00308",
+    "customer_ref": "CUST-0145",
+    "subject": "Enterprise System Ingestion Inquiry #308",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "7a39d755-ded9-4df2-b10a-dc166abd8a28",
+    "ticket_number": "TK-2026-00309",
+    "customer_ref": "CUST-0077",
+    "subject": "Enterprise System Ingestion Inquiry #309",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "b8f05b3e-2c87-411c-8d25-d6dbc6229e29",
+    "ticket_number": "TK-2026-00310",
+    "customer_ref": "CUST-0380",
+    "subject": "Enterprise System Ingestion Inquiry #310",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "c1c8e06a-0e37-4bc1-9308-8a8150278453",
+    "ticket_number": "TK-2026-00311",
+    "customer_ref": "CUST-0393",
+    "subject": "Enterprise System Ingestion Inquiry #311",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "9cb52b96-8546-4a24-aa26-e1f592c810e4",
+    "ticket_number": "TK-2026-00312",
+    "customer_ref": "CUST-0023",
+    "subject": "Enterprise System Ingestion Inquiry #312",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "81b84212-d64c-4f38-beff-4c92ef88a3a0",
+    "ticket_number": "TK-2026-00313",
+    "customer_ref": "CUST-0251",
+    "subject": "Enterprise System Ingestion Inquiry #313",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "2422e20b-b121-436b-90c0-233a2a27ca27",
+    "ticket_number": "TK-2026-00314",
+    "customer_ref": "CUST-0024",
+    "subject": "Enterprise System Ingestion Inquiry #314",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "44c2b515-0c23-4209-a4cf-b055e9424590",
+    "ticket_number": "TK-2026-00315",
+    "customer_ref": "CUST-0407",
+    "subject": "Enterprise System Ingestion Inquiry #315",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "7575ea9a-3aa5-4f27-94b9-5c18f339ff37",
+    "ticket_number": "TK-2026-00316",
+    "customer_ref": "CUST-0429",
+    "subject": "Enterprise System Ingestion Inquiry #316",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "2b5893a8-5d23-4024-af60-aa35d121d5b8",
+    "ticket_number": "TK-2026-00317",
+    "customer_ref": "CUST-0376",
+    "subject": "Enterprise System Ingestion Inquiry #317",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "5e65331d-e588-4f62-91c5-5171a9c1853a",
+    "ticket_number": "TK-2026-00318",
+    "customer_ref": "CUST-0054",
+    "subject": "Enterprise System Ingestion Inquiry #318",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "6724f89e-465b-4c6a-95a5-218be89db587",
+    "ticket_number": "TK-2026-00319",
+    "customer_ref": "CUST-0376",
+    "subject": "Enterprise System Ingestion Inquiry #319",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "2cdf0e88-ce96-4ef6-8a95-5f854ed261f2",
+    "ticket_number": "TK-2026-00320",
+    "customer_ref": "CUST-0135",
+    "subject": "Enterprise System Ingestion Inquiry #320",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "a3997b89-9a86-4923-b7d3-d03f748224b9",
+    "ticket_number": "TK-2026-00321",
+    "customer_ref": "CUST-0078",
+    "subject": "Enterprise System Ingestion Inquiry #321",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "f0c948bf-cad6-4698-87ed-13dfe31bad45",
+    "ticket_number": "TK-2026-00322",
+    "customer_ref": "CUST-0159",
+    "subject": "Enterprise System Ingestion Inquiry #322",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "081a0d21-ef4b-4ad9-9597-86e01f82c694",
+    "ticket_number": "TK-2026-00323",
+    "customer_ref": "CUST-0111",
+    "subject": "Enterprise System Ingestion Inquiry #323",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "e151fc4c-c989-4d4d-a59a-900371181338",
+    "ticket_number": "TK-2026-00324",
+    "customer_ref": "CUST-0238",
+    "subject": "Enterprise System Ingestion Inquiry #324",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "9ad419b0-6891-423b-98fe-87f2fd295c16",
+    "ticket_number": "TK-2026-00325",
+    "customer_ref": "CUST-0490",
+    "subject": "Enterprise System Ingestion Inquiry #325",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "d660e12c-7a85-4ddd-a8d7-5e256334682a",
+    "ticket_number": "TK-2026-00326",
+    "customer_ref": "CUST-0467",
+    "subject": "Enterprise System Ingestion Inquiry #326",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "611048db-6e24-4222-a2b3-a63fa8251e73",
+    "ticket_number": "TK-2026-00327",
+    "customer_ref": "CUST-0310",
+    "subject": "Enterprise System Ingestion Inquiry #327",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "3ddd5487-314c-4237-adf9-550856cedff1",
+    "ticket_number": "TK-2026-00328",
+    "customer_ref": "CUST-0289",
+    "subject": "Enterprise System Ingestion Inquiry #328",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "a20f7244-32d7-43d5-8cbf-c3480ed8a34a",
+    "ticket_number": "TK-2026-00329",
+    "customer_ref": "CUST-0139",
+    "subject": "Enterprise System Ingestion Inquiry #329",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "59f87364-8a04-4428-b949-7bf5fdabadc2",
+    "ticket_number": "TK-2026-00330",
+    "customer_ref": "CUST-0465",
+    "subject": "Enterprise System Ingestion Inquiry #330",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "010c890c-4c6b-43ad-8698-2f780ce21da3",
+    "ticket_number": "TK-2026-00331",
+    "customer_ref": "CUST-0162",
+    "subject": "Enterprise System Ingestion Inquiry #331",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "c7d729aa-a8ba-4169-ac04-12399a21175b",
+    "ticket_number": "TK-2026-00332",
+    "customer_ref": "CUST-0254",
+    "subject": "Enterprise System Ingestion Inquiry #332",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "fa731a11-30c7-47e2-9f01-4e96a2d5101f",
+    "ticket_number": "TK-2026-00333",
+    "customer_ref": "CUST-0358",
+    "subject": "Enterprise System Ingestion Inquiry #333",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "2b1012ae-307d-4a04-9a31-bf208adf1289",
+    "ticket_number": "TK-2026-00334",
+    "customer_ref": "CUST-0313",
+    "subject": "Enterprise System Ingestion Inquiry #334",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "9d8cecfd-630a-47d6-952b-a76cb198e082",
+    "ticket_number": "TK-2026-00335",
+    "customer_ref": "CUST-0349",
+    "subject": "Enterprise System Ingestion Inquiry #335",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "095408dd-4090-4e22-bac6-06d7d4bbab28",
+    "ticket_number": "TK-2026-00336",
+    "customer_ref": "CUST-0047",
+    "subject": "Enterprise System Ingestion Inquiry #336",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "664df8ab-c1ab-4064-85a4-256ad64ff6d5",
+    "ticket_number": "TK-2026-00337",
+    "customer_ref": "CUST-0356",
+    "subject": "Enterprise System Ingestion Inquiry #337",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "a5441e9f-01fd-4fe8-8108-f2d99aa145e4",
+    "ticket_number": "TK-2026-00338",
+    "customer_ref": "CUST-0017",
+    "subject": "Enterprise System Ingestion Inquiry #338",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "0d947c44-175f-4085-bda5-219609cfdb7d",
+    "ticket_number": "TK-2026-00339",
+    "customer_ref": "CUST-0395",
+    "subject": "Enterprise System Ingestion Inquiry #339",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "822bd8ca-7b14-44f8-b12c-ac984246b0c0",
+    "ticket_number": "TK-2026-00340",
+    "customer_ref": "CUST-0481",
+    "subject": "Enterprise System Ingestion Inquiry #340",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "bd150e95-a20a-44d7-9a42-d5f178ebc0b5",
+    "ticket_number": "TK-2026-00341",
+    "customer_ref": "CUST-0034",
+    "subject": "Enterprise System Ingestion Inquiry #341",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "deef8ec2-d380-468e-8098-b40a3f2e80b7",
+    "ticket_number": "TK-2026-00342",
+    "customer_ref": "CUST-0458",
+    "subject": "Enterprise System Ingestion Inquiry #342",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "30e94974-3fab-4e8f-ba30-c6285418c721",
+    "ticket_number": "TK-2026-00343",
+    "customer_ref": "CUST-0198",
+    "subject": "Enterprise System Ingestion Inquiry #343",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "41ba3f66-fea5-43c9-a446-3e2bf43cd101",
+    "ticket_number": "TK-2026-00344",
+    "customer_ref": "CUST-0002",
+    "subject": "Enterprise System Ingestion Inquiry #344",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "db79ab23-f107-4087-bc7c-5bca7fc19fd0",
+    "ticket_number": "TK-2026-00345",
+    "customer_ref": "CUST-0243",
+    "subject": "Enterprise System Ingestion Inquiry #345",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "238aed3f-3a34-4635-83f9-dd9dde4b46bc",
+    "ticket_number": "TK-2026-00346",
+    "customer_ref": "CUST-0319",
+    "subject": "Enterprise System Ingestion Inquiry #346",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "05c4d0d0-a0fa-4fdd-bb42-020844179a02",
+    "ticket_number": "TK-2026-00347",
+    "customer_ref": "CUST-0050",
+    "subject": "Enterprise System Ingestion Inquiry #347",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "9dc6e0dd-4433-41fa-8ca9-cc3b5fdc38f4",
+    "ticket_number": "TK-2026-00348",
+    "customer_ref": "CUST-0209",
+    "subject": "Enterprise System Ingestion Inquiry #348",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "e23350b7-5516-46f9-919f-2c8c0cc3e691",
+    "ticket_number": "TK-2026-00349",
+    "customer_ref": "CUST-0178",
+    "subject": "Enterprise System Ingestion Inquiry #349",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "3c48301d-bb7e-41cc-889c-e14cb7c3a34c",
+    "ticket_number": "TK-2026-00350",
+    "customer_ref": "CUST-0495",
+    "subject": "Enterprise System Ingestion Inquiry #350",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "b057fe25-4c17-4d81-a820-1f1277c18355",
+    "ticket_number": "TK-2026-00351",
+    "customer_ref": "CUST-0315",
+    "subject": "Enterprise System Ingestion Inquiry #351",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "60c9c537-f4fe-4f8c-b17d-e332c2148c94",
+    "ticket_number": "TK-2026-00352",
+    "customer_ref": "CUST-0040",
+    "subject": "Enterprise System Ingestion Inquiry #352",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "33124ced-ebf1-4dba-ab28-afcd58382bf8",
+    "ticket_number": "TK-2026-00353",
+    "customer_ref": "CUST-0324",
+    "subject": "Enterprise System Ingestion Inquiry #353",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "4adb79d0-0c38-415f-b557-1fbb13135029",
+    "ticket_number": "TK-2026-00354",
+    "customer_ref": "CUST-0020",
+    "subject": "Enterprise System Ingestion Inquiry #354",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "61008dd2-50fa-49d8-8d2d-0fe92b473edd",
+    "ticket_number": "TK-2026-00355",
+    "customer_ref": "CUST-0104",
+    "subject": "Enterprise System Ingestion Inquiry #355",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "360753e6-7437-489a-81c0-65c065d831a9",
+    "ticket_number": "TK-2026-00356",
+    "customer_ref": "CUST-0096",
+    "subject": "Enterprise System Ingestion Inquiry #356",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "a1b29d36-4ae3-426b-84ac-8ce65a7ea7c5",
+    "ticket_number": "TK-2026-00357",
+    "customer_ref": "CUST-0204",
+    "subject": "Enterprise System Ingestion Inquiry #357",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "4ed2eef8-fbec-48a5-9f8b-39efdfea3686",
+    "ticket_number": "TK-2026-00358",
+    "customer_ref": "CUST-0368",
+    "subject": "Enterprise System Ingestion Inquiry #358",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "21c12e1a-5e44-4ef9-8e09-25abad16f067",
+    "ticket_number": "TK-2026-00359",
+    "customer_ref": "CUST-0416",
+    "subject": "Enterprise System Ingestion Inquiry #359",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "1d14f58e-7370-4360-a280-bc2b21839914",
+    "ticket_number": "TK-2026-00360",
+    "customer_ref": "CUST-0328",
+    "subject": "Enterprise System Ingestion Inquiry #360",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "2a57f956-1c52-4ecf-af4a-ee36cce74259",
+    "ticket_number": "TK-2026-00361",
+    "customer_ref": "CUST-0114",
+    "subject": "Enterprise System Ingestion Inquiry #361",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "9d007b24-c428-404e-a047-60e16c18c5e3",
+    "ticket_number": "TK-2026-00362",
+    "customer_ref": "CUST-0045",
+    "subject": "Enterprise System Ingestion Inquiry #362",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "e5c74543-6373-4447-ab18-b2dbef807ea0",
+    "ticket_number": "TK-2026-00363",
+    "customer_ref": "CUST-0106",
+    "subject": "Enterprise System Ingestion Inquiry #363",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "966af4c6-a0e8-4a05-a1e0-a246abf88d47",
+    "ticket_number": "TK-2026-00364",
+    "customer_ref": "CUST-0251",
+    "subject": "Enterprise System Ingestion Inquiry #364",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "f959a299-bbbf-470c-8e26-e10b41c90227",
+    "ticket_number": "TK-2026-00365",
+    "customer_ref": "CUST-0482",
+    "subject": "Enterprise System Ingestion Inquiry #365",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "6a743d3b-0878-46c2-b66a-b2c7da99b5d2",
+    "ticket_number": "TK-2026-00366",
+    "customer_ref": "CUST-0170",
+    "subject": "Enterprise System Ingestion Inquiry #366",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "fc963450-8f94-486f-9e67-a7fd72da0d04",
+    "ticket_number": "TK-2026-00367",
+    "customer_ref": "CUST-0051",
+    "subject": "Enterprise System Ingestion Inquiry #367",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "2da38dd3-c376-4264-82bf-a6af0456bcca",
+    "ticket_number": "TK-2026-00368",
+    "customer_ref": "CUST-0397",
+    "subject": "Enterprise System Ingestion Inquiry #368",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "fabee6ea-9b33-4f79-867f-a40dc9129095",
+    "ticket_number": "TK-2026-00369",
+    "customer_ref": "CUST-0380",
+    "subject": "Enterprise System Ingestion Inquiry #369",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "7452a66e-52a8-4b9a-9c0d-97b9f6a6bd8e",
+    "ticket_number": "TK-2026-00370",
+    "customer_ref": "CUST-0243",
+    "subject": "Enterprise System Ingestion Inquiry #370",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "20772eab-62b1-4037-bb27-ebac5b7a37f5",
+    "ticket_number": "TK-2026-00371",
+    "customer_ref": "CUST-0131",
+    "subject": "Enterprise System Ingestion Inquiry #371",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "d7780b6d-0707-4bd4-a124-e78c19c8ae84",
+    "ticket_number": "TK-2026-00372",
+    "customer_ref": "CUST-0067",
+    "subject": "Enterprise System Ingestion Inquiry #372",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "2079e58c-6d30-4bf7-9e5e-b88c5cb6f6f1",
+    "ticket_number": "TK-2026-00373",
+    "customer_ref": "CUST-0468",
+    "subject": "Enterprise System Ingestion Inquiry #373",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "e8ccb51e-da16-4260-8a4c-3948dbbc18f9",
+    "ticket_number": "TK-2026-00374",
+    "customer_ref": "CUST-0151",
+    "subject": "Enterprise System Ingestion Inquiry #374",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "3365902a-9480-4810-a954-acc144361eed",
+    "ticket_number": "TK-2026-00375",
+    "customer_ref": "CUST-0314",
+    "subject": "Enterprise System Ingestion Inquiry #375",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "2b13a897-178d-4aa9-bd4c-2f4e377a11d7",
+    "ticket_number": "TK-2026-00376",
+    "customer_ref": "CUST-0425",
+    "subject": "Enterprise System Ingestion Inquiry #376",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "72a1a7c1-b816-4e59-bfa0-83411a0c7143",
+    "ticket_number": "TK-2026-00377",
+    "customer_ref": "CUST-0330",
+    "subject": "Enterprise System Ingestion Inquiry #377",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "e279d3ce-13fe-496d-b4fc-3d974acb59e6",
+    "ticket_number": "TK-2026-00378",
+    "customer_ref": "CUST-0021",
+    "subject": "Enterprise System Ingestion Inquiry #378",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "7e674ed6-345e-4305-80fd-0f648ff28a4f",
+    "ticket_number": "TK-2026-00379",
+    "customer_ref": "CUST-0399",
+    "subject": "Enterprise System Ingestion Inquiry #379",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "a134fc92-39e1-4645-895b-ad850cdf9314",
+    "ticket_number": "TK-2026-00380",
+    "customer_ref": "CUST-0212",
+    "subject": "Enterprise System Ingestion Inquiry #380",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "76ff767f-c540-43d0-aae3-62d8a537e3a0",
+    "ticket_number": "TK-2026-00381",
+    "customer_ref": "CUST-0248",
+    "subject": "Enterprise System Ingestion Inquiry #381",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "bff97c82-e632-42ba-a4f6-23b0fd1718d6",
+    "ticket_number": "TK-2026-00382",
+    "customer_ref": "CUST-0248",
+    "subject": "Enterprise System Ingestion Inquiry #382",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "9dcc4a31-5459-416a-bc72-2032384788fd",
+    "ticket_number": "TK-2026-00383",
+    "customer_ref": "CUST-0179",
+    "subject": "Enterprise System Ingestion Inquiry #383",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "cddf3bdd-6818-4e62-ad9c-9e694f28b4d5",
+    "ticket_number": "TK-2026-00384",
+    "customer_ref": "CUST-0228",
+    "subject": "Enterprise System Ingestion Inquiry #384",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "366f5d29-b112-4243-b7cd-8d11fc9d576c",
+    "ticket_number": "TK-2026-00385",
+    "customer_ref": "CUST-0060",
+    "subject": "Enterprise System Ingestion Inquiry #385",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "e16221d4-3d7a-44d4-9456-d093ab224029",
+    "ticket_number": "TK-2026-00386",
+    "customer_ref": "CUST-0387",
+    "subject": "Enterprise System Ingestion Inquiry #386",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "4b69ecea-fd22-49de-a04d-f0559bc4f3d3",
+    "ticket_number": "TK-2026-00387",
+    "customer_ref": "CUST-0234",
+    "subject": "Enterprise System Ingestion Inquiry #387",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "7a8cf420-1f5f-4574-8cab-94bcc76572c3",
+    "ticket_number": "TK-2026-00388",
+    "customer_ref": "CUST-0409",
+    "subject": "Enterprise System Ingestion Inquiry #388",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "5ac751ee-2b19-48b7-9b76-e3f9e220b217",
+    "ticket_number": "TK-2026-00389",
+    "customer_ref": "CUST-0176",
+    "subject": "Enterprise System Ingestion Inquiry #389",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "c16b1190-432e-4e61-a82c-b4e91b8b7aa1",
+    "ticket_number": "TK-2026-00390",
+    "customer_ref": "CUST-0328",
+    "subject": "Enterprise System Ingestion Inquiry #390",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "fcc017ff-8242-4e55-b722-5540380854b8",
+    "ticket_number": "TK-2026-00391",
+    "customer_ref": "CUST-0011",
+    "subject": "Enterprise System Ingestion Inquiry #391",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "070213ac-5751-4a23-ad8e-87f7a7ad103d",
+    "ticket_number": "TK-2026-00392",
+    "customer_ref": "CUST-0074",
+    "subject": "Enterprise System Ingestion Inquiry #392",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "9b72add6-e677-464c-b123-1443a39a2b07",
+    "ticket_number": "TK-2026-00393",
+    "customer_ref": "CUST-0070",
+    "subject": "Enterprise System Ingestion Inquiry #393",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "9be052e1-8c8b-4420-9d5a-2b3216e21b92",
+    "ticket_number": "TK-2026-00394",
+    "customer_ref": "CUST-0332",
+    "subject": "Enterprise System Ingestion Inquiry #394",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "73feecd5-3c99-47ff-88f0-e223efa3c398",
+    "ticket_number": "TK-2026-00395",
+    "customer_ref": "CUST-0153",
+    "subject": "Enterprise System Ingestion Inquiry #395",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "359eb601-70cf-4475-aa26-961f7ea59d5d",
+    "ticket_number": "TK-2026-00396",
+    "customer_ref": "CUST-0321",
+    "subject": "Enterprise System Ingestion Inquiry #396",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "454c787b-cdb1-4782-987c-eaf1ace9fd22",
+    "ticket_number": "TK-2026-00397",
+    "customer_ref": "CUST-0326",
+    "subject": "Enterprise System Ingestion Inquiry #397",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "aa4c2fa0-db35-4f53-9cb2-cd73f9f06162",
+    "ticket_number": "TK-2026-00398",
+    "customer_ref": "CUST-0253",
+    "subject": "Enterprise System Ingestion Inquiry #398",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "2e2bea81-52ad-412e-9b15-4fbe43d59f12",
+    "ticket_number": "TK-2026-00399",
+    "customer_ref": "CUST-0089",
+    "subject": "Enterprise System Ingestion Inquiry #399",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "ad3169e2-5736-4206-b3de-98acb1865c1b",
+    "ticket_number": "TK-2026-00400",
+    "customer_ref": "CUST-0177",
+    "subject": "Enterprise System Ingestion Inquiry #400",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "ceca3a0d-4593-4d4e-9309-75e2320b8a86",
+    "ticket_number": "TK-2026-00401",
+    "customer_ref": "CUST-0147",
+    "subject": "Enterprise System Ingestion Inquiry #401",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "5c43b077-ee60-42b4-a429-c38a953bed84",
+    "ticket_number": "TK-2026-00402",
+    "customer_ref": "CUST-0373",
+    "subject": "Enterprise System Ingestion Inquiry #402",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "6e0d6f62-aaad-4901-8a55-7cfdd112f50f",
+    "ticket_number": "TK-2026-00403",
+    "customer_ref": "CUST-0275",
+    "subject": "Enterprise System Ingestion Inquiry #403",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "cbf72de1-05ea-4cd1-aee5-397fee99ff20",
+    "ticket_number": "TK-2026-00404",
+    "customer_ref": "CUST-0099",
+    "subject": "Enterprise System Ingestion Inquiry #404",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "adcfd170-e52c-4495-b564-55432e46c685",
+    "ticket_number": "TK-2026-00405",
+    "customer_ref": "CUST-0020",
+    "subject": "Enterprise System Ingestion Inquiry #405",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "cbc80d24-ebcc-4c72-be07-00b9e3d95f2c",
+    "ticket_number": "TK-2026-00406",
+    "customer_ref": "CUST-0098",
+    "subject": "Enterprise System Ingestion Inquiry #406",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "6f5a5073-d656-49ef-960c-425372eb0ca9",
+    "ticket_number": "TK-2026-00407",
+    "customer_ref": "CUST-0354",
+    "subject": "Enterprise System Ingestion Inquiry #407",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "a4502509-3ec4-44a4-825b-efd2c2bff836",
+    "ticket_number": "TK-2026-00408",
+    "customer_ref": "CUST-0325",
+    "subject": "Enterprise System Ingestion Inquiry #408",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "6334ede6-0855-4f03-b35c-b4d521d3c7ff",
+    "ticket_number": "TK-2026-00409",
+    "customer_ref": "CUST-0120",
+    "subject": "Enterprise System Ingestion Inquiry #409",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "1b4a0417-48d7-445c-a938-0d36cde4b84f",
+    "ticket_number": "TK-2026-00410",
+    "customer_ref": "CUST-0274",
+    "subject": "Enterprise System Ingestion Inquiry #410",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "3352fc5d-439f-4bb0-b1d7-3ec9288c9e46",
+    "ticket_number": "TK-2026-00411",
+    "customer_ref": "CUST-0291",
+    "subject": "Enterprise System Ingestion Inquiry #411",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "703d76bd-1ad2-4afe-8c12-8b70db932b9c",
+    "ticket_number": "TK-2026-00412",
+    "customer_ref": "CUST-0077",
+    "subject": "Enterprise System Ingestion Inquiry #412",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "504a90ee-d0ea-4981-9ef6-4effb87d14a9",
+    "ticket_number": "TK-2026-00413",
+    "customer_ref": "CUST-0420",
+    "subject": "Enterprise System Ingestion Inquiry #413",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "4e4b483d-c18a-445b-ba84-666aa6f60d9c",
+    "ticket_number": "TK-2026-00414",
+    "customer_ref": "CUST-0398",
+    "subject": "Enterprise System Ingestion Inquiry #414",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "3d15b826-79b5-4bad-9e48-97942aa4ec76",
+    "ticket_number": "TK-2026-00415",
+    "customer_ref": "CUST-0245",
+    "subject": "Enterprise System Ingestion Inquiry #415",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "6ac090fa-c668-4318-ace5-ce0aff3cfa35",
+    "ticket_number": "TK-2026-00416",
+    "customer_ref": "CUST-0430",
+    "subject": "Enterprise System Ingestion Inquiry #416",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "dac6f6b4-498d-4aa2-ac3e-2bd5dac47b45",
+    "ticket_number": "TK-2026-00417",
+    "customer_ref": "CUST-0030",
+    "subject": "Enterprise System Ingestion Inquiry #417",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "222ddb3a-4ab1-4bf4-b2b8-09b49bcfe186",
+    "ticket_number": "TK-2026-00418",
+    "customer_ref": "CUST-0393",
+    "subject": "Enterprise System Ingestion Inquiry #418",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "31f85b46-688d-4cc7-b228-a1c6e4dbef37",
+    "ticket_number": "TK-2026-00419",
+    "customer_ref": "CUST-0116",
+    "subject": "Enterprise System Ingestion Inquiry #419",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "f7579163-f76b-4e74-98de-81b2af3a6c18",
+    "ticket_number": "TK-2026-00420",
+    "customer_ref": "CUST-0201",
+    "subject": "Enterprise System Ingestion Inquiry #420",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "b2970398-fa81-4c5c-b4ce-623abbaf0e21",
+    "ticket_number": "TK-2026-00421",
+    "customer_ref": "CUST-0347",
+    "subject": "Enterprise System Ingestion Inquiry #421",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "1e97dfdb-5e87-4b8d-a28e-d86659d90e6a",
+    "ticket_number": "TK-2026-00422",
+    "customer_ref": "CUST-0460",
+    "subject": "Enterprise System Ingestion Inquiry #422",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "3be12d5d-04da-40a8-aeda-d21246d8bf59",
+    "ticket_number": "TK-2026-00423",
+    "customer_ref": "CUST-0022",
+    "subject": "Enterprise System Ingestion Inquiry #423",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "2c8188e6-934e-4b99-8281-dea092fbd653",
+    "ticket_number": "TK-2026-00424",
+    "customer_ref": "CUST-0016",
+    "subject": "Enterprise System Ingestion Inquiry #424",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "e0127d02-1cdc-4e68-8edf-9bc7846246d4",
+    "ticket_number": "TK-2026-00425",
+    "customer_ref": "CUST-0355",
+    "subject": "Enterprise System Ingestion Inquiry #425",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "3e95feb8-3b23-45fe-a08d-70cc0e2c7a6c",
+    "ticket_number": "TK-2026-00426",
+    "customer_ref": "CUST-0495",
+    "subject": "Enterprise System Ingestion Inquiry #426",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "dd58da9b-9c53-4420-9166-ba7a9bf89c89",
+    "ticket_number": "TK-2026-00427",
+    "customer_ref": "CUST-0234",
+    "subject": "Enterprise System Ingestion Inquiry #427",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "d8e0d44e-c2fd-48b7-b067-74bbccc05cba",
+    "ticket_number": "TK-2026-00428",
+    "customer_ref": "CUST-0078",
+    "subject": "Enterprise System Ingestion Inquiry #428",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "7633b4fe-3e7f-4231-bf14-88aa66b982d2",
+    "ticket_number": "TK-2026-00429",
+    "customer_ref": "CUST-0323",
+    "subject": "Enterprise System Ingestion Inquiry #429",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "8889da7e-2dab-4940-9cc7-200e5872af76",
+    "ticket_number": "TK-2026-00430",
+    "customer_ref": "CUST-0393",
+    "subject": "Enterprise System Ingestion Inquiry #430",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "2516db47-7aea-4a7a-a05c-08a982207643",
+    "ticket_number": "TK-2026-00431",
+    "customer_ref": "CUST-0331",
+    "subject": "Enterprise System Ingestion Inquiry #431",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "04019197-b56f-4250-9860-9ef411fb41ef",
+    "ticket_number": "TK-2026-00432",
+    "customer_ref": "CUST-0064",
+    "subject": "Enterprise System Ingestion Inquiry #432",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "df4eeecc-63b7-45ad-a1c7-c89717c80ec5",
+    "ticket_number": "TK-2026-00433",
+    "customer_ref": "CUST-0135",
+    "subject": "Enterprise System Ingestion Inquiry #433",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "c926dda0-41f0-494a-9270-9a6a8d94532e",
+    "ticket_number": "TK-2026-00434",
+    "customer_ref": "CUST-0479",
+    "subject": "Enterprise System Ingestion Inquiry #434",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "8c7dc439-5c25-4780-80bc-c81b6c22856e",
+    "ticket_number": "TK-2026-00435",
+    "customer_ref": "CUST-0336",
+    "subject": "Enterprise System Ingestion Inquiry #435",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "c3001470-5b79-490c-a61d-fcce23788e10",
+    "ticket_number": "TK-2026-00436",
+    "customer_ref": "CUST-0155",
+    "subject": "Enterprise System Ingestion Inquiry #436",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "443ecb05-3468-4765-bdee-3a1e4fe848bd",
+    "ticket_number": "TK-2026-00437",
+    "customer_ref": "CUST-0232",
+    "subject": "Enterprise System Ingestion Inquiry #437",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "445e3d84-64d2-453f-b8c9-6996122de530",
+    "ticket_number": "TK-2026-00438",
+    "customer_ref": "CUST-0310",
+    "subject": "Enterprise System Ingestion Inquiry #438",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "cdb71f53-7659-44cd-94f9-5e28c3423241",
+    "ticket_number": "TK-2026-00439",
+    "customer_ref": "CUST-0010",
+    "subject": "Enterprise System Ingestion Inquiry #439",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "8519148b-c152-4c24-8bc2-4293a212cbf0",
+    "ticket_number": "TK-2026-00440",
+    "customer_ref": "CUST-0039",
+    "subject": "Enterprise System Ingestion Inquiry #440",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "ea2cd23f-1294-4d8d-ad56-bd7cb3b1e80e",
+    "ticket_number": "TK-2026-00441",
+    "customer_ref": "CUST-0434",
+    "subject": "Enterprise System Ingestion Inquiry #441",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "f1170661-c70d-4869-aa11-d5b11bad2cc7",
+    "ticket_number": "TK-2026-00442",
+    "customer_ref": "CUST-0383",
+    "subject": "Enterprise System Ingestion Inquiry #442",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "9aac086d-698e-4613-86b4-9937b5c0e34a",
+    "ticket_number": "TK-2026-00443",
+    "customer_ref": "CUST-0261",
+    "subject": "Enterprise System Ingestion Inquiry #443",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "337f1a9b-de88-4476-8c43-c18725be9646",
+    "ticket_number": "TK-2026-00444",
+    "customer_ref": "CUST-0375",
+    "subject": "Enterprise System Ingestion Inquiry #444",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "ec17db8a-33cf-413c-b029-617e5b789ff0",
+    "ticket_number": "TK-2026-00445",
+    "customer_ref": "CUST-0030",
+    "subject": "Enterprise System Ingestion Inquiry #445",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "fa2cd1fd-de79-43c3-8fbb-c213ceb865ec",
+    "ticket_number": "TK-2026-00446",
+    "customer_ref": "CUST-0013",
+    "subject": "Enterprise System Ingestion Inquiry #446",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "95005b8f-de88-4d8a-90e0-21057491bdd3",
+    "ticket_number": "TK-2026-00447",
+    "customer_ref": "CUST-0500",
+    "subject": "Enterprise System Ingestion Inquiry #447",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "b5863efd-0ad1-4285-b14e-261c45c14899",
+    "ticket_number": "TK-2026-00448",
+    "customer_ref": "CUST-0326",
+    "subject": "Enterprise System Ingestion Inquiry #448",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "ba71cc2e-24a2-44ac-a4be-7fb0d0d438eb",
+    "ticket_number": "TK-2026-00449",
+    "customer_ref": "CUST-0151",
+    "subject": "Enterprise System Ingestion Inquiry #449",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "220f2405-aa35-4e3c-ad02-bbc926e7d7dd",
+    "ticket_number": "TK-2026-00450",
+    "customer_ref": "CUST-0052",
+    "subject": "Enterprise System Ingestion Inquiry #450",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "e4673e68-e927-4b24-9d3b-7a0275159314",
+    "ticket_number": "TK-2026-00451",
+    "customer_ref": "CUST-0158",
+    "subject": "Enterprise System Ingestion Inquiry #451",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "22c8f1a4-67e6-4dd8-b469-7f04dfdf543d",
+    "ticket_number": "TK-2026-00452",
+    "customer_ref": "CUST-0161",
+    "subject": "Enterprise System Ingestion Inquiry #452",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "5f858dc3-4e7d-4a04-8381-ab67dc8007ea",
+    "ticket_number": "TK-2026-00453",
+    "customer_ref": "CUST-0414",
+    "subject": "Enterprise System Ingestion Inquiry #453",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "915b4801-4be2-420a-8401-a091cabfd598",
+    "ticket_number": "TK-2026-00454",
+    "customer_ref": "CUST-0110",
+    "subject": "Enterprise System Ingestion Inquiry #454",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "4c32da6b-1e5e-4b31-9737-f6139c6bb23e",
+    "ticket_number": "TK-2026-00455",
+    "customer_ref": "CUST-0107",
+    "subject": "Enterprise System Ingestion Inquiry #455",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "83304517-1258-4215-9acb-4a287998ecc1",
+    "ticket_number": "TK-2026-00456",
+    "customer_ref": "CUST-0386",
+    "subject": "Enterprise System Ingestion Inquiry #456",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "ccbcfce3-4c7a-411b-85b5-7c7ec11ed1d7",
+    "ticket_number": "TK-2026-00457",
+    "customer_ref": "CUST-0025",
+    "subject": "Enterprise System Ingestion Inquiry #457",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "69889fd0-4065-4b06-90c5-711b35246b4b",
+    "ticket_number": "TK-2026-00458",
+    "customer_ref": "CUST-0464",
+    "subject": "Enterprise System Ingestion Inquiry #458",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "f0f3b10c-72da-4e59-a182-98742c890490",
+    "ticket_number": "TK-2026-00459",
+    "customer_ref": "CUST-0116",
+    "subject": "Enterprise System Ingestion Inquiry #459",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "7641aa17-1370-438d-8a5c-1990a99431cc",
+    "ticket_number": "TK-2026-00460",
+    "customer_ref": "CUST-0296",
+    "subject": "Enterprise System Ingestion Inquiry #460",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "a6f8b95c-5728-400a-8154-3f191f14eae7",
+    "ticket_number": "TK-2026-00461",
+    "customer_ref": "CUST-0374",
+    "subject": "Enterprise System Ingestion Inquiry #461",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "58378be5-4dc8-4fc1-99ad-6fd3fbdf99cf",
+    "ticket_number": "TK-2026-00462",
+    "customer_ref": "CUST-0147",
+    "subject": "Enterprise System Ingestion Inquiry #462",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "5fbba695-52f5-420d-9269-5e1ed8877359",
+    "ticket_number": "TK-2026-00463",
+    "customer_ref": "CUST-0120",
+    "subject": "Enterprise System Ingestion Inquiry #463",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "8522fc2e-976a-4124-8f8b-ba7447911cb1",
+    "ticket_number": "TK-2026-00464",
+    "customer_ref": "CUST-0252",
+    "subject": "Enterprise System Ingestion Inquiry #464",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "5ee5d14e-e339-44fe-aed4-89d76f50436b",
+    "ticket_number": "TK-2026-00465",
+    "customer_ref": "CUST-0040",
+    "subject": "Enterprise System Ingestion Inquiry #465",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "de6157cd-9b46-4bcd-850b-b26871ded563",
+    "ticket_number": "TK-2026-00466",
+    "customer_ref": "CUST-0374",
+    "subject": "Enterprise System Ingestion Inquiry #466",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "35ce05fc-d883-477e-a0ac-3af32eff731d",
+    "ticket_number": "TK-2026-00467",
+    "customer_ref": "CUST-0415",
+    "subject": "Enterprise System Ingestion Inquiry #467",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "61508498-d0dc-48df-a709-931869e7b0d0",
+    "ticket_number": "TK-2026-00468",
+    "customer_ref": "CUST-0441",
+    "subject": "Enterprise System Ingestion Inquiry #468",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "d2e765b0-c074-456c-bc94-6f2d5b869d1e",
+    "ticket_number": "TK-2026-00469",
+    "customer_ref": "CUST-0263",
+    "subject": "Enterprise System Ingestion Inquiry #469",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "18668a08-168f-4035-8157-0aa05f8e3882",
+    "ticket_number": "TK-2026-00470",
+    "customer_ref": "CUST-0148",
+    "subject": "Enterprise System Ingestion Inquiry #470",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "ad2957ab-2ce9-4f07-b7d2-81c5f8f55d9f",
+    "ticket_number": "TK-2026-00471",
+    "customer_ref": "CUST-0167",
+    "subject": "Enterprise System Ingestion Inquiry #471",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "58141445-4b39-4625-939c-a9d80d7ae956",
+    "ticket_number": "TK-2026-00472",
+    "customer_ref": "CUST-0398",
+    "subject": "Enterprise System Ingestion Inquiry #472",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "ac04d601-3c7b-4002-89f7-7031b8f5ad37",
+    "ticket_number": "TK-2026-00473",
+    "customer_ref": "CUST-0132",
+    "subject": "Enterprise System Ingestion Inquiry #473",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "552a4454-42e9-4369-9215-90102125913a",
+    "ticket_number": "TK-2026-00474",
+    "customer_ref": "CUST-0263",
+    "subject": "Enterprise System Ingestion Inquiry #474",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "f5e402fc-8136-44e2-859e-e058a69623ab",
+    "ticket_number": "TK-2026-00475",
+    "customer_ref": "CUST-0118",
+    "subject": "Enterprise System Ingestion Inquiry #475",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "27136511-5c4e-43f6-be26-d4c636887453",
+    "ticket_number": "TK-2026-00476",
+    "customer_ref": "CUST-0043",
+    "subject": "Enterprise System Ingestion Inquiry #476",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "b116d908-8ab1-4f57-8b6d-fd6fb008691d",
+    "ticket_number": "TK-2026-00477",
+    "customer_ref": "CUST-0497",
+    "subject": "Enterprise System Ingestion Inquiry #477",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "fa304c16-f9ba-4cd6-b5e9-545a13c820ba",
+    "ticket_number": "TK-2026-00478",
+    "customer_ref": "CUST-0246",
+    "subject": "Enterprise System Ingestion Inquiry #478",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "f76b47e8-ae2d-4d76-b21e-3655937def4c",
+    "ticket_number": "TK-2026-00479",
+    "customer_ref": "CUST-0268",
+    "subject": "Enterprise System Ingestion Inquiry #479",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "9f55dbc9-fb26-4e27-a994-618497c19302",
+    "ticket_number": "TK-2026-00480",
+    "customer_ref": "CUST-0048",
+    "subject": "Enterprise System Ingestion Inquiry #480",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "b6d7f5e9-25d6-4dcf-b7aa-5cb7e6f0ec84",
+    "ticket_number": "TK-2026-00481",
+    "customer_ref": "CUST-0288",
+    "subject": "Enterprise System Ingestion Inquiry #481",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "906f8847-3b04-4bfa-8902-770f5dc1176a",
+    "ticket_number": "TK-2026-00482",
+    "customer_ref": "CUST-0090",
+    "subject": "Enterprise System Ingestion Inquiry #482",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "5b7e4ff0-7178-40e1-bde0-fb3b20e8046a",
+    "ticket_number": "TK-2026-00483",
+    "customer_ref": "CUST-0238",
+    "subject": "Enterprise System Ingestion Inquiry #483",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "ff565fa3-f169-4e11-a3f4-135dc51fe71a",
+    "ticket_number": "TK-2026-00484",
+    "customer_ref": "CUST-0475",
+    "subject": "Enterprise System Ingestion Inquiry #484",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "cf9a0028-26aa-45bf-8b14-9c60d8c4e03d",
+    "ticket_number": "TK-2026-00485",
+    "customer_ref": "CUST-0083",
+    "subject": "Enterprise System Ingestion Inquiry #485",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "7a46fc70-cd0e-445e-8aa4-d1d0fffe9133",
+    "ticket_number": "TK-2026-00486",
+    "customer_ref": "CUST-0002",
+    "subject": "Enterprise System Ingestion Inquiry #486",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "a7401e05-47aa-482e-bfd7-1b6dd55e71fa",
+    "ticket_number": "TK-2026-00487",
+    "customer_ref": "CUST-0351",
+    "subject": "Enterprise System Ingestion Inquiry #487",
+    "priority": "high",
+    "sla_hours": 4,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "9e1547fe-5d06-497e-93e4-4d2e361878ae",
+    "ticket_number": "TK-2026-00488",
+    "customer_ref": "CUST-0437",
+    "subject": "Enterprise System Ingestion Inquiry #488",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "39b5496e-9a61-432a-b1d3-75a227b4764c",
+    "ticket_number": "TK-2026-00489",
+    "customer_ref": "CUST-0431",
+    "subject": "Enterprise System Ingestion Inquiry #489",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "995e71a4-dbbf-43e1-8900-9497dd8182b2",
+    "ticket_number": "TK-2026-00490",
+    "customer_ref": "CUST-0132",
+    "subject": "Enterprise System Ingestion Inquiry #490",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "a15a7327-cb66-4837-a8ee-1e9dbe56a1dd",
+    "ticket_number": "TK-2026-00491",
+    "customer_ref": "CUST-0350",
+    "subject": "Enterprise System Ingestion Inquiry #491",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "a83cef66-56ec-4cba-aaee-1fdf6524cb66",
+    "ticket_number": "TK-2026-00492",
+    "customer_ref": "CUST-0325",
+    "subject": "Enterprise System Ingestion Inquiry #492",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 5
+  },
+  {
+    "id": "06cb18fe-55ea-490e-b4ca-697463f05c74",
+    "ticket_number": "TK-2026-00493",
+    "customer_ref": "CUST-0284",
+    "subject": "Enterprise System Ingestion Inquiry #493",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "in_progress",
+    "csat_rating": 4
+  },
+  {
+    "id": "47bf1fe8-da8b-44a1-b41b-66528666cc5c",
+    "ticket_number": "TK-2026-00494",
+    "customer_ref": "CUST-0476",
+    "subject": "Enterprise System Ingestion Inquiry #494",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  },
+  {
+    "id": "d3047f93-af25-42ef-b041-c442c3f1de68",
+    "ticket_number": "TK-2026-00495",
+    "customer_ref": "CUST-0381",
+    "subject": "Enterprise System Ingestion Inquiry #495",
+    "priority": "medium",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 5
+  },
+  {
+    "id": "342cf2bb-f48d-4c08-9034-96d0d2e1dcf5",
+    "ticket_number": "TK-2026-00496",
+    "customer_ref": "CUST-0054",
+    "subject": "Enterprise System Ingestion Inquiry #496",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "d1f8dde3-a65a-4afb-990f-dcdb91839222",
+    "ticket_number": "TK-2026-00497",
+    "customer_ref": "CUST-0299",
+    "subject": "Enterprise System Ingestion Inquiry #497",
+    "priority": "low",
+    "sla_hours": 24,
+    "status": "resolved",
+    "csat_rating": 4
+  },
+  {
+    "id": "28b98cfd-ef02-449d-97fd-f2d03b496cbd",
+    "ticket_number": "TK-2026-00498",
+    "customer_ref": "CUST-0069",
+    "subject": "Enterprise System Ingestion Inquiry #498",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "6b8be4a0-cdac-4c64-b415-566343a2d51a",
+    "ticket_number": "TK-2026-00499",
+    "customer_ref": "CUST-0423",
+    "subject": "Enterprise System Ingestion Inquiry #499",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 4
+  },
+  {
+    "id": "64f6d121-ca1e-4e2b-815f-bca22cd23207",
+    "ticket_number": "TK-2026-00500",
+    "customer_ref": "CUST-0417",
+    "subject": "Enterprise System Ingestion Inquiry #500",
+    "priority": "urgent",
+    "sla_hours": 1,
+    "status": "open",
+    "csat_rating": 5
+  }
+]

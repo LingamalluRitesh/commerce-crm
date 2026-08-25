@@ -1,0 +1,1167 @@
+{
+  "metadata": {
+    "version": "2.4.0",
+    "generated_for": "CommerceCRM Enterprise Demo & Performance Benchmarking",
+    "tenant": "Acme Enterprise Global",
+    "total_records_approx": 1200
+  },
+  "companies": [
+    {
+      "id": "a234df70-58e5-4944-8b9b-2efe1fd0bb38",
+      "name": "Apple Inc",
+      "domain": "apple-inc.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 1",
+      "annual_revenue": 50000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 1",
+          "email": "exec.1@apple-inc.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 1",
+          "email": "tech.1@apple-inc.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 86,
+      "lifetime_value": 100000.0
+    },
+    {
+      "id": "2f21b358-de67-4d2f-8f7b-19bc5c7eb8d9",
+      "name": "Microsoft Corp",
+      "domain": "microsoft-corp.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 1",
+      "annual_revenue": 100000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 2",
+          "email": "exec.2@microsoft-corp.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 2",
+          "email": "tech.2@microsoft-corp.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 87,
+      "lifetime_value": 200000.0
+    },
+    {
+      "id": "70bb04af-fcbf-43da-912f-f7f718a6381e",
+      "name": "Amazon Web Services",
+      "domain": "amazon-web-services.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 1",
+      "annual_revenue": 150000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 3",
+          "email": "exec.3@amazon-web-services.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 3",
+          "email": "tech.3@amazon-web-services.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 88,
+      "lifetime_value": 300000.0
+    },
+    {
+      "id": "4d59ad10-762f-4936-ba35-db46aa705822",
+      "name": "Alphabet Inc",
+      "domain": "alphabet-inc.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 1",
+      "annual_revenue": 200000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 4",
+          "email": "exec.4@alphabet-inc.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 4",
+          "email": "tech.4@alphabet-inc.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 89,
+      "lifetime_value": 400000.0
+    },
+    {
+      "id": "1a969aee-98af-419a-bf55-8476fc8c784f",
+      "name": "NVIDIA Corp",
+      "domain": "nvidia-corp.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 1",
+      "annual_revenue": 250000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 5",
+          "email": "exec.5@nvidia-corp.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 5",
+          "email": "tech.5@nvidia-corp.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 90,
+      "lifetime_value": 500000.0
+    },
+    {
+      "id": "fdca6315-7db5-4a36-acf1-192c23ea4d92",
+      "name": "Meta Platforms",
+      "domain": "meta-platforms.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 1",
+      "annual_revenue": 300000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 6",
+          "email": "exec.6@meta-platforms.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 6",
+          "email": "tech.6@meta-platforms.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 91,
+      "lifetime_value": 600000.0
+    },
+    {
+      "id": "5d3ede8d-346c-40ac-ae14-d6aa91313576",
+      "name": "Tesla Energy",
+      "domain": "tesla-energy.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 1",
+      "annual_revenue": 350000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 7",
+          "email": "exec.7@tesla-energy.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 7",
+          "email": "tech.7@tesla-energy.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 92,
+      "lifetime_value": 700000.0
+    },
+    {
+      "id": "2ba860ab-e263-470f-a6aa-a565b031d1ae",
+      "name": "Stripe Payments",
+      "domain": "stripe-payments.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 1",
+      "annual_revenue": 400000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 8",
+          "email": "exec.8@stripe-payments.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 8",
+          "email": "tech.8@stripe-payments.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 93,
+      "lifetime_value": 800000.0
+    },
+    {
+      "id": "40c318e6-4acb-4c28-9c45-ea136ec8f109",
+      "name": "Datadog Inc",
+      "domain": "datadog-inc.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 1",
+      "annual_revenue": 450000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 9",
+          "email": "exec.9@datadog-inc.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 9",
+          "email": "tech.9@datadog-inc.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 94,
+      "lifetime_value": 900000.0
+    },
+    {
+      "id": "3103eeb1-7132-493f-8154-0b7dc52439d1",
+      "name": "Snowflake Computing",
+      "domain": "snowflake-computing.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 1",
+      "annual_revenue": 500000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 10",
+          "email": "exec.10@snowflake-computing.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 10",
+          "email": "tech.10@snowflake-computing.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 95,
+      "lifetime_value": 1000000.0
+    },
+    {
+      "id": "31f61071-0090-4132-bcdc-d88bc737d263",
+      "name": "Salesforce Inc",
+      "domain": "salesforce-inc.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 550000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 11",
+          "email": "exec.11@salesforce-inc.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 11",
+          "email": "tech.11@salesforce-inc.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 96,
+      "lifetime_value": 1100000.0
+    },
+    {
+      "id": "eb8c7478-87ac-411d-8b7a-adc6890d3273",
+      "name": "Adobe Systems",
+      "domain": "adobe-systems.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 600000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 12",
+          "email": "exec.12@adobe-systems.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 12",
+          "email": "tech.12@adobe-systems.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 97,
+      "lifetime_value": 1200000.0
+    },
+    {
+      "id": "3ae0e66f-c72b-4d86-9102-32b5e7cc0e48",
+      "name": "Oracle Cloud",
+      "domain": "oracle-cloud.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 650000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 13",
+          "email": "exec.13@oracle-cloud.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 13",
+          "email": "tech.13@oracle-cloud.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 98,
+      "lifetime_value": 1300000.0
+    },
+    {
+      "id": "3f88c1e7-68fc-451b-a099-27252a73afc5",
+      "name": "Cisco Systems",
+      "domain": "cisco-systems.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 700000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 14",
+          "email": "exec.14@cisco-systems.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 14",
+          "email": "tech.14@cisco-systems.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 99,
+      "lifetime_value": 1400000.0
+    },
+    {
+      "id": "84beedf2-9a4a-44b7-bb3b-2649ce40f146",
+      "name": "Intel Corp",
+      "domain": "intel-corp.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 750000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 15",
+          "email": "exec.15@intel-corp.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 15",
+          "email": "tech.15@intel-corp.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 85,
+      "lifetime_value": 1500000.0
+    },
+    {
+      "id": "9e44df0c-3612-4d14-81f9-1166da83e763",
+      "name": "Broadcom Inc",
+      "domain": "broadcom-inc.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 800000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 16",
+          "email": "exec.16@broadcom-inc.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 16",
+          "email": "tech.16@broadcom-inc.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 86,
+      "lifetime_value": 1600000.0
+    },
+    {
+      "id": "05f4a168-d34e-4caf-aeb0-2c373d5014a0",
+      "name": "Qualcomm Inc",
+      "domain": "qualcomm-inc.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 850000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 17",
+          "email": "exec.17@qualcomm-inc.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 17",
+          "email": "tech.17@qualcomm-inc.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 87,
+      "lifetime_value": 1700000.0
+    },
+    {
+      "id": "44347f4a-e7a3-4133-bf0c-bc12a4de5254",
+      "name": "AMD Technologies",
+      "domain": "amd-technologies.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 900000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 18",
+          "email": "exec.18@amd-technologies.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 18",
+          "email": "tech.18@amd-technologies.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 88,
+      "lifetime_value": 1800000.0
+    },
+    {
+      "id": "dcfa5721-aeac-4691-bb23-a88fb3bbc7d0",
+      "name": "ServiceNow Inc",
+      "domain": "servicenow-inc.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 950000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 19",
+          "email": "exec.19@servicenow-inc.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 19",
+          "email": "tech.19@servicenow-inc.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 89,
+      "lifetime_value": 1900000.0
+    },
+    {
+      "id": "5db27924-c09e-4db2-aad6-6821876eaea1",
+      "name": "Intuit Inc",
+      "domain": "intuit-inc.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 1000000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 20",
+          "email": "exec.20@intuit-inc.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 20",
+          "email": "tech.20@intuit-inc.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 90,
+      "lifetime_value": 2000000.0
+    },
+    {
+      "id": "883a2376-c23b-46c1-ae87-38d8931a606c",
+      "name": "PayPal Holdings",
+      "domain": "paypal-holdings.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 1050000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 21",
+          "email": "exec.21@paypal-holdings.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 21",
+          "email": "tech.21@paypal-holdings.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 91,
+      "lifetime_value": 2100000.0
+    },
+    {
+      "id": "8c2b41e4-1fd9-43ca-b5dd-aa2582e09f95",
+      "name": "Airbnb Global",
+      "domain": "airbnb-global.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 1100000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 22",
+          "email": "exec.22@airbnb-global.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 22",
+          "email": "tech.22@airbnb-global.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 92,
+      "lifetime_value": 2200000.0
+    },
+    {
+      "id": "36594067-f300-4d15-a396-409219b93c6a",
+      "name": "Uber Technologies",
+      "domain": "uber-technologies.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 1150000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 23",
+          "email": "exec.23@uber-technologies.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 23",
+          "email": "tech.23@uber-technologies.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 93,
+      "lifetime_value": 2300000.0
+    },
+    {
+      "id": "8d0b2c9a-642d-4596-8c3d-4b786a4eaf7b",
+      "name": "Netflix Streaming",
+      "domain": "netflix-streaming.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 1200000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 24",
+          "email": "exec.24@netflix-streaming.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 24",
+          "email": "tech.24@netflix-streaming.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 94,
+      "lifetime_value": 2400000.0
+    },
+    {
+      "id": "886d8a8f-ddb6-441c-98e1-6f6e5c30d3d6",
+      "name": "Spotify AB",
+      "domain": "spotify-ab.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 1250000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 25",
+          "email": "exec.25@spotify-ab.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 25",
+          "email": "tech.25@spotify-ab.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 95,
+      "lifetime_value": 2500000.0
+    },
+    {
+      "id": "d7401bcb-3d20-486b-a434-b1e4ea2c1f25",
+      "name": "DoorDash Logistics",
+      "domain": "doordash-logistics.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 1300000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 26",
+          "email": "exec.26@doordash-logistics.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 26",
+          "email": "tech.26@doordash-logistics.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 96,
+      "lifetime_value": 2600000.0
+    },
+    {
+      "id": "319a6ba6-cb55-48ac-b607-b1f0717d0d82",
+      "name": "Twilio Cloud",
+      "domain": "twilio-cloud.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 1350000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 27",
+          "email": "exec.27@twilio-cloud.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 27",
+          "email": "tech.27@twilio-cloud.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 97,
+      "lifetime_value": 2700000.0
+    },
+    {
+      "id": "9c09e505-a608-4115-8883-5de0dc3bc3c4",
+      "name": "Palantir Technologies",
+      "domain": "palantir-technologies.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 1400000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 28",
+          "email": "exec.28@palantir-technologies.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 28",
+          "email": "tech.28@palantir-technologies.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 98,
+      "lifetime_value": 2800000.0
+    },
+    {
+      "id": "497d8b62-3759-42a1-9247-846e56c59add",
+      "name": "Cloudflare Inc",
+      "domain": "cloudflare-inc.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 1450000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 29",
+          "email": "exec.29@cloudflare-inc.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 29",
+          "email": "tech.29@cloudflare-inc.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 99,
+      "lifetime_value": 2900000.0
+    },
+    {
+      "id": "fb2fe458-dd50-45ce-97f2-5edf8adb4f6f",
+      "name": "MongoDB Inc",
+      "domain": "mongodb-inc.com",
+      "industry": "Enterprise Technology",
+      "tier": "Tier 2",
+      "annual_revenue": 1500000000,
+      "contacts": [
+        {
+          "first_name": "Lead",
+          "last_name": "Executive 30",
+          "email": "exec.30@mongodb-inc.com",
+          "title": "VP of Procurement"
+        },
+        {
+          "first_name": "Technical",
+          "last_name": "Director 30",
+          "email": "tech.30@mongodb-inc.com",
+          "title": "Chief Architect"
+        }
+      ],
+      "health_score": 85,
+      "lifetime_value": 3000000.0
+    }
+  ],
+  "catalog": [
+    {
+      "id": "2aa0a7b5-acff-467d-91d1-f3a76d80cdc8",
+      "name": "Enterprise Cloud Compute Node X9",
+      "sku": "SRV-NODE-X9",
+      "category": "Hardware",
+      "price": 4999.0,
+      "variants": [
+        {
+          "sku": "SRV-NODE-X9-110V",
+          "name": "Enterprise Cloud Compute Node X9 (110V US Standard)",
+          "price_mod": 0.0
+        },
+        {
+          "sku": "SRV-NODE-X9-240V",
+          "name": "Enterprise Cloud Compute Node X9 (240V EU/APAC Industrial)",
+          "price_mod": 50.0
+        },
+        {
+          "sku": "SRV-NODE-X9-RUGGED",
+          "name": "Enterprise Cloud Compute Node X9 (Ruggedized Mil-Spec)",
+          "price_mod": 450.0
+        }
+      ],
+      "volume_tiers": [
+        {
+          "min_qty": 10,
+          "discount_pct": 10.0
+        },
+        {
+          "min_qty": 50,
+          "discount_pct": 20.0
+        },
+        {
+          "min_qty": 100,
+          "discount_pct": 30.0
+        }
+      ]
+    },
+    {
+      "id": "eaf86b85-fa5e-4e1d-91d0-8598c548f286",
+      "name": "Industrial IoT Gateway Pro",
+      "sku": "IOT-GW-PRO",
+      "category": "IoT",
+      "price": 1250.0,
+      "variants": [
+        {
+          "sku": "IOT-GW-PRO-110V",
+          "name": "Industrial IoT Gateway Pro (110V US Standard)",
+          "price_mod": 0.0
+        },
+        {
+          "sku": "IOT-GW-PRO-240V",
+          "name": "Industrial IoT Gateway Pro (240V EU/APAC Industrial)",
+          "price_mod": 50.0
+        },
+        {
+          "sku": "IOT-GW-PRO-RUGGED",
+          "name": "Industrial IoT Gateway Pro (Ruggedized Mil-Spec)",
+          "price_mod": 450.0
+        }
+      ],
+      "volume_tiers": [
+        {
+          "min_qty": 10,
+          "discount_pct": 10.0
+        },
+        {
+          "min_qty": 50,
+          "discount_pct": 20.0
+        },
+        {
+          "min_qty": 100,
+          "discount_pct": 30.0
+        }
+      ]
+    },
+    {
+      "id": "44d4f442-0108-4912-8a08-42ab5d5a67a0",
+      "name": "Armored Multi-Mode Fiber Cable 10m",
+      "sku": "CAB-FIBER-10M",
+      "category": "Cabling",
+      "price": 45.0,
+      "variants": [
+        {
+          "sku": "CAB-FIBER-10M-110V",
+          "name": "Armored Multi-Mode Fiber Cable 10m (110V US Standard)",
+          "price_mod": 0.0
+        },
+        {
+          "sku": "CAB-FIBER-10M-240V",
+          "name": "Armored Multi-Mode Fiber Cable 10m (240V EU/APAC Industrial)",
+          "price_mod": 50.0
+        },
+        {
+          "sku": "CAB-FIBER-10M-RUGGED",
+          "name": "Armored Multi-Mode Fiber Cable 10m (Ruggedized Mil-Spec)",
+          "price_mod": 450.0
+        }
+      ],
+      "volume_tiers": [
+        {
+          "min_qty": 10,
+          "discount_pct": 10.0
+        },
+        {
+          "min_qty": 50,
+          "discount_pct": 20.0
+        },
+        {
+          "min_qty": 100,
+          "discount_pct": 30.0
+        }
+      ]
+    },
+    {
+      "id": "09c5201e-ab9a-4500-bf57-a95183339474",
+      "name": "Redundant Power Supply Unit 850W",
+      "sku": "PWR-RPS-850",
+      "category": "Power",
+      "price": 299.0,
+      "variants": [
+        {
+          "sku": "PWR-RPS-850-110V",
+          "name": "Redundant Power Supply Unit 850W (110V US Standard)",
+          "price_mod": 0.0
+        },
+        {
+          "sku": "PWR-RPS-850-240V",
+          "name": "Redundant Power Supply Unit 850W (240V EU/APAC Industrial)",
+          "price_mod": 50.0
+        },
+        {
+          "sku": "PWR-RPS-850-RUGGED",
+          "name": "Redundant Power Supply Unit 850W (Ruggedized Mil-Spec)",
+          "price_mod": 450.0
+        }
+      ],
+      "volume_tiers": [
+        {
+          "min_qty": 10,
+          "discount_pct": 10.0
+        },
+        {
+          "min_qty": 50,
+          "discount_pct": 20.0
+        },
+        {
+          "min_qty": 100,
+          "discount_pct": 30.0
+        }
+      ]
+    },
+    {
+      "id": "ed45e7d3-fd9b-4ccd-a40d-f0c2749fa7e6",
+      "name": "Enterprise Core Switch 48-Port 10GbE",
+      "sku": "SW-CORE-48X",
+      "category": "Networking",
+      "price": 3800.0,
+      "variants": [
+        {
+          "sku": "SW-CORE-48X-110V",
+          "name": "Enterprise Core Switch 48-Port 10GbE (110V US Standard)",
+          "price_mod": 0.0
+        },
+        {
+          "sku": "SW-CORE-48X-240V",
+          "name": "Enterprise Core Switch 48-Port 10GbE (240V EU/APAC Industrial)",
+          "price_mod": 50.0
+        },
+        {
+          "sku": "SW-CORE-48X-RUGGED",
+          "name": "Enterprise Core Switch 48-Port 10GbE (Ruggedized Mil-Spec)",
+          "price_mod": 450.0
+        }
+      ],
+      "volume_tiers": [
+        {
+          "min_qty": 10,
+          "discount_pct": 10.0
+        },
+        {
+          "min_qty": 50,
+          "discount_pct": 20.0
+        },
+        {
+          "min_qty": 100,
+          "discount_pct": 30.0
+        }
+      ]
+    },
+    {
+      "id": "91533a2b-7c9f-408b-880d-d9a3cc40c58e",
+      "name": "Secure Hardware Security Module (HSM)",
+      "sku": "SEC-HSM-200",
+      "category": "Security",
+      "price": 8500.0,
+      "variants": [
+        {
+          "sku": "SEC-HSM-200-110V",
+          "name": "Secure Hardware Security Module (HSM) (110V US Standard)",
+          "price_mod": 0.0
+        },
+        {
+          "sku": "SEC-HSM-200-240V",
+          "name": "Secure Hardware Security Module (HSM) (240V EU/APAC Industrial)",
+          "price_mod": 50.0
+        },
+        {
+          "sku": "SEC-HSM-200-RUGGED",
+          "name": "Secure Hardware Security Module (HSM) (Ruggedized Mil-Spec)",
+          "price_mod": 450.0
+        }
+      ],
+      "volume_tiers": [
+        {
+          "min_qty": 10,
+          "discount_pct": 10.0
+        },
+        {
+          "min_qty": 50,
+          "discount_pct": 20.0
+        },
+        {
+          "min_qty": 100,
+          "discount_pct": 30.0
+        }
+      ]
+    },
+    {
+      "id": "b8bc1b70-9ced-44c6-8d69-2f31a588c6f3",
+      "name": "AI Inference Accelerator PCIe Card",
+      "sku": "ACCEL-AI-80G",
+      "category": "AI Hardware",
+      "price": 12000.0,
+      "variants": [
+        {
+          "sku": "ACCEL-AI-80G-110V",
+          "name": "AI Inference Accelerator PCIe Card (110V US Standard)",
+          "price_mod": 0.0
+        },
+        {
+          "sku": "ACCEL-AI-80G-240V",
+          "name": "AI Inference Accelerator PCIe Card (240V EU/APAC Industrial)",
+          "price_mod": 50.0
+        },
+        {
+          "sku": "ACCEL-AI-80G-RUGGED",
+          "name": "AI Inference Accelerator PCIe Card (Ruggedized Mil-Spec)",
+          "price_mod": 450.0
+        }
+      ],
+      "volume_tiers": [
+        {
+          "min_qty": 10,
+          "discount_pct": 10.0
+        },
+        {
+          "min_qty": 50,
+          "discount_pct": 20.0
+        },
+        {
+          "min_qty": 100,
+          "discount_pct": 30.0
+        }
+      ]
+    },
+    {
+      "id": "ce192273-1f83-42cc-8024-0a832d429fa0",
+      "name": "Rackmount Precision Cooling Unit 5kW",
+      "sku": "COOL-RACK-5KW",
+      "category": "Infrastructure",
+      "price": 4200.0,
+      "variants": [
+        {
+          "sku": "COOL-RACK-5KW-110V",
+          "name": "Rackmount Precision Cooling Unit 5kW (110V US Standard)",
+          "price_mod": 0.0
+        },
+        {
+          "sku": "COOL-RACK-5KW-240V",
+          "name": "Rackmount Precision Cooling Unit 5kW (240V EU/APAC Industrial)",
+          "price_mod": 50.0
+        },
+        {
+          "sku": "COOL-RACK-5KW-RUGGED",
+          "name": "Rackmount Precision Cooling Unit 5kW (Ruggedized Mil-Spec)",
+          "price_mod": 450.0
+        }
+      ],
+      "volume_tiers": [
+        {
+          "min_qty": 10,
+          "discount_pct": 10.0
+        },
+        {
+          "min_qty": 50,
+          "discount_pct": 20.0
+        },
+        {
+          "min_qty": 100,
+          "discount_pct": 30.0
+        }
+      ]
+    },
+    {
+      "id": "79c1a95b-0de1-4097-9c07-c36f51165d1a",
+      "name": "High-Density NVMe Storage Array 64TB",
+      "sku": "STOR-NVME-64T",
+      "category": "Storage",
+      "price": 9500.0,
+      "variants": [
+        {
+          "sku": "STOR-NVME-64T-110V",
+          "name": "High-Density NVMe Storage Array 64TB (110V US Standard)",
+          "price_mod": 0.0
+        },
+        {
+          "sku": "STOR-NVME-64T-240V",
+          "name": "High-Density NVMe Storage Array 64TB (240V EU/APAC Industrial)",
+          "price_mod": 50.0
+        },
+        {
+          "sku": "STOR-NVME-64T-RUGGED",
+          "name": "High-Density NVMe Storage Array 64TB (Ruggedized Mil-Spec)",
+          "price_mod": 450.0
+        }
+      ],
+      "volume_tiers": [
+        {
+          "min_qty": 10,
+          "discount_pct": 10.0
+        },
+        {
+          "min_qty": 50,
+          "discount_pct": 20.0
+        },
+        {
+          "min_qty": 100,
+          "discount_pct": 30.0
+        }
+      ]
+    },
+    {
+      "id": "a54b032c-0a24-4118-a290-8b384d3a15bb",
+      "name": "Industrial Environmental Sensor Node",
+      "sku": "SENS-ENV-IP67",
+      "category": "IoT",
+      "price": 180.0,
+      "variants": [
+        {
+          "sku": "SENS-ENV-IP67-110V",
+          "name": "Industrial Environmental Sensor Node (110V US Standard)",
+          "price_mod": 0.0
+        },
+        {
+          "sku": "SENS-ENV-IP67-240V",
+          "name": "Industrial Environmental Sensor Node (240V EU/APAC Industrial)",
+          "price_mod": 50.0
+        },
+        {
+          "sku": "SENS-ENV-IP67-RUGGED",
+          "name": "Industrial Environmental Sensor Node (Ruggedized Mil-Spec)",
+          "price_mod": 450.0
+        }
+      ],
+      "volume_tiers": [
+        {
+          "min_qty": 10,
+          "discount_pct": 10.0
+        },
+        {
+          "min_qty": 50,
+          "discount_pct": 20.0
+        },
+        {
+          "min_qty": 100,
+          "discount_pct": 30.0
+        }
+      ]
+    }
+  ],
+  "warehouses": [
+    {
+      "code": "DAL-01",
+      "name": "Dallas Mega-Hub",
+      "city": "Dallas",
+      "capacity": 50000
+    },
+    {
+      "code": "FRA-02",
+      "name": "Frankfurt Central Hub",
+      "city": "Frankfurt",
+      "capacity": 40000
+    },
+    {
+      "code": "SIN-03",
+      "name": "Singapore APAC Logistics",
+      "city": "Singapore",
+      "capacity": 35000
+    },
+    {
+      "code": "TYO-04",
+      "name": "Tokyo Distribution Facility",
+      "city": "Tokyo",
+      "capacity": 25000
+    },
+    {
+      "code": "LON-05",
+      "name": "London Gateway Facility",
+      "city": "London",
+      "capacity": 30000
+    }
+  ],
+  "sla_policies": [
+    {
+      "tier": "Platinum",
+      "urgent_sla_hours": 1,
+      "high_sla_hours": 4,
+      "medium_sla_hours": 8,
+      "low_sla_hours": 24
+    },
+    {
+      "tier": "Gold",
+      "urgent_sla_hours": 2,
+      "high_sla_hours": 8,
+      "medium_sla_hours": 16,
+      "low_sla_hours": 36
+    },
+    {
+      "tier": "Standard",
+      "urgent_sla_hours": 4,
+      "high_sla_hours": 12,
+      "medium_sla_hours": 24,
+      "low_sla_hours": 48
+    }
+  ]
+}

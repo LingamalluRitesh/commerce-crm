@@ -16,6 +16,7 @@ from app.api.v1.endpoints import (
     marketing,
     observability,
     organizations,
+    pricing,
     projects,
     roles,
     sales,
@@ -44,6 +45,7 @@ api_router.include_router(sales.router, prefix="/sales", tags=["Sales Pipeline &
 
 # Commerce, Catalog & Orders
 api_router.include_router(commerce.router, prefix="/commerce", tags=["Commerce & Orders"])
+api_router.include_router(pricing.router, prefix="/pricing", tags=["B2B Tiered Pricing"])
 
 # Inventory & Fulfillment
 api_router.include_router(inventory.router, prefix="/inventory", tags=["Inventory & Fulfillment"])
