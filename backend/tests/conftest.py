@@ -11,6 +11,7 @@ os.environ["ENVIRONMENT"] = "testing"
 os.environ["DEBUG"] = "true"
 os.environ["DATABASE_URL"] = "sqlite+aiosqlite:///:memory:"
 
+import app.infrastructure.models  # noqa: F401
 from app.core.database import Base, get_db
 from app.main import app
 

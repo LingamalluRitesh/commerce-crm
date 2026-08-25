@@ -8,6 +8,7 @@ from app.api.v1.endpoints import (
     communication,
     companies,
     customers,
+    events,
     finance,
     health,
     inventory,
@@ -68,3 +69,8 @@ api_router.include_router(analytics.router, prefix="/analytics", tags=["Analytic
 
 # AI & Machine Learning Platform
 api_router.include_router(ai.router, prefix="/ai", tags=["AI & Machine Learning Platform"])
+
+# Event-Driven Architecture & Transactional Outbox
+api_router.include_router(
+    events.router, prefix="/events", tags=["Event-Driven Architecture & Outbox"]
+)

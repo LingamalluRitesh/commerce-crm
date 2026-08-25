@@ -66,6 +66,7 @@ from app.infrastructure.models.marketing import (
     MessageTemplate,
     Segment,
 )
+from app.infrastructure.models.outbox import OutboxMessage
 from app.infrastructure.models.sales import (
     Deal,
     Lead,
@@ -122,6 +123,7 @@ __all__ = [
     "Order",
     "OrderItem",
     "Organization",
+    "OutboxMessage",
     "Payment",
     "Permission",
     "Pipeline",
