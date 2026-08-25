@@ -50,7 +50,12 @@ def create_application() -> FastAPI:
     # 3. Register Standard Exception Handlers
     register_exception_handlers(app)
 
-    # 4. Mount API v1 Router
+    # 4. Mount Prometheus /metrics Router
+    from app.api.observability import router as metrics_router
+
+    app.include_router(metrics_router)
+
+    # 5. Mount API v1 Router
     app.include_router(api_router, prefix=settings.API_V1_STR)
 
     return app

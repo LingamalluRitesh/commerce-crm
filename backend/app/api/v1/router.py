@@ -14,6 +14,7 @@ from app.api.v1.endpoints import (
     health,
     inventory,
     marketing,
+    observability,
     organizations,
     projects,
     roles,
@@ -79,4 +80,9 @@ api_router.include_router(
 # Developer Platform, API Keys & HMAC Webhooks
 api_router.include_router(
     developer.router, prefix="/developer", tags=["Developer Platform & Webhooks"]
+)
+
+# Observability & Enterprise Audit Vault
+api_router.include_router(
+    observability.router, prefix="/observability", tags=["Observability & Audit Vault"]
 )

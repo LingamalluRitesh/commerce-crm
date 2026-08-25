@@ -36,6 +36,22 @@ class RequestTracingMiddleware(BaseHTTPMiddleware):
             response.headers["X-Request-ID"] = req_id
             response.headers["X-Process-Time"] = f"{process_time:.4f}s"
 
+            # Enterprise Security Headers
+            response.headers["X-Content-Type-Options"] = "nosniff"
+            response.headers["X-Frame-Options"] = "DENY"
+            response.headers["X-XSS-Protection"] = "1; mode=block"
+            response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
+
+            # Record Prometheus Metrics
+            from app.api.observability import record_request_metric
+
+            record_request_metric(
+                method=request.method,
+                endpoint=request.url.path,
+                status_code=response.status_code,
+                duration_sec=process_time,
+            )
+
             logger.info(
                 "http_request",
                 method=request.method,
