@@ -1,6 +1,13 @@
 from fastapi import APIRouter
 
-from app.api.v1.endpoints import auth, health, organizations, roles
+from app.api.v1.endpoints import (
+    auth,
+    companies,
+    customers,
+    health,
+    organizations,
+    roles,
+)
 
 api_router = APIRouter()
 
@@ -13,3 +20,7 @@ api_router.include_router(
     organizations.router, prefix="/organizations", tags=["Organizations & Workspaces"]
 )
 api_router.include_router(roles.router, prefix="/roles", tags=["RBAC & Permissions"])
+
+# Customer 360 & Accounts
+api_router.include_router(customers.router, prefix="/customers", tags=["Customer 360"])
+api_router.include_router(companies.router, prefix="/companies", tags=["Companies & Accounts"])

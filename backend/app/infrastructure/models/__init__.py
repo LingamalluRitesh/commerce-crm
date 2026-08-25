@@ -1,3 +1,11 @@
+from app.infrastructure.models.customer import (
+    Address,
+    Company,
+    Contact,
+    Customer,
+    CustomerPreference,
+    Interaction,
+)
 from app.infrastructure.models.identity import (
     AuditLog,
     Membership,
@@ -11,7 +19,13 @@ from app.infrastructure.models.identity import (
 )
 
 __all__ = [
+    "Address",
     "AuditLog",
+    "Company",
+    "Contact",
+    "Customer",
+    "CustomerPreference",
+    "Interaction",
     "Membership",
     "Organization",
     "Permission",
