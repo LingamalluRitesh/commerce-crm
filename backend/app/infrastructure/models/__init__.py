@@ -71,6 +71,11 @@ from app.infrastructure.models.support import (
     Ticket,
     TicketComment,
 )
+from app.infrastructure.models.workflow import (
+    Workflow,
+    WorkflowExecution,
+    WorkflowNode,
+)
 
 __all__ = [
     "Address",
@@ -128,6 +133,9 @@ __all__ = [
     "TimeEntry",
     "User",
     "Warehouse",
+    "Workflow",
+    "WorkflowExecution",
+    "WorkflowNode",
     "Workspace",
     "role_permissions",
 ]

@@ -14,6 +14,7 @@ from app.api.v1.endpoints import (
     roles,
     sales,
     support,
+    workflows,
 )
 
 api_router = APIRouter()
@@ -50,3 +51,8 @@ api_router.include_router(support.router, prefix="/support", tags=["Customer Sup
 # Finance & Projects
 api_router.include_router(finance.router, prefix="/finance", tags=["Finance & Invoicing"])
 api_router.include_router(projects.router, prefix="/projects", tags=["Projects & Time Tracking"])
+
+# Workflow Automation
+api_router.include_router(
+    workflows.router, prefix="/workflows", tags=["Workflow Automation"]
+)
