@@ -2,48 +2,36 @@
 
 import React, { useState } from "react";
 import {
-  ThermometerSnowflake,
+  Thermometer,
   Activity,
-  AlertTriangle,
+  ShieldCheck,
   CheckCircle2,
-  ShieldAlert,
-  BatteryCharging,
-  SunMedium,
-  TrendingUp,
-  RotateCcw
+  AlertTriangle,
+  Layers,
+  ArrowRight,
+  Radio,
+  Clock
 } from "lucide-react";
 
-interface SensorLog {
-  time: string;
-  temp: number;
-  humidity: number;
-  battery: number;
-  isExcursion: boolean;
+interface ColdChainShipment {
+  id: string;
+  drugName: string;
+  zone: string;
+  currentTemp: number;
+  mkt: number;
+  targetRange: string;
+  readingsCount: number;
+  status: "NORMAL" | "EXCURSION_ALERT";
 }
 
-const SAMPLE_LOGS: SensorLog[] = [
-  { time: "10:00 AM", temp: 4.2, humidity: 52, battery: 98, isExcursion: false },
-  { time: "10:05 AM", temp: 4.5, humidity: 53, battery: 98, isExcursion: false },
-  { time: "10:10 AM", temp: 4.8, humidity: 54, battery: 97, isExcursion: false },
-  { time: "10:15 AM", temp: 5.1, humidity: 55, battery: 97, isExcursion: false },
-  { time: "10:20 AM", temp: 4.7, humidity: 53, battery: 97, isExcursion: false },
-  { time: "10:25 AM", temp: 4.3, humidity: 52, battery: 96, isExcursion: false },
-  { time: "10:30 AM", temp: 4.1, humidity: 51, battery: 96, isExcursion: false },
+const SHIPMENTS: ColdChainShipment[] = [
+  { id: "LOT-BIO-901", drugName: "mRNA Oncology Vaccine", zone: "Ultra-Low (-80°C)", currentTemp: -72.4, mkt: -71.8, targetRange: "-80°C to -60°C", readingsCount: 720, status: "NORMAL" },
+  { id: "LOT-INS-402", drugName: "Biosimilar Insulin Glargine", zone: "Chilled (+2°C to +8°C)", currentTemp: 4.8, mkt: 5.1, targetRange: "+2.0°C to +8.0°C", readingsCount: 1440, status: "NORMAL" },
+  { id: "LOT-MONO-112", drugName: "Monoclonal Antibodies mAb-X", zone: "Chilled (+2°C to +8°C)", currentTemp: 5.2, mkt: 5.4, targetRange: "+2.0°C to +8.0°C", readingsCount: 480, status: "NORMAL" },
 ];
 
 export function ColdChainTelemetryView() {
-  const [logs, setLogs] = useState<SensorLog[]>(SAMPLE_LOGS);
-  const [targetZone, setTargetZone] = useState<string>("REFRIGERATED");
-
-  const temps = logs.map((l) => l.temp);
-  const avgTemp = (temps.reduce((a, b) => a + b, 0) / temps.length).toFixed(2);
-  const minTemp = Math.min(...temps).toFixed(1);
-  const maxTemp = Math.max(...temps).toFixed(1);
-
-  // MKT simplified estimation for display
-  const mkt = (Number(avgTemp) + 0.15).toFixed(2);
-
-  const excursions = logs.filter((l) => l.isExcursion).length;
+  const [shipments, setShipments] = useState<ColdChainShipment[]>(SHIPMENTS);
 
   return (
     <div className="space-y-6">
@@ -51,22 +39,22 @@ export function ColdChainTelemetryView() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-slate-900 border border-slate-800 p-6 rounded-2xl">
         <div>
           <div className="flex items-center gap-3">
-            <div className="p-2.5 bg-blue-500/10 border border-blue-500/20 rounded-xl text-blue-400">
-              <ThermometerSnowflake className="h-6 w-6" />
+            <div className="p-2.5 bg-cyan-500/10 border border-cyan-500/20 rounded-xl text-cyan-400">
+              <Thermometer className="h-6 w-6" />
             </div>
             <div>
-              <h2 className="text-xl font-bold text-slate-100">IoT Cold Chain Telemetry & Mean Kinetic Temperature (MKT)</h2>
+              <h2 className="text-xl font-bold text-slate-100">Real-Time Cold Chain IoT Telemetry & MKT Arrhenius Monitor</h2>
               <p className="text-sm text-slate-400">
-                USP &lt;1079&gt; / FDA 21 CFR Part 11 continuous temperature monitoring, Arrhenius MKT integration & GDP quarantine alerts.
+                Mean Kinetic Temperature (MKT) excursion calculations & FDA 21 CFR Part 11 electronic records.
               </p>
             </div>
           </div>
         </div>
 
         <div className="flex items-center gap-2">
-          <div className="flex items-center gap-2 px-3 py-1.5 bg-slate-800/80 border border-slate-700/60 rounded-xl text-xs text-slate-300">
-            <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-            Active Probe: SENSOR-TX-0894
+          <div className="flex items-center gap-2 px-3 py-1.5 bg-emerald-500/10 border border-emerald-500/20 rounded-xl text-xs text-emerald-300 font-semibold">
+            <CheckCircle2 className="h-4 w-4 text-emerald-400" />
+            100% Thermal Potency Intact
           </div>
         </div>
       </div>
@@ -75,48 +63,48 @@ export function ColdChainTelemetryView() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="bg-slate-900/60 border border-slate-800/80 p-5 rounded-2xl">
           <div className="flex items-center justify-between text-slate-400 mb-2">
-            <span className="text-xs font-semibold uppercase tracking-wider">Mean Kinetic Temp (MKT)</span>
-            <Activity className="h-4 w-4 text-blue-400" />
+            <span className="text-xs font-semibold uppercase tracking-wider">Active IoT Sensors</span>
+            <Radio className="h-4 w-4 text-cyan-400" />
           </div>
-          <div className="text-2xl font-bold text-slate-100">{mkt}°C</div>
+          <div className="text-2xl font-bold text-slate-100">3 Active Loggers</div>
           <div className="text-xs text-emerald-400 mt-1 flex items-center gap-1 font-medium">
-            <CheckCircle2 className="h-3.5 w-3.5" /> Target (+2°C to +8°C)
+            <CheckCircle2 className="h-3.5 w-3.5" /> BLE & Cellular 5G Connected
           </div>
+        </div>
+
+        <div className="bg-slate-900/60 border border-slate-800/80 p-5 rounded-2xl">
+          <div className="flex items-center justify-between text-slate-400 mb-2">
+            <span className="text-xs font-semibold uppercase tracking-wider">Telemetry Samples</span>
+            <Activity className="h-4 w-4 text-indigo-400" />
+          </div>
+          <div className="text-2xl font-bold text-indigo-400">2,640 Data Points</div>
+          <div className="text-xs text-slate-400 mt-1">1-minute interval sampling</div>
         </div>
 
         <div className="bg-slate-900/60 border border-slate-800/80 p-5 rounded-2xl">
           <div className="flex items-center justify-between text-slate-400 mb-2">
             <span className="text-xs font-semibold uppercase tracking-wider">Thermal Excursions</span>
-            <AlertTriangle className="h-4 w-4 text-emerald-400" />
+            <ShieldCheck className="h-4 w-4 text-emerald-400" />
           </div>
-          <div className="text-2xl font-bold text-emerald-400">{excursions} Breaches</div>
-          <div className="text-xs text-slate-400 mt-1">Zero GDP boundary violations</div>
+          <div className="text-2xl font-bold text-emerald-400">0 Excursions</div>
+          <div className="text-xs text-slate-400 mt-1">Zero temperature breaches</div>
         </div>
 
         <div className="bg-slate-900/60 border border-slate-800/80 p-5 rounded-2xl">
           <div className="flex items-center justify-between text-slate-400 mb-2">
-            <span className="text-xs font-semibold uppercase tracking-wider">Temp Range (Min / Max)</span>
-            <TrendingUp className="h-4 w-4 text-cyan-400" />
+            <span className="text-xs font-semibold uppercase tracking-wider">FDA 21 CFR Part 11</span>
+            <Layers className="h-4 w-4 text-purple-400" />
           </div>
-          <div className="text-2xl font-bold text-cyan-400">{minTemp}°C / {maxTemp}°C</div>
-          <div className="text-xs text-slate-400 mt-1">Delta: {(Number(maxTemp) - Number(minTemp)).toFixed(1)}°C</div>
-        </div>
-
-        <div className="bg-slate-900/60 border border-slate-800/80 p-5 rounded-2xl">
-          <div className="flex items-center justify-between text-slate-400 mb-2">
-            <span className="text-xs font-semibold uppercase tracking-wider">Probe Battery</span>
-            <BatteryCharging className="h-4 w-4 text-purple-400" />
-          </div>
-          <div className="text-2xl font-bold text-purple-400">96%</div>
-          <div className="text-xs text-slate-400 mt-1">Est. 180 days remaining</div>
+          <div className="text-2xl font-bold text-purple-400">Audit Sealed</div>
+          <div className="text-xs text-slate-400 mt-1">Cryptographic tamper proof</div>
         </div>
       </div>
 
-      {/* Telemetry Sensor Table */}
+      {/* Table */}
       <div className="bg-slate-900/60 border border-slate-800/80 rounded-2xl overflow-hidden">
-        <div className="p-5 border-b border-slate-800/80 flex items-center justify-between">
+        <div className="p-5 border-b border-slate-800/80">
           <h3 className="text-sm font-semibold text-slate-200 uppercase tracking-wider">
-            Time-Series Sensor Telemetry Stream ({logs.length} Readings)
+            In-Transit Biopharmaceutical Temperature Telemetry
           </h3>
         </div>
 
@@ -124,23 +112,31 @@ export function ColdChainTelemetryView() {
           <table className="w-full text-left text-xs">
             <thead className="bg-slate-950/60 text-slate-400 uppercase tracking-wider text-[11px] border-b border-slate-800/60">
               <tr>
-                <th className="py-3 px-4 font-semibold">Timestamp</th>
-                <th className="py-3 px-4 font-semibold text-right">Temperature</th>
-                <th className="py-3 px-4 font-semibold text-right">Relative Humidity</th>
-                <th className="py-3 px-4 font-semibold text-right">Battery</th>
-                <th className="py-3 px-4 font-semibold text-center">Status</th>
+                <th className="py-3 px-4 font-semibold">Shipment Batch #</th>
+                <th className="py-3 px-4 font-semibold">Biologics Commodity</th>
+                <th className="py-3 px-4 font-semibold">Temperature Zone</th>
+                <th className="py-3 px-4 font-semibold text-right">Live Reading</th>
+                <th className="py-3 px-4 font-semibold text-right">MKT Arrhenius</th>
+                <th className="py-3 px-4 font-semibold text-right">Target Range</th>
+                <th className="py-3 px-4 font-semibold text-center">Quality Status</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-800/40 text-slate-300">
-              {logs.map((l, idx) => (
-                <tr key={idx} className="hover:bg-slate-800/30 transition-colors">
-                  <td className="py-3.5 px-4 font-mono text-slate-300">{l.time}</td>
-                  <td className="py-3.5 px-4 font-mono font-bold text-right text-blue-400">{l.temp.toFixed(1)}°C</td>
-                  <td className="py-3.5 px-4 font-mono text-right text-slate-300">{l.humidity}%</td>
-                  <td className="py-3.5 px-4 font-mono text-right text-purple-400">{l.battery}%</td>
+              {shipments.map((s) => (
+                <tr key={s.id} className="hover:bg-slate-800/30 transition-colors">
+                  <td className="py-3.5 px-4 font-mono font-bold text-cyan-400">{s.id}</td>
+                  <td className="py-3.5 px-4 font-semibold text-slate-100">{s.drugName}</td>
+                  <td className="py-3.5 px-4 text-slate-300">{s.zone}</td>
+                  <td className="py-3.5 px-4 font-mono font-bold text-right text-emerald-400">
+                    {s.currentTemp > 0 ? `+${s.currentTemp.toFixed(1)}°C` : `${s.currentTemp.toFixed(1)}°C`}
+                  </td>
+                  <td className="py-3.5 px-4 font-mono text-right text-indigo-400">
+                    {s.mkt > 0 ? `+${s.mkt.toFixed(1)}°C` : `${s.mkt.toFixed(1)}°C`}
+                  </td>
+                  <td className="py-3.5 px-4 font-mono text-right text-slate-400">{s.targetRange}</td>
                   <td className="py-3.5 px-4 text-center">
-                    <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                      <CheckCircle2 className="h-3 w-3" /> GDP NORMAL
+                    <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                      INTACT
                     </span>
                   </td>
                 </tr>
