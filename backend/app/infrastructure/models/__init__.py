@@ -55,6 +55,13 @@ from app.infrastructure.models.sales import (
     QuoteItem,
     SalesActivity,
 )
+from app.infrastructure.models.support import (
+    CustomerSuccessPlan,
+    KnowledgeArticle,
+    SuccessMilestone,
+    Ticket,
+    TicketComment,
+)
 
 __all__ = [
     "Address",
@@ -68,10 +75,12 @@ __all__ = [
     "Contact",
     "Customer",
     "CustomerPreference",
+    "CustomerSuccessPlan",
     "Deal",
     "DiscountCode",
     "Fulfillment",
     "Interaction",
+    "KnowledgeArticle",
     "Lead",
     "Membership",
     "MessageTemplate",
@@ -96,8 +105,11 @@ __all__ = [
     "StockMovement",
     "StockTransfer",
     "StockTransferItem",
+    "SuccessMilestone",
     "Supplier",
     "Team",
+    "Ticket",
+    "TicketComment",
     "User",
     "Warehouse",
     "Workspace",

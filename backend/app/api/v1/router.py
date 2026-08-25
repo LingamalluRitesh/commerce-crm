@@ -11,6 +11,7 @@ from app.api.v1.endpoints import (
     organizations,
     roles,
     sales,
+    support,
 )
 
 api_router = APIRouter()
@@ -40,3 +41,6 @@ api_router.include_router(inventory.router, prefix="/inventory", tags=["Inventor
 
 # Marketing Automation
 api_router.include_router(marketing.router, prefix="/marketing", tags=["Marketing & Campaigns"])
+
+# Customer Support & Success
+api_router.include_router(support.router, prefix="/support", tags=["Customer Support & Success"])
