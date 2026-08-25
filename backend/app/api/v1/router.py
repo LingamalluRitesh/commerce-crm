@@ -88,3 +88,16 @@ api_router.include_router(
 api_router.include_router(
     observability.router, prefix="/observability", tags=["Observability & Audit Vault"]
 )
+
+# Supply Chain, Multi-Level BOM & Freight
+from app.api.v1.api_supply_chain import router as supply_chain_router
+api_router.include_router(supply_chain_router)
+
+# General Ledger & Double-Entry Accounting
+from app.api.v1.api_ledger import router as ledger_router
+api_router.include_router(ledger_router)
+
+# Fraud Prevention & Return Logistics
+from app.api.v1.api_fraud import router as fraud_router
+api_router.include_router(fraud_router)
+
