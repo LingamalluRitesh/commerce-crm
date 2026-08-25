@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime
+from datetime import UTC, datetime
 
 from sqlalchemy import (
     Boolean,
@@ -103,7 +103,7 @@ class CustomerSuccessPlan(TenantBaseModel):
     target_outcome: Mapped[str] = mapped_column(Text, nullable=False)
     start_date: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
-        default=lambda: datetime.now(timezone.utc),
+        default=lambda: datetime.now(UTC),
         nullable=False,
     )
     target_completion_date: Mapped[datetime | None] = mapped_column(

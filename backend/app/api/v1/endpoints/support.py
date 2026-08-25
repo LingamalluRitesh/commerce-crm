@@ -150,9 +150,7 @@ async def get_article_by_slug(
     _: bool = Depends(require_permission("product:read")),
 ) -> KnowledgeArticleResponse:
     """Read knowledge base article by unique slug."""
-    return await KnowledgeBaseService.get_article_by_slug(
-        db=db, tenant_id=tenant_id, slug=slug
-    )
+    return await KnowledgeBaseService.get_article_by_slug(db=db, tenant_id=tenant_id, slug=slug)
 
 
 # -------------------------------------------------------------

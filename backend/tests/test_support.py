@@ -100,8 +100,7 @@ async def test_complete_support_and_success_lifecycle(client: AsyncClient):
         json={
             "title": "Optimizing High-Throughput API Query Cache",
             "content": (
-                "Step by step guide to configure connection pooling "
-                "and query result caching."
+                "Step by step guide to configure connection pooling " "and query result caching."
             ),
             "is_published": True,
         },
@@ -110,9 +109,7 @@ async def test_complete_support_and_success_lifecycle(client: AsyncClient):
     kb_slug = kb_res.json()["slug"]
 
     # Fetch Article by Slug
-    read_res = await client.get(
-        f"/api/v1/support/articles/{kb_slug}", headers=headers
-    )
+    read_res = await client.get(f"/api/v1/support/articles/{kb_slug}", headers=headers)
     assert read_res.status_code == 200
     assert read_res.json()["view_count"] == 1
 

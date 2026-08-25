@@ -5,10 +5,12 @@ from app.api.v1.endpoints import (
     commerce,
     companies,
     customers,
+    finance,
     health,
     inventory,
     marketing,
     organizations,
+    projects,
     roles,
     sales,
     support,
@@ -44,3 +46,7 @@ api_router.include_router(marketing.router, prefix="/marketing", tags=["Marketin
 
 # Customer Support & Success
 api_router.include_router(support.router, prefix="/support", tags=["Customer Support & Success"])
+
+# Finance & Projects
+api_router.include_router(finance.router, prefix="/finance", tags=["Finance & Invoicing"])
+api_router.include_router(projects.router, prefix="/projects", tags=["Projects & Time Tracking"])
