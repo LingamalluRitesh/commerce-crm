@@ -2,6 +2,7 @@ from fastapi import APIRouter
 
 from app.api.v1.endpoints import (
     auth,
+    commerce,
     companies,
     customers,
     health,
@@ -28,3 +29,6 @@ api_router.include_router(companies.router, prefix="/companies", tags=["Companie
 
 # Sales Pipelines & CRM
 api_router.include_router(sales.router, prefix="/sales", tags=["Sales Pipeline & CRM"])
+
+# Commerce, Catalog & Orders
+api_router.include_router(commerce.router, prefix="/commerce", tags=["Commerce & Orders"])
