@@ -137,7 +137,10 @@ export function Sidebar() {
 
       {/* User Profile & Organization Card */}
       <div className="p-3.5 border-t border-slate-800/80 bg-slate-900/40">
-        <div className="flex items-center justify-between p-2 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition-colors">
+        <Link
+          href="/settings"
+          className="flex items-center justify-between p-2 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition-colors block"
+        >
           <div className="flex items-center space-x-2.5 min-w-0">
             <div className="relative">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-indigo-500 to-purple-600 flex items-center justify-center font-bold text-xs text-white shadow-md">
@@ -150,13 +153,10 @@ export function Sidebar() {
               <div className="text-[10px] text-indigo-400 font-medium truncate">Acme Global • Admin</div>
             </div>
           </div>
-          <button
-            title="Settings"
-            className="p-1.5 text-slate-400 hover:text-slate-200 rounded-lg hover:bg-slate-800 transition-colors"
-          >
-            <span className="text-xs">⚡</span>
-          </button>
-        </div>
+          <div className="p-1.5 text-slate-400 hover:text-slate-200 rounded-lg">
+            <span className="text-xs">⚙️</span>
+          </div>
+        </Link>
       </div>
     </aside>
   );

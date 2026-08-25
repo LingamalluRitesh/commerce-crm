@@ -5,11 +5,13 @@ import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "../ui
 import { StatCard } from "../ui/stat-card";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
+import { Dialog } from "../ui/dialog";
 
 export function DashboardView() {
   const [timeRange, setTimeRange] = useState<"7D" | "30D" | "90D" | "YTD">("30D");
   const [copilotExecuted, setCopilotExecuted] = useState(false);
   const [hoveredDataPoint, setHoveredDataPoint] = useState<number | null>(null);
+  const [isAuditModalOpen, setIsAuditModalOpen] = useState(false);
 
   // Time-range dynamic metric values
   const metricsByRange = {
@@ -32,10 +34,10 @@ export function DashboardView() {
   ];
 
   const liveEvents = [
-    { id: 1, type: "order.paid.v1", title: "Enterprise Node X9 Paid", amount: "+$4,999.00", time: "2m ago", tenant: "Acme Global" },
-    { id: 2, type: "lead.converted.v1", title: "Elena Rostova Converted to Deal", amount: "$250,000.00", time: "11m ago", tenant: "FinTech Corp" },
-    { id: 3, type: "stock.adjusted.v1", title: "100 Units Inbounded to Dallas W-1", amount: "100 Qty", time: "24m ago", tenant: "Dallas Mega-Hub" },
-    { id: 4, type: "ticket.sla.breach", title: "Urgent Direct Connect Triage", amount: "SLA Active", time: "42m ago", tenant: "Alex Morgan" },
+    { id: 1, type: "order.paid.v1", title: "Enterprise Node X9 Paid", amount: "+$4,999.00", time: "2m ago", tenant: "Acme Global", hash: "a8f90...1b2c" },
+    { id: 2, type: "lead.converted.v1", title: "Elena Rostova Converted to Deal", amount: "$250,000.00", time: "11m ago", tenant: "FinTech Corp", hash: "98c7a...55e1" },
+    { id: 3, type: "stock.adjusted.v1", title: "100 Units Inbounded to Dallas W-1", amount: "100 Qty", time: "24m ago", tenant: "Dallas Mega-Hub", hash: "f1a23...7890" },
+    { id: 4, type: "ticket.sla.breach", title: "Urgent Direct Connect Triage", amount: "SLA Active", time: "42m ago", tenant: "Alex Morgan", hash: "44d21...cc01" },
   ];
 
   return (
@@ -255,8 +257,13 @@ export function DashboardView() {
             </div>
           </div>
 
-          <Button variant="outline" size="sm" className="w-full mt-4">
-            View Complete Event Audit Logs
+          <Button
+            variant="outline"
+            size="sm"
+            className="w-full mt-4"
+            onClick={() => setIsAuditModalOpen(true)}
+          >
+            View Complete Event Audit Logs ➔
           </Button>
         </Card>
       </div>
@@ -287,6 +294,43 @@ export function DashboardView() {
           {copilotExecuted ? "✓ Incentive Triggered via Outbox" : "Execute AI Recommendation"}
         </Button>
       </div>
+
+      {/* Complete Event Audit Logs Dialog */}
+      {isAuditModalOpen && (
+        <Dialog
+          open={isAuditModalOpen}
+          onClose={() => setIsAuditModalOpen(false)}
+          size="lg"
+          title="Transactional Outbox Event Stream & Cryptographic Audit"
+          description="Immutable Merkle-chained event record log with zero packet drops."
+          footer={
+            <Button variant="default" size="sm" onClick={() => setIsAuditModalOpen(false)}>
+              Close Feed
+            </Button>
+          }
+        >
+          <div className="space-y-3 text-xs">
+            <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 font-mono text-[11px] flex justify-between text-slate-400">
+              <span>Merkle Root: <strong className="text-indigo-400">fae98129bc...a09428</strong></span>
+              <span>Drained Events: <strong className="text-emerald-400">100% Synced</strong></span>
+            </div>
+
+            <div className="space-y-2 max-h-60 overflow-y-auto pr-1">
+              {liveEvents.map((e) => (
+                <div key={e.id} className="p-3 rounded-xl bg-slate-900/70 border border-slate-800 flex justify-between items-center text-slate-200">
+                  <div>
+                    <div className="font-bold">{e.title}</div>
+                    <div className="text-[10px] text-slate-400 font-mono">
+                      Topic: {e.type} • Hash: {e.hash}
+                    </div>
+                  </div>
+                  <Badge variant="purple" size="sm">Delivered</Badge>
+                </div>
+              ))}
+            </div>
+          </div>
+        </Dialog>
+      )}
     </div>
   );
 }

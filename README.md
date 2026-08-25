@@ -1,137 +1,119 @@
-# CommerceCRM
+# CommerceCRM Enterprise Platform
 
-[![CI Pipeline](https://github.com/LingamalluRitesh/commerce-crm/actions/workflows/ci.yml/badge.svg)](https://github.com/LingamalluRitesh/commerce-crm/actions)
-[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
-[![Next.js 14](https://img.shields.io/badge/next.js-14-black.svg)](https://nextjs.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-> **CommerceCRM** is a next-generation, multi-tenant CRM and commerce operating system uniting Customer 360, Sales Pipelines, E-Commerce, Inventory, Marketing Automation, Customer Support, Customer Success, Finance, Workflows, and AI services under one cohesive domain architecture.
-
----
-
-## 🌟 Core Value Proposition
-
-Unlike disconnected SaaS tools that fragment customer context, CommerceCRM unifies the entire customer lifecycle into a single continuous stream:
-
-```text
-CUSTOMER -> INTERACTION -> SALES -> COMMERCE -> DELIVERY -> SUPPORT -> SUCCESS -> RETENTION -> EXPANSION
-```
+CommerceCRM is a multi-tenant CRM and commerce operating system uniting Customer 360, Sales Pipelines, E-Commerce, Inventory, Marketing Automation, Customer Support, SLA Management, Finance, Workflows, and AI services under one cohesive domain architecture.
 
 ---
 
 ## 🏗️ Architecture & Technology Stack
 
-| Layer | Technologies |
-| :--- | :--- |
-| **Frontend** | Next.js 14 (App Router), React, TypeScript, Tailwind CSS, Lucide React, TanStack Query, Zustand, Zod |
-| **Backend API** | Python 3.12+, FastAPI, Pydantic v2, SQLAlchemy 2 (Asyncio), Uvicorn, HTTPX |
-| **Database & Storage** | PostgreSQL 16 (with pgvector), Redis 7, MinIO (S3-compatible) |
-| **Messaging & Workers**| Async Event Bus, Celery / Redis |
-| **AI / Machine Learning** | Contextual RAG with pgvector, Semantic Search, ML Lead Scoring, Summarization |
-| **DevOps & Testing** | Docker, Docker Compose, GitHub Actions, Pytest, Vitest, Playwright |
+- **Frontend**: Next.js 14 (App Router), React 18, TypeScript, Tailwind CSS
+- **Backend API**: Python 3.12+, FastAPI, Pydantic v2, SQLAlchemy 2 (Asyncio), Uvicorn
+- **Database & Storage**: PostgreSQL 16 (pgvector), Redis 7, SQLite
+- **DevOps & Testing**: Docker, Docker Compose, Pytest, Vitest, Playwright
 
 ---
 
-## 📁 Repository Structure
+## 📦 Dependencies
 
-```text
-commerce-crm/
-├── apps/
-│   ├── web/                     # Next.js customer & employee portal
-│   └── admin/                   # Administrative console
-├── backend/
-│   ├── app/
-│   │   ├── api/                 # Versioned REST APIs (v1) & middlewares
-│   │   ├── core/                # Config, DB, Security, Error handling, Logging
-│   │   ├── domain/              # Pure domain models & business invariants
-│   │   ├── application/         # Use cases, DTOs, and orchestrators
-│   │   ├── infrastructure/      # Repositories, adapters, DB models
-│   │   └── workers/             # Async background tasks
-│   ├── migrations/              # Alembic database migrations
-│   └── tests/                   # Pytest test suite (unit, integration, api)
-├── docs/                        # Architecture guides, ADRs, schemas
-├── infrastructure/              # Dockerfiles, Docker Compose, monitoring
-└── .github/workflows/           # CI/CD pipelines
-```
+### Backend Dependencies
+- `fastapi` >= 0.115.0
+- `uvicorn` >= 0.31.0
+- `pydantic` >= 2.9.0
+- `sqlalchemy` >= 2.0.30
+- `pytest` >= 8.3.0
+- `pytest-cov` >= 5.0.0
+- `pyyaml` >= 6.0.0
+
+### Frontend Dependencies
+- `next` 14.2.35
+- `react` ^18.3.1
+- `react-dom` ^18.3.1
+- `typescript` ^5.6.0
+- `tailwindcss` ^3.4.1
 
 ---
 
-## 🚀 Quick Start (Local Development)
+## ⚙️ Installation
 
-### Prerequisites
-- Python 3.12+
-- Node.js 20+ & npm
-- Docker & Docker Compose (Optional for containerized run)
-
-### 1. Backend Setup
+### 1. Python Environment Setup
 ```bash
-# Navigate to backend
-cd backend
-
-# Create & activate virtual environment
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Run migrations & seed data
-alembic upgrade head
-
-# Start FastAPI server
-uvicorn app.main:app --reload --port 8000
 ```
-Backend API documentation available at `http://localhost:8000/docs`.
 
-### 2. Frontend Setup
+### 2. Node.js Environment Setup
 ```bash
-# Navigate to frontend app
 cd apps/web
-
-# Install dependencies
 npm install
+```
 
-# Start Next.js development server
+---
+
+## 🔨 Build
+
+### Build Frontend Application
+```bash
+cd apps/web
+npm run build
+```
+
+### Build Docker Containers
+```bash
+docker build -t commercecrm-backend -f infrastructure/Dockerfile.backend .
+docker build -t commercecrm-web -f infrastructure/Dockerfile.web .
+```
+
+---
+
+## 🚀 Run
+
+### 1. Start Backend Server
+```bash
+cd backend
+python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+```
+
+### 2. Start Frontend Development Server
+```bash
+cd apps/web
 npm run dev
 ```
-Frontend portal accessible at `http://localhost:3000`.
 
-### 3. Running with Docker Compose
+### 3. Run with Docker Compose
 ```bash
 docker-compose -f infrastructure/docker-compose.yml up --build
 ```
 
 ---
 
+## 💡 Usage
+
+1. Open `http://localhost:3000` in your web browser.
+2. Access the **Customer 360** dashboard to view unified account health scores and interaction feeds.
+3. Access the **Sales Pipeline & Quotation Designer** to create deals and generate signed proposal documents.
+4. Access **Finance & Invoicing** to calculate taxes and download commercial invoices.
+5. Access **Developer & Webhooks** to generate scoped API keys and register HMAC endpoints.
+
+---
+
 ## 🧪 Testing
 
+### Run Backend Pytest Suite with Coverage
 ```bash
-# Backend tests
 cd backend
 pytest tests/ -v --cov=app
+```
 
-# Frontend tests
+### Run Frontend Typecheck & Tests
+```bash
 cd apps/web
+npm run typecheck
 npm run test
 ```
 
 ---
 
-## 📜 Documentation
+## 🔒 Proprietary Notice
 
-- [Architecture Overview](docs/architecture/overview.md)
-- [Multi-Tenancy & Security Model](docs/architecture/multi-tenancy.md)
-- [Architecture Decision Records (ADRs)](docs/decisions/)
-- [Database Schema Guide](docs/database/schema-guide.md)
-
----
-
-## 🛡️ Security & Contributing
-
-Please see [SECURITY.md](SECURITY.md) for vulnerability disclosure guidelines and [CONTRIBUTING.md](CONTRIBUTING.md) for development workflows.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+All rights reserved. Proprietary commercial enterprise software.

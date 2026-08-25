@@ -1,0 +1,17 @@
+{
+  "name": "commerce-crm-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "CommerceCRM Enterprise Monorepo Platform",
+  "scripts": {
+    "dev": "npm run dev --prefix apps/web",
+    "build": "npm run build --prefix apps/web",
+    "start": "npm run start --prefix apps/web",
+    "typecheck": "npm run typecheck --prefix apps/web",
+    "test": "pytest backend/tests"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
