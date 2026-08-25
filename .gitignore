@@ -36,7 +36,8 @@ __pycache__/
 # Environment files & Database files
 .env
 .env.*
-!.env.example
+*.env
+*.env.*
 *.db
 *.sqlite
 *.sqlite3
@@ -59,3 +60,7 @@ yarn-error.log*
 # Measurement scratch outputs
 measurement_out/
 *.zip
+codebase_repos.json
+codebase_repos.csv
+codebase_repo_mining.json
+measurement.json
