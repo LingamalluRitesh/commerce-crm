@@ -57,7 +57,11 @@ yarn-error.log*
 *.swp
 *.swo
 
-# Measurement scratch outputs
+# Measurement scratch outputs and tooling
+measure.py
+collectors/
+miners/
+references/
 measurement_out/
 *.zip
 codebase_repos.json
