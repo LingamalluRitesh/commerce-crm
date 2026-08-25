@@ -7,6 +7,7 @@ from app.api.v1.endpoints import (
     customers,
     health,
     inventory,
+    marketing,
     organizations,
     roles,
     sales,
@@ -36,3 +37,6 @@ api_router.include_router(commerce.router, prefix="/commerce", tags=["Commerce &
 
 # Inventory & Fulfillment
 api_router.include_router(inventory.router, prefix="/inventory", tags=["Inventory & Fulfillment"])
+
+# Marketing Automation
+api_router.include_router(marketing.router, prefix="/marketing", tags=["Marketing & Campaigns"])

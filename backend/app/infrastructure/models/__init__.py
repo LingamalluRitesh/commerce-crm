@@ -39,6 +39,13 @@ from app.infrastructure.models.inventory import (
     Supplier,
     Warehouse,
 )
+from app.infrastructure.models.marketing import (
+    Campaign,
+    CampaignRecipient,
+    DiscountCode,
+    MessageTemplate,
+    Segment,
+)
 from app.infrastructure.models.sales import (
     Deal,
     Lead,
@@ -52,6 +59,8 @@ from app.infrastructure.models.sales import (
 __all__ = [
     "Address",
     "AuditLog",
+    "Campaign",
+    "CampaignRecipient",
     "Cart",
     "CartItem",
     "Category",
@@ -60,10 +69,12 @@ __all__ = [
     "Customer",
     "CustomerPreference",
     "Deal",
+    "DiscountCode",
     "Fulfillment",
     "Interaction",
     "Lead",
     "Membership",
+    "MessageTemplate",
     "Order",
     "OrderItem",
     "Organization",
@@ -80,6 +91,7 @@ __all__ = [
     "Refund",
     "Role",
     "SalesActivity",
+    "Segment",
     "StockItem",
     "StockMovement",
     "StockTransfer",
