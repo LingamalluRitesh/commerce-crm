@@ -36,6 +36,7 @@ __pycache__/
 # Environment files & Database files
 .env
 .env.*
+!.env.example
 *.db
 *.sqlite
 *.sqlite3
