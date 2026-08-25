@@ -101,3 +101,7 @@ api_router.include_router(ledger_router)
 from app.api.v1.api_fraud import router as fraud_router
 api_router.include_router(fraud_router)
 
+# Advanced Enterprise Platform Suite
+from app.api.v1.endpoints import advanced_enterprise
+api_router.include_router(advanced_enterprise.router)
+
