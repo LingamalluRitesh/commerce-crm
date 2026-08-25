@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 
 from app.api.v1.endpoints import (
+    analytics,
     auth,
     commerce,
     communication,
@@ -60,3 +61,6 @@ api_router.include_router(workflows.router, prefix="/workflows", tags=["Workflow
 api_router.include_router(
     communication.router, prefix="/communication", tags=["Communication & Collaboration"]
 )
+
+# Analytics & Business Intelligence
+api_router.include_router(analytics.router, prefix="/analytics", tags=["Analytics & BI Engine"])
