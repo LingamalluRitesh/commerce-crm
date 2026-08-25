@@ -6,6 +6,7 @@ from app.api.v1.endpoints import (
     companies,
     customers,
     health,
+    inventory,
     organizations,
     roles,
     sales,
@@ -32,3 +33,6 @@ api_router.include_router(sales.router, prefix="/sales", tags=["Sales Pipeline &
 
 # Commerce, Catalog & Orders
 api_router.include_router(commerce.router, prefix="/commerce", tags=["Commerce & Orders"])
+
+# Inventory & Fulfillment
+api_router.include_router(inventory.router, prefix="/inventory", tags=["Inventory & Fulfillment"])
