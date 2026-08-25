@@ -9,6 +9,12 @@ from app.infrastructure.models.commerce import (
     ProductVariant,
     Refund,
 )
+from app.infrastructure.models.communication import (
+    Channel,
+    ChannelMember,
+    ChatMessage,
+    Notification,
+)
 from app.infrastructure.models.customer import (
     Address,
     Company,
@@ -85,6 +91,9 @@ __all__ = [
     "Cart",
     "CartItem",
     "Category",
+    "Channel",
+    "ChannelMember",
+    "ChatMessage",
     "Company",
     "Contact",
     "CreditNote",
@@ -101,6 +110,7 @@ __all__ = [
     "Lead",
     "Membership",
     "MessageTemplate",
+    "Notification",
     "Order",
     "OrderItem",
     "Organization",

@@ -3,6 +3,7 @@ from fastapi import APIRouter
 from app.api.v1.endpoints import (
     auth,
     commerce,
+    communication,
     companies,
     customers,
     finance,
@@ -53,6 +54,9 @@ api_router.include_router(finance.router, prefix="/finance", tags=["Finance & In
 api_router.include_router(projects.router, prefix="/projects", tags=["Projects & Time Tracking"])
 
 # Workflow Automation
+api_router.include_router(workflows.router, prefix="/workflows", tags=["Workflow Automation"])
+
+# Unified Communication & Real-time Chat
 api_router.include_router(
-    workflows.router, prefix="/workflows", tags=["Workflow Automation"]
+    communication.router, prefix="/communication", tags=["Communication & Collaboration"]
 )
