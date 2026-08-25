@@ -2,7 +2,7 @@ import uuid
 from collections.abc import AsyncGenerator
 from datetime import UTC, datetime
 
-from sqlalchemy import DateTime, ForeignKey, MetaData, String
+from sqlalchemy import CHAR, DateTime, ForeignKey, MetaData, TypeDecorator
 from sqlalchemy.dialects.postgresql import UUID as PG_UUID
 from sqlalchemy.ext.asyncio import (
     AsyncSession,
@@ -25,6 +25,37 @@ POSTGRES_INDEXES_NAMING_CONVENTION = {
 metadata = MetaData(naming_convention=POSTGRES_INDEXES_NAMING_CONVENTION)
 
 
+class GUID(TypeDecorator):
+    """Platform-independent GUID type.
+
+    Uses PostgreSQL's native UUID type, otherwise uses CHAR(36), storing as string.
+    """
+
+    impl = CHAR
+    cache_ok = True
+
+    def load_dialect_impl(self, dialect):
+        if dialect.name == "postgresql":
+            return dialect.type_descriptor(PG_UUID(as_uuid=True))
+        return dialect.type_descriptor(CHAR(36))
+
+    def process_bind_param(self, value, dialect):
+        if value is None:
+            return value
+        if dialect.name == "postgresql":
+            return value
+        if isinstance(value, uuid.UUID):
+            return str(value)
+        return str(uuid.UUID(str(value)))
+
+    def process_result_value(self, value, dialect):
+        if value is None:
+            return value
+        if isinstance(value, uuid.UUID):
+            return value
+        return uuid.UUID(str(value))
+
+
 class Base(DeclarativeBase):
     metadata = metadata
 
@@ -35,7 +66,7 @@ class BaseModel(Base):
     __abstract__ = True
 
     id: Mapped[uuid.UUID] = mapped_column(
-        PG_UUID(as_uuid=True) if "postgresql" in settings.async_database_url else String(36),
+        GUID(),
         primary_key=True,
         default=uuid.uuid4,
         index=True,
@@ -62,7 +93,7 @@ class TenantBaseModel(BaseModel):
     @classmethod
     def tenant_id(cls) -> Mapped[uuid.UUID]:
         return mapped_column(
-            PG_UUID(as_uuid=True) if "postgresql" in settings.async_database_url else String(36),
+            GUID(),
             ForeignKey("organizations.id", ondelete="CASCADE"),
             nullable=False,
             index=True,
